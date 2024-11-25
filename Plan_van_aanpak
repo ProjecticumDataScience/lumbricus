@@ -17,12 +17,16 @@ positieve controle = muis of regenworm Eisenia fetida??
 De muis is een vaak gekozen modelorganisme in genetisch onderzoek vanwege de grondige kennis van zijn genoom. 
 Het genoom van de muis is goed geannoteerd, wat het een zeer solide referentie maakt voor het identificeren van genen. In dit onderzoek wordt er ook gezocht naar conservatieve genen waar de 
 muis een uitstekende controle is 
+nadeel : muis is een zoogdier en minder relevantie voor wormen 
 
+Eisenia fetida wordt vaak gebruikt in ecotoxicologisch onderzoek, maar het genoom is niet zo uitgebreid geanalyseerd als dat van L. terrestris.
+Beide organismen zijn regenwormen dus ze delen veel evolutionair bewaarde genen en biologische mechanismen. Dit maakt het gemakkelijker om genen van de ene soort te vergelijken met die van de andere
+nadeel : genoom is nog niet goed geannoteerd als die van de muis 
 
 Benodigde packages in R : Biostrings, ggplot2, tidyverse, seqinr, BlastR, Gviz
 De Genoom annotatieproces van Lumbricus terrestris bestaat uit de volgende stappen:
 - Genoom data van Lumbricus terrestris in een FASTA- bestand en referentie genoom van C.elegans en positieve controle
-- sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST) (muis/regenworm??) 
+- sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST) (muis/regenworm) 
 - Vergelijk de gevonden overeenkomsten om de genen te identificeren die in L. terrestris aanwezig zouden moeten zijn.
 - AUGUSTUS protocol voor de structuur van de gen exact te voorspellen 
 
