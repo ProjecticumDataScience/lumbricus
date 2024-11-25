@@ -4,11 +4,31 @@ Project 'Regenworm'
 Naam projectleden: Laïsja Thomasia , Alena Savachenko
 Opdrachtgever :  Chris van Oevelen
 
-Genoomannotatie is het proces van het identificeren van functionele  elementen in een DNA-sequentie. Annotatie geeft betekenis aan het genoom door aan te geven  de locatie en functie van genen (coderend voor eiwitten of andere  functies), evenals regelgevende elementen en regio's die ten grondslag liggen aan de biologie van de  van levende organismen. Het hebben van een bekende set functionele regio's van het genoom  vergemakkelijkt latere analyses, zoals het vinden van differentieel  genen, het identificeren van loci van kwantitatieve eigenschappen, het vinden van  associatie tussen single nucleotide polymorfismen en variabiliteit   individuele eigenschappen.  De assemblage is altijd gebaseerd op de reads die zijn gegenereerd tijdens het sequentieproces. De eerste stap in de novo assemblage van het transcriptoom is kwaliteitscontrole kwaliteitscontrole, die het filteren en snoeien van gelezen op niveau van kwaliteitsniveau en het verwijderen van adapters. Degevens kunnen worden gefilterd om alleen die aflezingen of delen van aflezingen te behouden die basen bevatten met de de beste kwaliteitsindex (Q) bevatten. RNA-sequencing omvat niet alle genen in het genoom, sommige genen komen tot expressie op lage niveaus of alleen in een paar weefsels, in bepaalde stadia van ontogenie of in bepaalde omstandigheden, en ze kunnen volledig gemist worden. Daarnaast zijn veel van de transcripten die tot expressie komen niet volledig gesplitste transcripten. Daarom is onafhankelijke verificatie vereist voordat een tot expressie gebrachte regio als een functioneel gen.
-De klasse regenwormen zijn fundamentele drijvende krachten achter biomedisch onderzoekecosystemen, en levert een enorme bijdrage aan de landbouw en natuurlijke ecologische processen.  Tot op heden bedraagt het aantal soorten in deze groep bijna 7000 [https://www0.sun.ac.za/awei/articles/ever-thought-about-earthworms]. Aangezien de problemen met habitatvernietiging, verlies van soorten, klimaatverandering en dramatische veranderingen in de interacties tussen gemeenschappen acuter zijn dan ooit tevoren. Informatie over de structuur en eigenschappen van genomen van regenwormen is cruciaal voor het vinden van oplossingen voor de fundamentele problemen waarmee de mensheid vandaag de dag wordt geconfronteerd. Ringwormen zijn de oudste evolutionaire groep, die voor het eerst een musculatuur hebben die sterk lijkt op de dwarsgestreepte musculatuur van gewervelde dieren. De  ringwormen staan vanwege hun evolutionaire positie aan de oorsprong van het fylogenetische dierengeslacht,  waarvan de evolutie leidde tot het ontstaan van hoger georganiseerde leden van het dierenrijk.  Kennis van het genoommodel en de bijbehorende moleculair genetische processen van ringwormen zal het gebruik van complexere zoogdieren op het gebied van experimentele wetenschap, met name voor het testen van nieuwe geneesmiddelen, verminderen.
-Genoomannotatie blijft een arbeidsintensief proces dat meerdere soorten sequentieanalyses combineert. Gezien de grootte en complexiteit van genomen,  is de eerste stap naar volledige genoomassemblage meestal het verkrijgen van sequencinggegevens  om ruwe assemblage en voorspelling  van genmodellen te verkrijgen.
+Regenwormen zijn bodembewonende wormen die behoren tot de familie Lumbricidae. Regenwormen spelen een heel belangrijke rol in het ecosysteem, vooral in de bodem.
+Regenwormen zijn bekend om hun vermogen om organisch materiaal, zoals dode bladeren en plantenresten, af te breken en te verwerken tot humus, een voedzame stof die belangrijk is voor planten.
+Lumbricus terrestris, ook wel de gewone regenworm of zandworm genoemd, is een van de bekendste en grootste soorten regenwormen. Volwassen Lumbricus kunnen tussen de de 20 en 30 cm lang worden, en in uitzonderlijke gevallen zelfs tot 40 cm.
+Lumbricus terrestris hebben een een roze-bruine kleur en is voorzien van segmenten, met een duidelijk zichtbaar clitellum. Ze hebben ook een lichaam die cilindrisch is, met een glad oppervlak en segmenten die door een dunne slijmlaag verbonden zijn.
+in dit project wordt er een genoom annotatie uitgevoerd op Lumbricus terrestris. Genoomannotatie is het proces waarbij wetenschappers de verschillende functies van de genen en andere elementen binnen het genoom van een organisme identificeren en labelen. 
+Het doel van genoomannotatie is om de informatie in het DNA te begrijpen, zodat onderzoekers kunnen bepalen welke stukken van het genoom coderen voor eiwitten, welke functies deze eiwitten hebben, en hoe ze bijdragen aan de werking van de cel of het organisme.
+Dit wordt uitgevoerd met de behulp van C.elegans. Dit is omdat C. elegans goed geannoteerd is en als modelorganisme gebruikt kan worden voor de genoom annotatieprocess van Lumbricus terrestris. 
+In vergelijking met Lumbricus terrestris is het genoom van C. elegans is relatief klein  met een compleet en gedetailleerd overzicht van de genen. 
 
-Het hele annotatieproces bestaat over het algemeen uit de volgende stappen:
+positieve controle = muis of regenworm Eisenia fetida??
+De muis is een vaak gekozen modelorganisme in genetisch onderzoek vanwege de grondige kennis van zijn genoom. 
+Het genoom van de muis is goed geannoteerd, wat het een zeer solide referentie maakt voor het identificeren van genen. In dit onderzoek wordt er ook gezocht naar conservatieve genen waar de 
+muis een uitstekende controle is 
+
+
+Benodigde packages in R : Biostrings, ggplot2, tidyverse, seqinr, BlastR, Gviz
+De Genoom annotatieproces van Lumbricus terrestris bestaat uit de volgende stappen:
+- Genoom data van Lumbricus terrestris in een FASTA- bestand en referentie genoom van C.elegans en positieve controle
+- sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST) (muis/regenworm??) 
+- Vergelijk de gevonden overeenkomsten om de genen te identificeren die in L. terrestris aanwezig zouden moeten zijn.
+- AUGUSTUS protocol voor de structuur van de gen exact te voorspellen 
+
+
+
+3) 
 1) Het maskeren van sterk repetitieve elementen in de genoomsequentie om annotatie te vergemakkelijken; 
 2) het gebruik van transcripten en eiwitten van dezelfde of verwante soorten om ab initio voorspellingen van genstructuren te verifiëren;
 3) gebruik van ab initio genzoekalgoritmen om mogelijke genstructuren te identificeren;
@@ -20,6 +40,7 @@ Er zijn echter maar een paar artikelen in de literatuur die de assemblage en ann
 
 
 Doelstellingen van het onderzoek
+- om het genoom van Lumbricus terrestris te analyseren met gebruik van C.elegans en de uitsluitend tools binnen Rstudio. 
 
 -	het verkrijgen van een annotatie van het volledige  genoomannotatie van Lumbricus terrestris en de verbetering ervan met behulp van  genoomvoorspelling van transcriptiestartsites
 -	 structurele en functionele genoomanalyse Lumbricus terrestris
