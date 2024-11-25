@@ -1,1 +1,41 @@
 
+Plan van aanpak
+Project 'Regenworm'
+Naam projectleden: Laïsja Thomasia , Alena Savachenko
+Opdrachtgever :  Chris van Oevelen
+
+Genoomannotatie is het proces van het identificeren van functionele  elementen in een DNA-sequentie. Annotatie geeft betekenis aan het genoom door aan te geven  de locatie en functie van genen (coderend voor eiwitten of andere  functies), evenals regelgevende elementen en regio's die ten grondslag liggen aan de biologie van de  van levende organismen. Het hebben van een bekende set functionele regio's van het genoom  vergemakkelijkt latere analyses, zoals het vinden van differentieel  genen, het identificeren van loci van kwantitatieve eigenschappen, het vinden van  associatie tussen single nucleotide polymorfismen en variabiliteit   individuele eigenschappen.  De assemblage is altijd gebaseerd op de reads die zijn gegenereerd tijdens het sequentieproces. De eerste stap in de novo assemblage van het transcriptoom is kwaliteitscontrole kwaliteitscontrole, die het filteren en snoeien van gelezen op niveau van kwaliteitsniveau en het verwijderen van adapters. Degevens kunnen worden gefilterd om alleen die aflezingen of delen van aflezingen te behouden die basen bevatten met de de beste kwaliteitsindex (Q) bevatten. RNA-sequencing omvat niet alle genen in het genoom, sommige genen komen tot expressie op lage niveaus of alleen in een paar weefsels, in bepaalde stadia van ontogenie of in bepaalde omstandigheden, en ze kunnen volledig gemist worden. Daarnaast zijn veel van de transcripten die tot expressie komen niet volledig gesplitste transcripten. Daarom is onafhankelijke verificatie vereist voordat een tot expressie gebrachte regio als een functioneel gen.
+De klasse regenwormen zijn fundamentele drijvende krachten achter biomedisch onderzoekecosystemen, en levert een enorme bijdrage aan de landbouw en natuurlijke ecologische processen.  Tot op heden bedraagt het aantal soorten in deze groep bijna 7000 [https://www0.sun.ac.za/awei/articles/ever-thought-about-earthworms]. Aangezien de problemen met habitatvernietiging, verlies van soorten, klimaatverandering en dramatische veranderingen in de interacties tussen gemeenschappen acuter zijn dan ooit tevoren. Informatie over de structuur en eigenschappen van genomen van regenwormen is cruciaal voor het vinden van oplossingen voor de fundamentele problemen waarmee de mensheid vandaag de dag wordt geconfronteerd. Ringwormen zijn de oudste evolutionaire groep, die voor het eerst een musculatuur hebben die sterk lijkt op de dwarsgestreepte musculatuur van gewervelde dieren. De  ringwormen staan vanwege hun evolutionaire positie aan de oorsprong van het fylogenetische dierengeslacht,  waarvan de evolutie leidde tot het ontstaan van hoger georganiseerde leden van het dierenrijk.  Kennis van het genoommodel en de bijbehorende moleculair genetische processen van ringwormen zal het gebruik van complexere zoogdieren op het gebied van experimentele wetenschap, met name voor het testen van nieuwe geneesmiddelen, verminderen.
+Genoomannotatie blijft een arbeidsintensief proces dat meerdere soorten sequentieanalyses combineert. Gezien de grootte en complexiteit van genomen,  is de eerste stap naar volledige genoomassemblage meestal het verkrijgen van sequencinggegevens  om ruwe assemblage en voorspelling  van genmodellen te verkrijgen.
+
+Het hele annotatieproces bestaat over het algemeen uit de volgende stappen:
+1) Het maskeren van sterk repetitieve elementen in de genoomsequentie om annotatie te vergemakkelijken; 
+2) het gebruik van transcripten en eiwitten van dezelfde of verwante soorten om ab initio voorspellingen van genstructuren te verifiëren;
+3) gebruik van ab initio genzoekalgoritmen om mogelijke genstructuren te identificeren;
+4) het combineren van deze gegevens om een eerste reeks genmodellen te creëren;
+5) filteren van de resultaten op kwaliteit om de meest waarschijnlijke genmodellen te identificeren die volledige eiwitcoderende regio's.
+Een overzicht van publiek beschikbare genomen en annotaties in de  soort Lumbricus terrestris
+
+Er zijn echter maar een paar artikelen in de literatuur die de assemblage en annotatie van het Lumbricus terrestris genoom onderzoeken.  Voor het eerst wordt een gedetailleerde genoomassemblage van de genen van een soort  Lumbricus terrestris gepubliceerd op 30 oktober 2023.  Deze genoomassemblage  is de eerste publiekelijk  openbaar beschikbare bron voor het een soort  Lumbricus terrestris.  Dankzij de snelle vooruitgang van high-throughput sequencing technologieën  de long-read -sequencing technologieën van Pacific Biosciences   hebben het genoom gesequencet en gepubliceerd.  Het gepubliceerde genoom, hoewel  compleet op het niveau van de sequentie, een zeer gefragmenteerde annotatie analyse. De regenwormvariëteit wordt gekenmerkt door een hoge morfologische variabiliteit.  Verdere studie van de metadata van genoomassemblages zal de ontwikkeling en het testen van moleculair genetische bio-informatica protocollen en algoritmen mogelijk maken.Gedetailleerde en systematische studies van de annotatie van het Lumbricus terrestris genoom ontbreken tot nu toe in de literatuur.
+
+
+Doelstellingen van het onderzoek
+
+-	het verkrijgen van een annotatie van het volledige  genoomannotatie van Lumbricus terrestris en de verbetering ervan met behulp van  genoomvoorspelling van transcriptiestartsites
+-	 structurele en functionele genoomanalyse Lumbricus terrestris
+-      analyse van regulerende relaties tussen genoomelementen Lumbricus terrestris.
+
+
+
+Op basis van het gestelde doel werden de volgende doelstellingen geformuleerd:
+
+1. het analyseren van  genoommodel  en de de relatieve inhoud van sterk repetitieve
+elementen in het genoom van de  Lumbricus terrestris. (genscan, augustus soft, TopHat , UCSC Genome Browser , RepeatModeler, RepeatMaster, Breaker)
+2.  het uitvoeren van structurele en functionele annotatie van genen voor de
+Lumbricus terrestris en vergelijken met de beschikbare annotaties  (BLAST,GO)
+3.  het voorspellen van de  transcriptiestartsites ( Augustus, tRnaScan,GenScan),
+positieve controle: Caenorhabditis elegans
+
+
+Pipline:
+Fasta-file ref. genoom  -> augustus gff3 -> voorspelling TSS(input: genoomsequentie)- > - functionele annotatie Blast  (input: eiwitsequentie augustus)- > visualisatie (ref. genoom, ref. trasncripts)  - > positieve controle  (Caenorhabditis elegans)
