@@ -13,21 +13,19 @@ Het doel van genoomannotatie is om de informatie in het DNA te begrijpen, zodat 
 Dit wordt uitgevoerd met de behulp van C.elegans als basemodel voor L. terrestris. Dit is omdat C. elegans goed geannoteerd is en als modelorganisme gebruikt kan worden voor de genoom annotatieprocess van Lumbricus terrestris. 
 In vergelijking met Lumbricus terrestris is het genoom van C. elegans is relatief klein  met een compleet en gedetailleerd overzicht van de genen. 
 
-Het doel van dit onderzoek is om een genoomannotatie uitvoeren op L. terrestris door C.elegans te gebruiken als basemodel. Samen met een positieve control 
-positieve controle = muis of regenworm Eisenia fetida??
-De muis is een vaak gekozen modelorganisme in genetisch onderzoek vanwege de grondige kennis van zijn genoom. 
-Het genoom van de muis is goed geannoteerd, wat het een zeer solide referentie maakt voor het identificeren van genen. In dit onderzoek wordt er ook gezocht naar conservatieve genen waar de 
-muis een uitstekende controle is 
-nadeel : muis is een zoogdier en minder relevantie voor wormen 
+Het doel van dit onderzoek is om een genoomannotatie uit te voeren op L. terrestris door C.elegans te gebruiken als basemodel. Dit wordt samen uitgevoerd met een positieve control om ons resultaten te verifieren. 
+ Er verwacht dat er veel overeenkomsten zijn tussen L. terrestris en C. elegans qua conservatieve genen. De verschillen zouden genstructuur zijn want L. terrestris heeft een
+grotere genoom, meer herhalende sequenties en veel meer intronen. 
 
-Eisenia fetida wordt vaak gebruikt in ecotoxicologisch onderzoek, maar het genoom is niet zo uitgebreid geanalyseerd als dat van L. terrestris.
-Beide organismen zijn regenwormen dus ze delen veel evolutionair bewaarde genen en biologische mechanismen. Dit maakt het gemakkelijker om genen van de ene soort te vergelijken met die van de andere
-nadeel : genoom is nog niet goed geannoteerd als die van de muis 
+positieve controle (1) = Lumbricus rubellus 
+L. rubellus en L. terrestris behoren tot de zelfde geslacht Lumbricus. Dit betekent dat hun genetische informatie vergelijkbare genen en genfamilies bevat, ondanks het verschil in chromosoomaantal.
+Dit maakt L. rubellus waardevol als referentie voor het identificeren van conservatieve genen in L. terrestris, omdat veel genen waarschijnlijk in beide soorten te vinden zullen zijn. Het genoom 
+van rubellus is ook redelijk goed geanalyseerd en geannoteerd. 
 
 Benodigde packages in R : Biostrings, ggplot2, tidyverse, seqinr, BlastR, Gviz
 De Genoom annotatieproces van Lumbricus terrestris bestaat uit de volgende stappen:
 - Genoom data van Lumbricus terrestris in een FASTA- bestand en referentie genoom van C.elegans en positieve controle
-- sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST) (muis/regenworm) 
+- sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST)  
 - Vergelijk de gevonden overeenkomsten om de genen te identificeren die in L. terrestris aanwezig zouden moeten zijn.
 - AUGUSTUS protocol voor de structuur van de gen exact te voorspellen 
 
