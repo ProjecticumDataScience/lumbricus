@@ -14,15 +14,14 @@ Dit wordt uitgevoerd met de behulp van C.elegans als basemodel voor L. terrestri
 In vergelijking met Lumbricus terrestris is het genoom van C. elegans is relatief klein  met een compleet en gedetailleerd overzicht van de genen. 
 
 Het doel van dit onderzoek is om een genoomannotatie uit te voeren op L. terrestris door C.elegans te gebruiken als basemodel. Dit wordt samen uitgevoerd met een positieve control om ons resultaten te verifieren. 
- Er verwacht dat er veel overeenkomsten zijn tussen L. terrestris en C. elegans qua conservatieve genen. De verschillen zouden genstructuur zijn want L. terrestris heeft een
-grotere genoom, meer herhalende sequenties en veel meer intronen. 
+Er wordt verwacht dat er veel overeenkomsten zijn tussen L. terrestris en C. elegans qua conservatieve genen. De verschillen zouden genstructuur zijn want L. terrestris heeft een grotere genoom met meer herhalende sequenties en veel meer intronen. 
 
-positieve controle (1) = Lumbricus rubellus 
+positieve controle = Lumbricus rubellus 
 L. rubellus en L. terrestris behoren tot de zelfde geslacht Lumbricus. Dit betekent dat hun genetische informatie vergelijkbare genen en genfamilies bevat, ondanks het verschil in chromosoomaantal.
 Dit maakt L. rubellus waardevol als referentie voor het identificeren van conservatieve genen in L. terrestris, omdat veel genen waarschijnlijk in beide soorten te vinden zullen zijn. Het genoom 
-van rubellus is ook redelijk goed geanalyseerd en geannoteerd. 
+van rubellus is ook redelijk goed geanalyseerd en geannoteerd. maar zit niet in AUGUSTUS, we kunnen dan onze eigen trainingset maken
 
-Benodigde packages in R : Biostrings, ggplot2, tidyverse, seqinr, BlastR, Gviz
+Benodigde packages in R : Biostrings, ggplot2, tidyverse, BLAST, GenomicRanges
 De Genoom annotatieproces van Lumbricus terrestris bestaat uit de volgende stappen:
 - Genoom data van Lumbricus terrestris in een FASTA- bestand en referentie genoom van C.elegans en positieve controle
 - sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST)  
@@ -31,35 +30,3 @@ De Genoom annotatieproces van Lumbricus terrestris bestaat uit de volgende stapp
 
 
 
-3) 
-1) Het maskeren van sterk repetitieve elementen in de genoomsequentie om annotatie te vergemakkelijken; 
-2) het gebruik van transcripten en eiwitten van dezelfde of verwante soorten om ab initio voorspellingen van genstructuren te verifiëren;
-3) gebruik van ab initio genzoekalgoritmen om mogelijke genstructuren te identificeren;
-4) het combineren van deze gegevens om een eerste reeks genmodellen te creëren;
-5) filteren van de resultaten op kwaliteit om de meest waarschijnlijke genmodellen te identificeren die volledige eiwitcoderende regio's.
-Een overzicht van publiek beschikbare genomen en annotaties in de  soort Lumbricus terrestris
-
-Er zijn echter maar een paar artikelen in de literatuur die de assemblage en annotatie van het Lumbricus terrestris genoom onderzoeken.  Voor het eerst wordt een gedetailleerde genoomassemblage van de genen van een soort  Lumbricus terrestris gepubliceerd op 30 oktober 2023.  Deze genoomassemblage  is de eerste publiekelijk  openbaar beschikbare bron voor het een soort  Lumbricus terrestris.  Dankzij de snelle vooruitgang van high-throughput sequencing technologieën  de long-read -sequencing technologieën van Pacific Biosciences   hebben het genoom gesequencet en gepubliceerd.  Het gepubliceerde genoom, hoewel  compleet op het niveau van de sequentie, een zeer gefragmenteerde annotatie analyse. De regenwormvariëteit wordt gekenmerkt door een hoge morfologische variabiliteit.  Verdere studie van de metadata van genoomassemblages zal de ontwikkeling en het testen van moleculair genetische bio-informatica protocollen en algoritmen mogelijk maken.Gedetailleerde en systematische studies van de annotatie van het Lumbricus terrestris genoom ontbreken tot nu toe in de literatuur.
-
-
-Doelstellingen van het onderzoek
-- om het genoom van Lumbricus terrestris te analyseren met gebruik van C.elegans en de uitsluitend tools binnen Rstudio. 
-
--	het verkrijgen van een annotatie van het volledige  genoomannotatie van Lumbricus terrestris en de verbetering ervan met behulp van  genoomvoorspelling van transcriptiestartsites
--	 structurele en functionele genoomanalyse Lumbricus terrestris
--      analyse van regulerende relaties tussen genoomelementen Lumbricus terrestris.
-
-
-
-Op basis van het gestelde doel werden de volgende doelstellingen geformuleerd:
-
-1. het analyseren van  genoommodel  en de de relatieve inhoud van sterk repetitieve
-elementen in het genoom van de  Lumbricus terrestris. (genscan, augustus soft, TopHat , UCSC Genome)
-2.  het uitvoeren van structurele en functionele annotatie van genen voor de
-Lumbricus terrestris en vergelijken met de beschikbare annotaties  (BLAST,GO)
-3.  het voorspellen van de  transcriptiestartsites ( Augustus, GenScan),
-positieve controle: Caenorhabditis elegans
-
-
-Pipline:
-Fasta-file ref. genoom  -> augustus gff3 - > - functionele annotatie Blast  (input: eiwitsequentie augustus)- > visualisatie (ref. genoom, ref. trasncripts)  - > positieve controle  (Caenorhabditis elegans)
