@@ -21,12 +21,14 @@ L. rubellus en L. terrestris behoren tot de zelfde geslacht Lumbricus. Dit betek
 Dit maakt L. rubellus waardevol als referentie voor het identificeren van conservatieve genen in L. terrestris, omdat veel genen waarschijnlijk in beide soorten te vinden zullen zijn. Het genoom 
 van rubellus is ook redelijk goed geanalyseerd en geannoteerd. maar zit niet in AUGUSTUS, we kunnen dan onze eigen trainingset maken
 
-Benodigde packages in R : Biostrings, ggplot2, tidyverse, BLAST, GenomicRanges
 De Genoom annotatieproces van Lumbricus terrestris bestaat uit de volgende stappen:
-- Genoom data van Lumbricus terrestris in een FASTA- bestand en referentie genoom van C.elegans en positieve controle
-- sequenties van L. terrestris vergelijken met C.elegans en positieve controle (BLAST)  
-- Vergelijk de gevonden overeenkomsten om de genen te identificeren die in L. terrestris aanwezig zouden moeten zijn.
-- AUGUSTUS protocol voor de structuur van de gen exact te voorspellen 
+- Genoom data verkrijgen (FASTA bestanden van Lumbricus terrestris, C.elegans en positieve controle)
+- Benodigde libraries installeren : Benodigde packages in R : Biostrings, ggplot2, tidyverse, BLAST, GenomicRanges (AUGUSTUS moet zelf op de systeem geinstalleerd zijn)
+- FASTA-bestanden controleren (Biostrings)
+- BLAST
+- AUGUSTUS
+- Visualiseren van de genen in R (Uitplotten)
+
 
 
 
