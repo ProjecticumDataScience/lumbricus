@@ -13,6 +13,7 @@ Het doel van genoomannotatie is om de informatie in het DNA te begrijpen, zodat 
 Dit wordt uitgevoerd met de behulp van C.elegans als basemodel voor L. terrestris. Dit is omdat C. elegans goed geannoteerd is en als modelorganisme gebruikt kan worden voor de genoom annotatieprocess van Lumbricus terrestris. 
 In vergelijking met Lumbricus terrestris is het genoom van C. elegans is relatief klein  met een compleet en gedetailleerd overzicht van de genen. 
 
+Het doel van dit onderzoek is om een genoomannotatie uitvoeren op L. terrestris door C.elegans te gebruiken als basemodel. Samen met een positieve control 
 positieve controle = muis of regenworm Eisenia fetida??
 De muis is een vaak gekozen modelorganisme in genetisch onderzoek vanwege de grondige kennis van zijn genoom. 
 Het genoom van de muis is goed geannoteerd, wat het een zeer solide referentie maakt voor het identificeren van genen. In dit onderzoek wordt er ook gezocht naar conservatieve genen waar de 
