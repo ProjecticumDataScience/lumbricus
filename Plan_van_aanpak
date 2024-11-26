@@ -54,12 +54,12 @@ Doelstellingen van het onderzoek
 Op basis van het gestelde doel werden de volgende doelstellingen geformuleerd:
 
 1. het analyseren van  genoommodel  en de de relatieve inhoud van sterk repetitieve
-elementen in het genoom van de  Lumbricus terrestris. (genscan, augustus soft, TopHat , UCSC Genome Browser , RepeatModeler, RepeatMaster, Breaker)
+elementen in het genoom van de  Lumbricus terrestris. (genscan, augustus soft, TopHat , UCSC Genome)
 2.  het uitvoeren van structurele en functionele annotatie van genen voor de
 Lumbricus terrestris en vergelijken met de beschikbare annotaties  (BLAST,GO)
-3.  het voorspellen van de  transcriptiestartsites ( Augustus, tRnaScan,GenScan),
+3.  het voorspellen van de  transcriptiestartsites ( Augustus, GenScan),
 positieve controle: Caenorhabditis elegans
 
 
 Pipline:
-Fasta-file ref. genoom  -> augustus gff3 -> voorspelling TSS(input: genoomsequentie)- > - functionele annotatie Blast  (input: eiwitsequentie augustus)- > visualisatie (ref. genoom, ref. trasncripts)  - > positieve controle  (Caenorhabditis elegans)
+Fasta-file ref. genoom  -> augustus gff3 - > - functionele annotatie Blast  (input: eiwitsequentie augustus)- > visualisatie (ref. genoom, ref. trasncripts)  - > positieve controle  (Caenorhabditis elegans)
