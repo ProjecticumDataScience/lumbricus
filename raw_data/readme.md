@@ -16,5 +16,4 @@ The same fasta is scanned by GeneMark.hmm version 3.68  with final results  : ..
 
 command bash:
 
-dir=$(dirname $0)
 $dir/gmhmme3  -o GeneMark-E-tests/GeneMark.hmm/test/genemark_chr1_lumbricus.gff3  -m GeneMark-E-tests/GeneMark.hmm/input/c_elegans.mod  -f gff3  GeneMark-E-tests/GeneMark.hmm/input/sequence.fasta
