@@ -1,6 +1,7 @@
 
 ## fasta 
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/949/752/735/GCA_949752735.1_wcLumTerr1.1/
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/949/752/735/GCA_949752735.1_wcLumTerr1.1
+
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/945/859/605/GCA_945859605.1_wcLumRube1.1
 
 
