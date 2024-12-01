@@ -15,3 +15,5 @@ awk '{print $[gen_name]}'  mart_export.txt   | sort | uniq -c | wc -l
 ## drosophila melanogaster, chromosome 1 : 
 
 ##  mouse, , chromosome 1  
+
+## c elegans chromosome 1 
