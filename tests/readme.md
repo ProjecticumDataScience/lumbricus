@@ -1,7 +1,13 @@
+
+## fasta 
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/949/752/735/GCA_949752735.1_wcLumTerr1.1/
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/945/859/605/GCA_945859605.1_wcLumRube1.1
+
+
 ## Genome and annotation reference
 
 
-The biomart  genome reference  was downloaded from 
+The biomart  reference  was downloaded from 
 
 http://www.ensembl.org/biomart/martview/12ded96fa118dd6be6a3caa6af5d188b
 
