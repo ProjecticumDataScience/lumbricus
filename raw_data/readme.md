@@ -11,8 +11,8 @@ fasta file  Lumbricus terrestris GCA_945859605.1  chromosome 1  is gescanded wit
 
 For the second step:
 
-The same fasta is scanned by GeneMark.hmm version 3.68  with final results  : ...
-( ca. 50 000, complete genome ? )
+The same fasta is scanned by GeneMark.hmm version 3.68  with final results  : ...  own model requered !  not build yet
+
 
 command bash:
 
