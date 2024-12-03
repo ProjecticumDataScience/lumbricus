@@ -1,0 +1,110 @@
+(base) alena@alena:~/SNAP$ mkdir train_at
+(base) alena@alena:~/SNAP$ cd train_at
+(base) alena@alena:~/SNAP/train_at$
+../gff3_to_zff.pl     /home/alena/SNAP/1%/terr-1pr.fasta   /home/alena/SNAP/1%/Helix-OX457036.Galaxy12-on_data_1_procent.gff3   > at.zff
+(base) alena@alena:~/SNAP/train_at$
+../fathom -validate at.zff ../1%/terr-1pr.fasta    > at.validate
+ZOE WARNING (from ../fathom): DNA and annotation do not have the same def line!
+
+ZOE WARNING (from ../fathom): OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1
+-1404065456
+
+38 genes, 37 OK, 18 warnings, 1 errors
+(base) alena@alena:~/SNAP/train_at$ ../fathom -export 100 -plus uni.*
+
+FATHOM - sequence and annotation tool (version 2006-07-28)
+
+usage: fathom <ann> <dna> <commands>
+commands:
+  -help           report useful information
+  -validate [-quiet]
+  -gene-stats [-errors-ok -nucleotide -dinucleotide]
+  -categorize <int>
+  -export <int> [-plus -errors-ok]
+  -extract <feature> -length <int> -offset <int>
+  -exon-intron
+  -split <-number <int> | -training <float> | -GC <float> | -repeat <float>>
+  -ace-format <-gene-method <string> [-dna -extra <string>]>
+  -compare-genes <predictions> [-details]
+  -score-genes <hmm> [-errors-ok]
+  -filter-genes <hmm> -min-score <float> -min-length <int>
+(base) alena@alena:~/SNAP/train_at$ ../fathom -categorize 100 at.zff ../DATA/at.fa.gz
+_OX457036.1_000026.1 1 1 5 - errors(5): exon-5:out_of_bounds exon-4:out_of_bounds exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000005.1 1 1 12 + errors(12): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds
+_OX457036.1_000022.1 1 1 10 + errors(10): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds
+_OX457036.1_000017.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000008.1 1 1 4 + errors(4): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds
+_OX457036.1_000030.1 1 1 3 - errors(3): exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000029.1 1 1 6 - errors(6): exon-6:out_of_bounds exon-5:out_of_bounds exon-4:out_of_bounds exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000004.1 1 1 3 + errors(3): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds
+_OX457036.1_000021.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000016.1 1 1 2 + errors(2): exon-1:out_of_bounds exon-2:out_of_bounds
+_OX457036.1_000033.1 1 1 14 - errors(14): exon-14:out_of_bounds exon-13:out_of_bounds exon-12:out_of_bounds exon-11:out_of_bounds exon-10:out_of_bounds exon-9:out_of_bounds exon-8:out_of_bounds exon-7:out_of_bounds exon-6:out_of_bounds exon-5:out_of_bounds exon-4:out_of_bounds exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000028.1 1 1 3 - errors(3): exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000012.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000007.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000024.1 1 1 25 + errors(25): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds exon-13:out_of_bounds exon-14:out_of_bounds exon-15:out_of_bounds exon-16:out_of_bounds exon-17:out_of_bounds exon-18:out_of_bounds exon-19:out_of_bounds exon-20:out_of_bounds exon-21:out_of_bounds exon-22:out_of_bounds exon-23:out_of_bounds exon-24:out_of_bounds exon-25:out_of_bounds
+_OX457036.1_000019.1 1 1 3 + errors(3): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds
+_OX457036.1_000003.1 1 1 59 + errors(57): exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds exon-13:out_of_bounds exon-14:out_of_bounds exon-15:out_of_bounds exon-16:out_of_bounds exon-17:out_of_bounds exon-18:out_of_bounds exon-19:out_of_bounds exon-20:out_of_bounds exon-21:out_of_bounds exon-22:out_of_bounds exon-23:out_of_bounds exon-24:out_of_bounds exon-25:out_of_bounds exon-26:out_of_bounds exon-27:out_of_bounds exon-28:out_of_bounds exon-29:out_of_bounds exon-30:out_of_bounds exon-31:out_of_bounds exon-32:out_of_bounds exon-33:out_of_bounds exon-34:out_of_bounds exon-35:out_of_bounds exon-36:out_of_bounds exon-37:out_of_bounds exon-38:out_of_bounds exon-39:out_of_bounds exon-40:out_of_bounds exon-41:out_of_bounds exon-42:out_of_bounds exon-43:out_of_bounds exon-44:out_of_bounds exon-45:out_of_bounds exon-46:out_of_bounds exon-47:out_of_bounds exon-48:out_of_bounds exon-49:out_of_bounds exon-50:out_of_bounds exon-51:out_of_bounds exon-52:out_of_bounds exon-53:out_of_bounds exon-54:out_of_bounds exon-55:out_of_bounds exon-56:out_of_bounds exon-57:out_of_bounds exon-58:out_of_bounds exon-59:out_of_bounds
+_OX457036.1_000020.1 1 1 12 + errors(12): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds
+_OX457036.1_000015.1 1 1 3 + errors(3): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds
+_OX457036.1_000011.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000027.1 1 1 14 - errors(14): exon-14:out_of_bounds exon-13:out_of_bounds exon-12:out_of_bounds exon-11:out_of_bounds exon-10:out_of_bounds exon-9:out_of_bounds exon-8:out_of_bounds exon-7:out_of_bounds exon-6:out_of_bounds exon-5:out_of_bounds exon-4:out_of_bounds exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000032.1 1 1 1 - errors(1): exon-1:out_of_bounds
+_OX457036.1_000006.1 1 1 14 + errors(14): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds exon-13:out_of_bounds exon-14:out_of_bounds
+_OX457036.1_000018.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000014.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000031.1 1 1 7 - errors(7): exon-7:out_of_bounds exon-6:out_of_bounds exon-5:out_of_bounds exon-4:out_of_bounds exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000034.1 1 1 1 - errors(1): exon-1:out_of_bounds
+_OX457036.1_000023.1 1 1 2 + errors(2): exon-1:out_of_bounds exon-2:out_of_bounds
+_OX457036.1_000010.1 1 1 1 + errors(1): exon-1:out_of_bounds
+_OX457036.1_000025.1 1 1 4 - errors(4): exon-4:out_of_bounds exon-3:out_of_bounds exon-2:out_of_bounds exon-1:out_of_bounds
+_OX457036.1_000009.1 1 1 72 + errors(72): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds exon-13:out_of_bounds exon-14:out_of_bounds exon-15:out_of_bounds exon-16:out_of_bounds exon-17:out_of_bounds exon-18:out_of_bounds exon-19:out_of_bounds exon-20:out_of_bounds exon-21:out_of_bounds exon-22:out_of_bounds exon-23:out_of_bounds exon-24:out_of_bounds exon-25:out_of_bounds exon-26:out_of_bounds exon-27:out_of_bounds exon-28:out_of_bounds exon-29:out_of_bounds exon-30:out_of_bounds exon-31:out_of_bounds exon-32:out_of_bounds exon-33:out_of_bounds exon-34:out_of_bounds exon-35:out_of_bounds exon-36:out_of_bounds exon-37:out_of_bounds exon-38:out_of_bounds exon-39:out_of_bounds exon-40:out_of_bounds exon-41:out_of_bounds exon-42:out_of_bounds exon-43:out_of_bounds exon-44:out_of_bounds exon-45:out_of_bounds exon-46:out_of_bounds exon-47:out_of_bounds exon-48:out_of_bounds exon-49:out_of_bounds exon-50:out_of_bounds exon-51:out_of_bounds exon-52:out_of_bounds exon-53:out_of_bounds exon-54:out_of_bounds exon-55:out_of_bounds exon-56:out_of_bounds exon-57:out_of_bounds exon-58:out_of_bounds exon-59:out_of_bounds exon-60:out_of_bounds exon-61:out_of_bounds exon-62:out_of_bounds exon-63:out_of_bounds exon-64:out_of_bounds exon-65:out_of_bounds exon-66:out_of_bounds exon-67:out_of_bounds exon-68:out_of_bounds exon-69:out_of_bounds exon-70:out_of_bounds exon-71:out_of_bounds exon-72:out_of_bounds
+_OX457036.1_000013.1 1 1 104 + errors(104): exon-1:out_of_bounds exon-2:out_of_bounds exon-3:out_of_bounds exon-4:out_of_bounds exon-5:out_of_bounds exon-6:out_of_bounds exon-7:out_of_bounds exon-8:out_of_bounds exon-9:out_of_bounds exon-10:out_of_bounds exon-11:out_of_bounds exon-12:out_of_bounds exon-13:out_of_bounds exon-14:out_of_bounds exon-15:out_of_bounds exon-16:out_of_bounds exon-17:out_of_bounds exon-18:out_of_bounds exon-19:out_of_bounds exon-20:out_of_bounds exon-21:out_of_bounds exon-22:out_of_bounds exon-23:out_of_bounds exon-24:out_of_bounds exon-25:out_of_bounds exon-26:out_of_bounds exon-27:out_of_bounds exon-28:out_of_bounds exon-29:out_of_bounds exon-30:out_of_bounds exon-31:out_of_bounds exon-32:out_of_bounds exon-33:out_of_bounds exon-34:out_of_bounds exon-35:out_of_bounds exon-36:out_of_bounds exon-37:out_of_bounds exon-38:out_of_bounds exon-39:out_of_bounds exon-40:out_of_bounds exon-41:out_of_bounds exon-42:out_of_bounds exon-43:out_of_bounds exon-44:out_of_bounds exon-45:out_of_bounds exon-46:out_of_bounds exon-47:out_of_bounds exon-48:out_of_bounds exon-49:out_of_bounds exon-50:out_of_bounds exon-51:out_of_bounds exon-52:out_of_bounds exon-53:out_of_bounds exon-54:out_of_bounds exon-55:out_of_bounds exon-56:out_of_bounds exon-57:out_of_bounds exon-58:out_of_bounds exon-59:out_of_bounds exon-60:out_of_bounds exon-61:out_of_bounds exon-62:out_of_bounds exon-63:out_of_bounds exon-64:out_of_bounds exon-65:out_of_bounds exon-66:out_of_bounds exon-67:out_of_bounds exon-68:out_of_bounds exon-69:out_of_bounds exon-70:out_of_bounds exon-71:out_of_bounds exon-72:out_of_bounds exon-73:out_of_bounds exon-74:out_of_bounds exon-75:out_of_bounds exon-76:out_of_bounds exon-77:out_of_bounds exon-78:out_of_bounds exon-79:out_of_bounds exon-80:out_of_bounds exon-81:out_of_bounds exon-82:out_of_bounds exon-83:out_of_bounds exon-84:out_of_bounds exon-85:out_of_bounds exon-86:out_of_bounds exon-87:out_of_bounds exon-88:out_of_bounds exon-89:out_of_bounds exon-90:out_of_bounds exon-91:out_of_bounds exon-92:out_of_bounds exon-93:out_of_bounds exon-94:out_of_bounds exon-95:out_of_bounds exon-96:out_of_bounds exon-97:out_of_bounds exon-98:out_of_bounds exon-99:out_of_bounds exon-100:out_of_bounds exon-101:out_of_bounds exon-102:out_of_bounds exon-103:out_of_bounds exon-104:out_of_bounds
+Segmentation fault (core dumped)
+(base) alena@alena:~/SNAP/train_at$
+../fathom -categorize 100 at.zff ../fathom -validate at.zff ../1%/terr-1pr.fasta
+
+FATHOM - sequence and annotation tool (version 2006-07-28)
+
+usage: fathom <ann> <dna> <commands>
+commands:
+  -help           report useful information
+  -validate [-quiet]
+  -gene-stats [-errors-ok -nucleotide -dinucleotide]
+  -categorize <int>
+  -export <int> [-plus -errors-ok]
+  -extract <feature> -length <int> -offset <int>
+  -exon-intron
+  -split <-number <int> | -training <float> | -GC <float> | -repeat <float>>
+  -ace-format <-gene-method <string> [-dna -extra <string>]>
+  -compare-genes <predictions> [-details]
+  -score-genes <hmm> [-errors-ok]
+  -filter-genes <hmm> -min-score <float> -min-length <int>
+(base) alena@alena:~/SNAP/train_at$ ../fathom -categorize 100 at.zff   1%/terr-1pr.fasta
+ZOE ERROR (from ../fathom): zoeOpenFile failed to open file (1%/terr-1pr.fasta)
+ZOE library version 2017-03-01
+(base) alena@alena:~/SNAP/train_at$ ../fathom -categorize 100 at.zff  ../1%/terr-1pr.fasta
+(base) alena@alena:~/SNAP/train_at$ ../fathom -export 100 -plus uni.*
+(base) alena@alena:~/SNAP/train_at$ ../fathom -validate export.ann export.dna
+_OX457036.1_000001.1: _OX457036.1_000001.1 OK
+_OX457036.1_000035.1: _OX457036.1_000035.1 OK
+_OX457036.1_000034.1: _OX457036.1_000034.1 OK
+_OX457036.1_000032.1: _OX457036.1_000032.1 OK
+_OX457036.1_000004.1: _OX457036.1_000004.1 OK
+_OX457036.1_000007.1: _OX457036.1_000007.1 OK
+_OX457036.1_000030.1: _OX457036.1_000030.1 OK
+_OX457036.1_000029.1: _OX457036.1_000029.1 OK
+_OX457036.1_000010.1: _OX457036.1_000010.1 OK
+_OX457036.1_000011.1: _OX457036.1_000011.1 OK
+_OX457036.1_000028.1: _OX457036.1_000028.1 OK
+_OX457036.1_000012.1: _OX457036.1_000012.1 OK
+_OX457036.1_000014.1: _OX457036.1_000014.1 OK
+_OX457036.1_000016.1: _OX457036.1_000016.1 OK
+_OX457036.1_000017.1: _OX457036.1_000017.1 OK
+_OX457036.1_000026.1: _OX457036.1_000026.1 OK
+_OX457036.1_000018.1: _OX457036.1_000018.1 OK
+_OX457036.1_000021.1: _OX457036.1_000021.1 OK
+_OX457036.1_000022.1: _OX457036.1_000022.1 OK
+_OX457036.1_000023.1: _OX457036.1_000023.1 OK
+20 genes, 20 OK, 0 warnings, 0 errors
