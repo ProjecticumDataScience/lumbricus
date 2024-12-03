@@ -1,0 +1,75 @@
+>region-4 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 200343..219667)
+Einit	101	149	_OX457036.1_000001.1
+Exon	2258	2577	_OX457036.1_000001.1
+Exon	4348	4578	_OX457036.1_000001.1
+Exon	5283	5370	_OX457036.1_000001.1
+Exon	6275	6370	_OX457036.1_000001.1
+Exon	6662	6798	_OX457036.1_000001.1
+Exon	12070	12202	_OX457036.1_000001.1
+Exon	14998	15148	_OX457036.1_000001.1
+Exon	16703	16793	_OX457036.1_000001.1
+Eterm	18845	19225	_OX457036.1_000001.1
+>region-6 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 273591..274999)
+Esngl	1309	101	_OX457036.1_000035.1
+>region-8 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 354730..357302)
+Esngl	2473	101	_OX457036.1_000034.1
+>region-10 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 420985..426542)
+Esngl	5458	101	_OX457036.1_000032.1
+>region-11 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 453097..457373)
+Einit	101	247	_OX457036.1_000004.1
+Exon	3015	3161	_OX457036.1_000004.1
+Eterm	3755	4177	_OX457036.1_000004.1
+>region-15 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 587505..588301)
+Esngl	101	697	_OX457036.1_000007.1
+>region-18 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 650930..652291)
+Eterm	178	101	_OX457036.1_000030.1
+Exon	890	770	_OX457036.1_000030.1
+Einit	1262	1045	_OX457036.1_000030.1
+>region-19 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 652540..657907)
+Eterm	220	101	_OX457036.1_000029.1
+Exon	918	826	_OX457036.1_000029.1
+Exon	1129	1117	_OX457036.1_000029.1
+Exon	3977	3727	_OX457036.1_000029.1
+Exon	4471	4385	_OX457036.1_000029.1
+Einit	5268	5053	_OX457036.1_000029.1
+>region-20 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 665456..667422)
+Esngl	101	1867	_OX457036.1_000010.1
+>region-21 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 671441..672255)
+Esngl	101	715	_OX457036.1_000011.1
+>region-22 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 673819..675274)
+Eterm	251	101	_OX457036.1_000028.1
+Exon	449	310	_OX457036.1_000028.1
+Einit	1356	1111	_OX457036.1_000028.1
+>region-24 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 693300..694276)
+Esngl	101	877	_OX457036.1_000012.1
+>region-26 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 795589..797156)
+Esngl	101	1468	_OX457036.1_000014.1
+>region-28 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 805167..808555)
+Einit	7	438	_OX457036.1_000016.1
+Eterm	1490	3331	_OX457036.1_000016.1
+>region-29 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 808554..808930)
+Esngl	59	277	_OX457036.1_000017.1
+>region-30 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 810103..814015)
+Eterm	1555	101	_OX457036.1_000026.1
+Exon	1899	1813	_OX457036.1_000026.1
+Exon	2103	2029	_OX457036.1_000026.1
+Exon	3035	3010	_OX457036.1_000026.1
+Einit	3813	3717	_OX457036.1_000026.1
+>region-31 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 869203..870539)
+Esngl	101	1237	_OX457036.1_000018.1
+>region-34 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 908138..909465)
+Esngl	101	1228	_OX457036.1_000021.1
+>region-35 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 917560..925266)
+Einit	101	227	_OX457036.1_000022.1
+Exon	1702	1946	_OX457036.1_000022.1
+Exon	2609	2695	_OX457036.1_000022.1
+Exon	3888	3947	_OX457036.1_000022.1
+Exon	4266	4326	_OX457036.1_000022.1
+Exon	4795	4901	_OX457036.1_000022.1
+Exon	5160	5284	_OX457036.1_000022.1
+Exon	5692	5768	_OX457036.1_000022.1
+Exon	6287	6375	_OX457036.1_000022.1
+Eterm	7341	7607	_OX457036.1_000022.1
+>region-37 (OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1 955225..957264)
+Einit	101	119	_OX457036.1_000023.1
+Eterm	385	1940	_OX457036.1_000023.1
