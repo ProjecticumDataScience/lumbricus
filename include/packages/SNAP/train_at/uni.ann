@@ -1,0 +1,994 @@
+>region-1 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 9361..15921)
+Eterm	253	101	_OX243811.1_000488.1
+Exon	787	766	_OX243811.1_000488.1
+Exon	2890	2854	_OX243811.1_000488.1
+Exon	3520	3451	_OX243811.1_000488.1
+Exon	5496	5456	_OX243811.1_000488.1
+Exon	6163	5989	_OX243811.1_000488.1
+Einit	6553	6473	_OX243811.1_000488.1
+>region-3 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 33510..35032)
+Esngl	101	1423	_OX243811.1_000001.1
+>region-5 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 88276..89192)
+Esngl	101	817	_OX243811.1_000002.1
+>region-8 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 151232..160828)
+Einit	5	70	_OX243811.1_000005.1
+Exon	148	160	_OX243811.1_000005.1
+Exon	289	501	_OX243811.1_000005.1
+Exon	6058	6262	_OX243811.1_000005.1
+Eterm	9059	9497	_OX243811.1_000005.1
+>region-9 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 170356..171800)
+Esngl	1345	101	_OX243811.1_000484.1
+>region-12 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 257263..258290)
+Einit	101	118	_OX243811.1_000008.1
+Exon	185	403	_OX243811.1_000008.1
+Eterm	782	928	_OX243811.1_000008.1
+>region-13 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 262690..265298)
+Esngl	2509	101	_OX243811.1_000483.1
+>region-17 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 367315..377318)
+Einit	101	286	_OX243811.1_000009.1
+Exon	8094	8261	_OX243811.1_000009.1
+Eterm	9473	9904	_OX243811.1_000009.1
+>region-18 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 407657..409389)
+Einit	101	137	_OX243811.1_000010.1
+Exon	389	446	_OX243811.1_000010.1
+Eterm	1715	1727	_OX243811.1_000010.1
+>region-19 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 409389..410181)
+Esngl	7	693	_OX243811.1_000011.1
+>region-23 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 471030..471706)
+Esngl	101	577	_OX243811.1_000015.1
+>region-31 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 646137..647728)
+Esngl	101	1492	_OX243811.1_000019.1
+>region-32 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 655125..658469)
+Einit	101	538	_OX243811.1_000020.1
+Eterm	1341	3245	_OX243811.1_000020.1
+>region-33 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 659823..661534)
+Esngl	1612	101	_OX243811.1_000475.1
+>region-34 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 710961..712294)
+Esngl	101	1234	_OX243811.1_000021.1
+>region-36 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 727000..729311)
+Einit	101	339	_OX243811.1_000023.1
+Exon	509	585	_OX243811.1_000023.1
+Exon	1234	1322	_OX243811.1_000023.1
+Eterm	1931	2212	_OX243811.1_000023.1
+>region-39 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 748531..748964)
+Esngl	334	101	_OX243811.1_000472.1
+>region-40 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 755730..758335)
+Esngl	2506	101	_OX243811.1_000471.1
+>region-41 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 768112..770006)
+Einit	101	125	_OX243811.1_000024.1
+Eterm	231	1795	_OX243811.1_000024.1
+>region-46 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 828219..835937)
+Einit	101	149	_OX243811.1_000027.1
+Exon	2271	2422	_OX243811.1_000027.1
+Exon	5989	6033	_OX243811.1_000027.1
+Eterm	7509	7619	_OX243811.1_000027.1
+>region-47 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 840956..842307)
+Einit	101	126	_OX243811.1_000028.1
+Exon	622	1154	_OX243811.1_000028.1
+Eterm	1206	1252	_OX243811.1_000028.1
+>region-49 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 849227..850506)
+Einit	101	113	_OX243811.1_000030.1
+Eterm	186	1180	_OX243811.1_000030.1
+>region-50 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 853034..853790)
+Einit	101	560	_OX243811.1_000031.1
+Eterm	650	657	_OX243811.1_000031.1
+>region-51 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 853877..855498)
+Einit	101	833	_OX243811.1_000032.1
+Eterm	939	1522	_OX243811.1_000032.1
+>region-52 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 857387..858630)
+Esngl	101	1144	_OX243811.1_000033.1
+>region-54 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 868855..869660)
+Esngl	101	706	_OX243811.1_000035.1
+>region-55 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 877205..878244)
+Esngl	101	940	_OX243811.1_000036.1
+>region-56 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 880255..885443)
+Eterm	327	101	_OX243811.1_000468.1
+Exon	2650	2366	_OX243811.1_000468.1
+Einit	5089	5077	_OX243811.1_000468.1
+>region-59 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 925489..926933)
+Eterm	114	101	_OX243811.1_000466.1
+Exon	473	317	_OX243811.1_000466.1
+Einit	1345	1295	_OX243811.1_000466.1
+>region-60 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 983734..989118)
+Eterm	3419	101	_OX243811.1_000465.1
+Exon	3854	3536	_OX243811.1_000465.1
+Exon	4126	4076	_OX243811.1_000465.1
+Exon	4522	4391	_OX243811.1_000465.1
+Einit	5285	5273	_OX243811.1_000465.1
+>region-61 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1028174..1033481)
+Einit	101	190	_OX243811.1_000038.1
+Exon	1473	1628	_OX243811.1_000038.1
+Exon	1931	2063	_OX243811.1_000038.1
+Exon	2476	2684	_OX243811.1_000038.1
+Exon	3281	3337	_OX243811.1_000038.1
+Exon	3726	3884	_OX243811.1_000038.1
+Exon	4308	4536	_OX243811.1_000038.1
+Exon	4847	5095	_OX243811.1_000038.1
+Eterm	5195	5238	_OX243811.1_000038.1
+>region-63 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1038301..1039535)
+Esngl	101	1135	_OX243811.1_000040.1
+>region-64 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1040606..1041834)
+Esngl	101	1129	_OX243811.1_000041.1
+>region-65 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1046654..1047882)
+Esngl	101	1129	_OX243811.1_000042.1
+>region-66 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1052777..1053996)
+Esngl	101	1120	_OX243811.1_000043.1
+>region-67 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1057771..1058999)
+Esngl	101	1129	_OX243811.1_000044.1
+>region-68 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1061816..1063044)
+Esngl	101	1129	_OX243811.1_000045.1
+>region-69 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1080727..1081955)
+Esngl	101	1129	_OX243811.1_000046.1
+>region-70 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1086310..1087520)
+Esngl	101	1111	_OX243811.1_000047.1
+>region-71 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1092873..1094101)
+Esngl	101	1129	_OX243811.1_000048.1
+>region-72 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1100617..1101851)
+Esngl	101	1135	_OX243811.1_000049.1
+>region-73 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1106311..1107539)
+Esngl	101	1129	_OX243811.1_000050.1
+>region-74 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1109798..1111026)
+Esngl	101	1129	_OX243811.1_000051.1
+>region-75 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1114557..1115785)
+Esngl	101	1129	_OX243811.1_000052.1
+>region-76 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1117074..1118302)
+Esngl	101	1129	_OX243811.1_000053.1
+>region-77 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1124661..1125889)
+Esngl	101	1129	_OX243811.1_000054.1
+>region-78 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1134222..1135441)
+Esngl	101	1120	_OX243811.1_000055.1
+>region-79 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1139867..1141095)
+Esngl	101	1129	_OX243811.1_000056.1
+>region-80 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1148038..1149266)
+Esngl	101	1129	_OX243811.1_000057.1
+>region-81 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1152912..1160392)
+Eterm	213	101	_OX243811.1_000464.1
+Exon	4652	4477	_OX243811.1_000464.1
+Exon	5411	5260	_OX243811.1_000464.1
+Einit	7381	7274	_OX243811.1_000464.1
+>region-82 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1163347..1164238)
+Einit	101	133	_OX243811.1_000058.1
+Eterm	283	792	_OX243811.1_000058.1
+>region-83 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1164317..1165672)
+Esngl	1348	101	_OX243811.1_000463.1
+>region-85 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1178614..1180547)
+Einit	101	482	_OX243811.1_000059.1
+Eterm	1134	1834	_OX243811.1_000059.1
+>region-86 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1185591..1191026)
+Eterm	442	101	_OX243811.1_000461.1
+Exon	1307	1054	_OX243811.1_000461.1
+Exon	2238	2121	_OX243811.1_000461.1
+Exon	2838	2625	_OX243811.1_000461.1
+Exon	3675	3466	_OX243811.1_000461.1
+Einit	5336	4978	_OX243811.1_000461.1
+>region-89 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1237773..1247758)
+Eterm	169	101	_OX243811.1_000458.1
+Exon	273	260	_OX243811.1_000458.1
+Exon	1375	1260	_OX243811.1_000458.1
+Exon	1940	1837	_OX243811.1_000458.1
+Exon	3028	2838	_OX243811.1_000458.1
+Exon	3465	3313	_OX243811.1_000458.1
+Exon	6257	6151	_OX243811.1_000458.1
+Einit	9886	9795	_OX243811.1_000458.1
+>region-90 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1354754..1357336)
+Eterm	394	101	_OX243811.1_000457.1
+Einit	2483	972	_OX243811.1_000457.1
+>region-93 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1430618..1431165)
+Esngl	448	101	_OX243811.1_000454.1
+>region-97 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1537072..1541092)
+Einit	101	118	_OX243811.1_000061.1
+Exon	271	442	_OX243811.1_000061.1
+Exon	1219	1329	_OX243811.1_000061.1
+Exon	2800	2924	_OX243811.1_000061.1
+Eterm	3760	3921	_OX243811.1_000061.1
+>region-99 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1591353..1592370)
+Einit	6	90	_OX243811.1_000063.1
+Eterm	686	918	_OX243811.1_000063.1
+>region-101 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1614632..1617024)
+Einit	101	428	_OX243811.1_000065.1
+Exon	1181	1254	_OX243811.1_000065.1
+Eterm	2225	2293	_OX243811.1_000065.1
+>region-102 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1703849..1706511)
+Eterm	495	101	_OX243811.1_000451.1
+Einit	2563	1645	_OX243811.1_000451.1
+>region-104 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 1793547..1796254)
+Einit	101	126	_OX243811.1_000066.1
+Eterm	556	2608	_OX243811.1_000066.1
+>region-110 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2012295..2013166)
+Esngl	772	101	_OX243811.1_000446.1
+>region-111 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2013453..2018626)
+Esngl	5074	101	_OX243811.1_000445.1
+>region-113 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2056654..2058656)
+Eterm	205	101	_OX243811.1_000443.1
+Exon	875	676	_OX243811.1_000443.1
+Einit	1997	1850	_OX243811.1_000443.1
+>region-114 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2058655..2059857)
+Eterm	17	7	_OX243811.1_000442.1
+Exon	169	156	_OX243811.1_000442.1
+Einit	1103	1021	_OX243811.1_000442.1
+>region-115 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2061125..2062451)
+Eterm	115	101	_OX243811.1_000441.1
+Exon	515	185	_OX243811.1_000441.1
+Exon	1085	901	_OX243811.1_000441.1
+Einit	1227	1210	_OX243811.1_000441.1
+>region-117 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2068469..2071339)
+Eterm	205	101	_OX243811.1_000439.1
+Exon	1403	1204	_OX243811.1_000439.1
+Einit	2864	2717	_OX243811.1_000439.1
+>region-119 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2094218..2100399)
+Eterm	321	101	_OX243811.1_000437.1
+Exon	504	415	_OX243811.1_000437.1
+Exon	1128	960	_OX243811.1_000437.1
+Exon	1719	1627	_OX243811.1_000437.1
+Exon	3969	3633	_OX243811.1_000437.1
+Exon	4518	4334	_OX243811.1_000437.1
+Exon	5493	5426	_OX243811.1_000437.1
+Einit	6082	5983	_OX243811.1_000437.1
+>region-124 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2143098..2151076)
+Eterm	168	101	_OX243811.1_000433.1
+Exon	1216	1161	_OX243811.1_000433.1
+Exon	3217	2442	_OX243811.1_000433.1
+Exon	5490	4876	_OX243811.1_000433.1
+Einit	7879	7856	_OX243811.1_000433.1
+>region-125 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2152814..2155674)
+Eterm	111	101	_OX243811.1_000432.1
+Exon	582	527	_OX243811.1_000432.1
+Einit	2761	1749	_OX243811.1_000432.1
+>region-126 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2163860..2166369)
+Eterm	266	101	_OX243811.1_000431.1
+Einit	2410	1410	_OX243811.1_000431.1
+>region-131 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2209206..2210694)
+Eterm	1168	101	_OX243811.1_000426.1
+Einit	1389	1381	_OX243811.1_000426.1
+>region-134 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2231909..2234614)
+Eterm	153	101	_OX243811.1_000423.1
+Exon	245	205	_OX243811.1_000423.1
+Einit	2606	1654	_OX243811.1_000423.1
+>region-137 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2265979..2267392)
+Eterm	1183	101	_OX243811.1_000420.1
+Einit	1314	1282	_OX243811.1_000420.1
+>region-139 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2290414..2292906)
+Eterm	171	101	_OX243811.1_000418.1
+Exon	866	811	_OX243811.1_000418.1
+Einit	2393	1492	_OX243811.1_000418.1
+>region-141 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2298597..2301241)
+Eterm	234	101	_OX243811.1_000416.1
+Exon	1323	1287	_OX243811.1_000416.1
+Exon	1393	1381	_OX243811.1_000416.1
+Einit	2545	1707	_OX243811.1_000416.1
+>region-142 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2305239..2308476)
+Eterm	228	101	_OX243811.1_000415.1
+Exon	832	777	_OX243811.1_000415.1
+Exon	3072	2111	_OX243811.1_000415.1
+Einit	3138	3133	_OX243811.1_000415.1
+>region-143 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2313507..2316085)
+Eterm	109	101	_OX243811.1_000414.1
+Exon	467	418	_OX243811.1_000414.1
+Exon	573	566	_OX243811.1_000414.1
+Einit	2479	2415	_OX243811.1_000414.1
+>region-146 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2338895..2343306)
+Eterm	328	101	_OX243811.1_000411.1
+Exon	1341	1108	_OX243811.1_000411.1
+Exon	3638	3423	_OX243811.1_000411.1
+Einit	4312	4019	_OX243811.1_000411.1
+>region-148 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2364573..2365660)
+Esngl	988	101	_OX243811.1_000410.1
+>region-150 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2459916..2497194)
+Eterm	608	101	_OX243811.1_000408.1
+Exon	1009	928	_OX243811.1_000408.1
+Exon	18323	18318	_OX243811.1_000408.1
+Exon	18479	18474	_OX243811.1_000408.1
+Exon	31148	30705	_OX243811.1_000408.1
+Exon	32359	32060	_OX243811.1_000408.1
+Einit	37179	37035	_OX243811.1_000408.1
+>region-151 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2530700..2531052)
+Esngl	101	253	_OX243811.1_000071.1
+>region-154 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2566895..2568122)
+Einit	101	338	_OX243811.1_000074.1
+Exon	622	840	_OX243811.1_000074.1
+Eterm	923	1128	_OX243811.1_000074.1
+>region-155 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2583899..2616051)
+Einit	101	170	_OX243811.1_000075.1
+Exon	12318	12596	_OX243811.1_000075.1
+Exon	13727	14011	_OX243811.1_000075.1
+Exon	20246	20644	_OX243811.1_000075.1
+Exon	24078	24083	_OX243811.1_000075.1
+Exon	24145	24300	_OX243811.1_000075.1
+Exon	28975	29028	_OX243811.1_000075.1
+Exon	30668	30749	_OX243811.1_000075.1
+Eterm	31588	32053	_OX243811.1_000075.1
+>region-158 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2700215..2702399)
+Eterm	1371	101	_OX243811.1_000406.1
+Einit	2085	1635	_OX243811.1_000406.1
+>region-159 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2710118..2715849)
+Esngl	101	5632	_OX243811.1_000077.1
+>region-161 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2736999..2740586)
+Einit	101	289	_OX243811.1_000079.1
+Exon	1494	1577	_OX243811.1_000079.1
+Exon	2490	2786	_OX243811.1_000079.1
+Eterm	3363	3488	_OX243811.1_000079.1
+>region-162 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2741541..2747272)
+Esngl	5632	101	_OX243811.1_000405.1
+>region-163 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2748037..2748779)
+Esngl	101	643	_OX243811.1_000080.1
+>region-165 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2769698..2771412)
+Esngl	101	1615	_OX243811.1_000082.1
+>region-166 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2793734..2800286)
+Einit	101	2122	_OX243811.1_000083.1
+Eterm	6364	6453	_OX243811.1_000083.1
+>region-167 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2808533..2810667)
+Esngl	101	2035	_OX243811.1_000084.1
+>region-176 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2883113..2884075)
+Eterm	209	101	_OX243811.1_000397.1
+Einit	863	853	_OX243811.1_000397.1
+>region-179 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2906483..2907402)
+Esngl	820	101	_OX243811.1_000394.1
+>region-180 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2910426..2912500)
+Einit	101	1717	_OX243811.1_000086.1
+Eterm	1913	1975	_OX243811.1_000086.1
+>region-181 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2921477..2926886)
+Eterm	238	101	_OX243811.1_000393.1
+Exon	976	824	_OX243811.1_000393.1
+Exon	1391	1320	_OX243811.1_000393.1
+Exon	2143	2039	_OX243811.1_000393.1
+Exon	2565	2440	_OX243811.1_000393.1
+Exon	3256	3147	_OX243811.1_000393.1
+Exon	4115	3863	_OX243811.1_000393.1
+Einit	5310	5236	_OX243811.1_000393.1
+>region-183 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 2954189..2972403)
+Einit	101	278	_OX243811.1_000088.1
+Exon	2732	2851	_OX243811.1_000088.1
+Exon	3073	3246	_OX243811.1_000088.1
+Exon	5967	6125	_OX243811.1_000088.1
+Exon	6426	6629	_OX243811.1_000088.1
+Exon	8288	8440	_OX243811.1_000088.1
+Exon	8986	9114	_OX243811.1_000088.1
+Exon	9642	9806	_OX243811.1_000088.1
+Exon	10250	10351	_OX243811.1_000088.1
+Exon	12738	12875	_OX243811.1_000088.1
+Exon	13291	13421	_OX243811.1_000088.1
+Exon	14085	14373	_OX243811.1_000088.1
+Exon	16287	16502	_OX243811.1_000088.1
+Exon	16929	17117	_OX243811.1_000088.1
+Eterm	17925	18115	_OX243811.1_000088.1
+>region-184 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3000816..3004041)
+Einit	101	477	_OX243811.1_000089.1
+Eterm	1242	3126	_OX243811.1_000089.1
+>region-185 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3018277..3023024)
+Einit	101	253	_OX243811.1_000090.1
+Exon	1677	2027	_OX243811.1_000090.1
+Exon	3213	3317	_OX243811.1_000090.1
+Eterm	4079	4648	_OX243811.1_000090.1
+>region-187 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3030426..3035870)
+Einit	11	124	_OX243811.1_000092.1
+Exon	3438	3704	_OX243811.1_000092.1
+Exon	4320	4330	_OX243811.1_000092.1
+Exon	4394	4424	_OX243811.1_000092.1
+Eterm	4695	5345	_OX243811.1_000092.1
+>region-188 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3038446..3041757)
+Einit	101	214	_OX243811.1_000093.1
+Exon	1051	1317	_OX243811.1_000093.1
+Exon	1937	2041	_OX243811.1_000093.1
+Exon	2174	2320	_OX243811.1_000093.1
+Eterm	2652	3212	_OX243811.1_000093.1
+>region-189 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3057440..3058167)
+Esngl	101	628	_OX243811.1_000094.1
+>region-190 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3058999..3059415)
+Einit	101	201	_OX243811.1_000095.1
+Eterm	399	411	_OX243811.1_000095.1
+>region-191 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3059415..3060079)
+Einit	7	132	_OX243811.1_000096.1
+Eterm	551	565	_OX243811.1_000096.1
+>region-192 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3063714..3065799)
+Einit	101	421	_OX243811.1_000097.1
+Exon	992	1096	_OX243811.1_000097.1
+Eterm	1390	1986	_OX243811.1_000097.1
+>region-197 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3179551..3196144)
+Einit	101	184	_OX243811.1_000101.1
+Exon	895	1007	_OX243811.1_000101.1
+Exon	1391	1512	_OX243811.1_000101.1
+Exon	2214	3059	_OX243811.1_000101.1
+Exon	9243	9482	_OX243811.1_000101.1
+Exon	9979	10062	_OX243811.1_000101.1
+Exon	11775	11942	_OX243811.1_000101.1
+Exon	14735	15057	_OX243811.1_000101.1
+Eterm	15718	16494	_OX243811.1_000101.1
+>region-198 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3275142..3276502)
+Esngl	101	1261	_OX243811.1_000102.1
+>region-199 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3301167..3304066)
+Eterm	340	101	_OX243811.1_000391.1
+Einit	2800	1427	_OX243811.1_000391.1
+>region-200 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3312741..3317559)
+Einit	101	225	_OX243811.1_000103.1
+Exon	3958	4223	_OX243811.1_000103.1
+Eterm	4712	4719	_OX243811.1_000103.1
+>region-201 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3320674..3323261)
+Esngl	2488	101	_OX243811.1_000390.1
+>region-203 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3346294..3350819)
+Eterm	1639	101	_OX243811.1_000388.1
+Einit	4426	3938	_OX243811.1_000388.1
+>region-204 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3363065..3389536)
+Einit	101	1206	_OX243811.1_000105.1
+Exon	12562	12724	_OX243811.1_000105.1
+Exon	15755	15943	_OX243811.1_000105.1
+Exon	25013	25184	_OX243811.1_000105.1
+Exon	25887	25894	_OX243811.1_000105.1
+Eterm	26034	26372	_OX243811.1_000105.1
+>region-205 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3393883..3406640)
+Einit	101	269	_OX243811.1_000106.1
+Exon	669	935	_OX243811.1_000106.1
+Exon	1703	1849	_OX243811.1_000106.1
+Exon	2329	2532	_OX243811.1_000106.1
+Exon	3769	11025	_OX243811.1_000106.1
+Eterm	12570	12658	_OX243811.1_000106.1
+>region-206 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3476705..3489399)
+Einit	101	272	_OX243811.1_000107.1
+Exon	1313	1582	_OX243811.1_000107.1
+Exon	2354	2500	_OX243811.1_000107.1
+Exon	2951	3154	_OX243811.1_000107.1
+Exon	4431	11849	_OX243811.1_000107.1
+Eterm	12507	12595	_OX243811.1_000107.1
+>region-207 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3527609..3531523)
+Einit	101	351	_OX243811.1_000108.1
+Exon	756	2206	_OX243811.1_000108.1
+Exon	2875	3057	_OX243811.1_000108.1
+Eterm	3538	3815	_OX243811.1_000108.1
+>region-210 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3552361..3556182)
+Einit	4	135	_OX243811.1_000111.1
+Exon	829	924	_OX243811.1_000111.1
+Exon	1607	1753	_OX243811.1_000111.1
+Exon	1995	2114	_OX243811.1_000111.1
+Exon	2522	2629	_OX243811.1_000111.1
+Exon	3063	3263	_OX243811.1_000111.1
+Eterm	3654	3722	_OX243811.1_000111.1
+>region-211 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3563306..3565344)
+Esngl	101	1939	_OX243811.1_000112.1
+>region-212 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3568691..3569406)
+Esngl	616	101	_OX243811.1_000387.1
+>region-214 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3578334..3579049)
+Esngl	616	101	_OX243811.1_000386.1
+>region-217 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3603001..3606065)
+Einit	101	235	_OX243811.1_000115.1
+Exon	824	1135	_OX243811.1_000115.1
+Exon	1565	2025	_OX243811.1_000115.1
+Eterm	2407	2965	_OX243811.1_000115.1
+>region-218 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3610879..3612113)
+Eterm	257	101	_OX243811.1_000384.1
+Einit	1135	882	_OX243811.1_000384.1
+>region-219 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3613262..3615141)
+Esngl	1780	101	_OX243811.1_000383.1
+>region-222 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3656970..3658690)
+Esngl	1621	101	_OX243811.1_000381.1
+>region-224 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3689378..3695227)
+Eterm	400	101	_OX243811.1_000379.1
+Exon	1024	918	_OX243811.1_000379.1
+Exon	1843	1714	_OX243811.1_000379.1
+Exon	2550	2440	_OX243811.1_000379.1
+Exon	3584	3424	_OX243811.1_000379.1
+Exon	4315	4205	_OX243811.1_000379.1
+Einit	5796	5769	_OX243811.1_000379.1
+>region-227 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3707917..3708854)
+Esngl	101	838	_OX243811.1_000117.1
+>region-228 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3731340..3733321)
+Esngl	1882	101	_OX243811.1_000376.1
+>region-229 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3740112..3742087)
+Esngl	1876	101	_OX243811.1_000375.1
+>region-230 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3751632..3753367)
+Esngl	1636	101	_OX243811.1_000374.1
+>region-231 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3758128..3763277)
+Esngl	101	5050	_OX243811.1_000118.1
+>region-232 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3768431..3770487)
+Esngl	1957	101	_OX243811.1_000373.1
+>region-233 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3779844..3781828)
+Esngl	1885	101	_OX243811.1_000372.1
+>region-234 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3788008..3790013)
+Esngl	1906	101	_OX243811.1_000371.1
+>region-235 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3795980..3822469)
+Eterm	382	101	_OX243811.1_000370.1
+Exon	1252	1083	_OX243811.1_000370.1
+Exon	2121	1947	_OX243811.1_000370.1
+Exon	14035	13860	_OX243811.1_000370.1
+Einit	26390	26285	_OX243811.1_000370.1
+>region-236 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3830361..3840432)
+Eterm	1505	101	_OX243811.1_000369.1
+Einit	9972	9839	_OX243811.1_000369.1
+>region-238 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3930764..3934206)
+Einit	101	154	_OX243811.1_000119.1
+Exon	844	972	_OX243811.1_000119.1
+Exon	1455	1589	_OX243811.1_000119.1
+Exon	2427	2550	_OX243811.1_000119.1
+Eterm	3315	3343	_OX243811.1_000119.1
+>region-239 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3938759..3941861)
+Eterm	343	101	_OX243811.1_000367.1
+Exon	885	727	_OX243811.1_000367.1
+Exon	2099	1755	_OX243811.1_000367.1
+Einit	3003	2941	_OX243811.1_000367.1
+>region-240 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3957106..3958592)
+Esngl	1387	101	_OX243811.1_000366.1
+>region-241 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 3965079..3968157)
+Einit	101	284	_OX243811.1_000120.1
+Exon	579	766	_OX243811.1_000120.1
+Exon	1310	1393	_OX243811.1_000120.1
+Exon	1623	1766	_OX243811.1_000120.1
+Eterm	2323	2979	_OX243811.1_000120.1
+>region-243 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4021103..4028465)
+Eterm	286	101	_OX243811.1_000364.1
+Exon	1772	1633	_OX243811.1_000364.1
+Exon	2467	2308	_OX243811.1_000364.1
+Exon	5956	5741	_OX243811.1_000364.1
+Einit	7263	7063	_OX243811.1_000364.1
+>region-245 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4076059..4077686)
+Esngl	1528	101	_OX243811.1_000363.1
+>region-246 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4085232..4089247)
+Esngl	3916	101	_OX243811.1_000362.1
+>region-249 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4164281..4166261)
+Einit	101	157	_OX243811.1_000124.1
+Eterm	787	1881	_OX243811.1_000124.1
+>region-250 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4170645..4176793)
+Esngl	101	6049	_OX243811.1_000125.1
+>region-251 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4177986..4179997)
+Einit	101	725	_OX243811.1_000126.1
+Eterm	1680	1912	_OX243811.1_000126.1
+>region-252 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4180510..4182232)
+Einit	101	176	_OX243811.1_000127.1
+Eterm	791	1623	_OX243811.1_000127.1
+>region-254 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4219478..4221966)
+Esngl	2389	101	_OX243811.1_000361.1
+>region-256 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4233242..4233654)
+Esngl	313	101	_OX243811.1_000359.1
+>region-258 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4260529..4262397)
+Eterm	256	101	_OX243811.1_000357.1
+Einit	1769	1314	_OX243811.1_000357.1
+>region-259 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4285102..4286000)
+Esngl	799	101	_OX243811.1_000356.1
+>region-261 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4304291..4305974)
+Eterm	178	101	_OX243811.1_000355.1
+Einit	1584	1165	_OX243811.1_000355.1
+>region-262 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4314443..4315779)
+Esngl	101	1237	_OX243811.1_000130.1
+>region-263 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4332958..4334294)
+Esngl	101	1237	_OX243811.1_000131.1
+>region-264 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4345479..4351177)
+Einit	101	1749	_OX243811.1_000132.1
+Eterm	1828	5599	_OX243811.1_000132.1
+>region-267 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4427202..4442902)
+Einit	101	825	_OX243811.1_000135.1
+Exon	883	1394	_OX243811.1_000135.1
+Exon	2980	3037	_OX243811.1_000135.1
+Exon	5298	5687	_OX243811.1_000135.1
+Exon	7032	7058	_OX243811.1_000135.1
+Eterm	15316	15601	_OX243811.1_000135.1
+>region-268 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4450041..4451664)
+Eterm	123	101	_OX243811.1_000354.1
+Einit	1606	430	_OX243811.1_000354.1
+>region-269 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4451664..4453614)
+Esngl	1851	19	_OX243811.1_000353.1
+>region-270 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4458225..4460730)
+Eterm	380	101	_OX243811.1_000352.1
+Exon	1457	1250	_OX243811.1_000352.1
+Einit	2497	2482	_OX243811.1_000352.1
+>region-271 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4460729..4461395)
+Eterm	59	10	_OX243811.1_000351.1
+Einit	567	240	_OX243811.1_000351.1
+>region-272 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4468939..4474077)
+Esngl	5134	101	_OX243811.1_000350.1
+>region-273 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4474077..4474670)
+Esngl	494	6	_OX243811.1_000349.1
+>region-275 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4494144..4496503)
+Eterm	234	101	_OX243811.1_000347.1
+Einit	2260	2182	_OX243811.1_000347.1
+>region-279 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4527072..4530747)
+Einit	101	176	_OX243811.1_000138.1
+Exon	851	957	_OX243811.1_000138.1
+Exon	1296	1446	_OX243811.1_000138.1
+Eterm	3101	3576	_OX243811.1_000138.1
+>region-280 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4550762..4553949)
+Esngl	101	3088	_OX243811.1_000139.1
+>region-282 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4590101..4599378)
+Eterm	271	101	_OX243811.1_000345.1
+Exon	676	620	_OX243811.1_000345.1
+Exon	1749	1633	_OX243811.1_000345.1
+Exon	5485	5397	_OX243811.1_000345.1
+Exon	7409	7295	_OX243811.1_000345.1
+Einit	9178	9155	_OX243811.1_000345.1
+>region-283 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4600808..4607022)
+Einit	101	163	_OX243811.1_000141.1
+Exon	1625	3595	_OX243811.1_000141.1
+Exon	4165	4423	_OX243811.1_000141.1
+Eterm	5025	6115	_OX243811.1_000141.1
+>region-284 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4609270..4620845)
+Eterm	249	101	_OX243811.1_000344.1
+Exon	433	329	_OX243811.1_000344.1
+Exon	1017	921	_OX243811.1_000344.1
+Exon	1862	1663	_OX243811.1_000344.1
+Exon	2749	2642	_OX243811.1_000344.1
+Exon	3301	3178	_OX243811.1_000344.1
+Exon	4283	4202	_OX243811.1_000344.1
+Exon	5053	4933	_OX243811.1_000344.1
+Exon	5988	5922	_OX243811.1_000344.1
+Exon	6689	6648	_OX243811.1_000344.1
+Exon	7158	7109	_OX243811.1_000344.1
+Exon	7756	7696	_OX243811.1_000344.1
+Exon	8769	8656	_OX243811.1_000344.1
+Exon	9757	9701	_OX243811.1_000344.1
+Exon	10186	10118	_OX243811.1_000344.1
+Exon	10359	10315	_OX243811.1_000344.1
+Exon	10638	10525	_OX243811.1_000344.1
+Einit	11476	11258	_OX243811.1_000344.1
+>region-285 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4622375..4623501)
+Esngl	101	1027	_OX243811.1_000142.1
+>region-288 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4692318..4695456)
+Einit	10	35	_OX243811.1_000144.1
+Exon	1761	1856	_OX243811.1_000144.1
+Eterm	2841	3039	_OX243811.1_000144.1
+>region-289 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4699937..4703052)
+Esngl	101	3016	_OX243811.1_000145.1
+>region-290 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4710976..4713620)
+Esngl	2545	101	_OX243811.1_000342.1
+>region-291 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4715712..4719337)
+Esngl	101	3526	_OX243811.1_000146.1
+>region-298 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4831911..4834828)
+Eterm	225	101	_OX243811.1_000338.1
+Exon	1139	935	_OX243811.1_000338.1
+Exon	1636	1550	_OX243811.1_000338.1
+Exon	2297	2270	_OX243811.1_000338.1
+Einit	2818	2718	_OX243811.1_000338.1
+>region-300 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4849535..4850727)
+Esngl	1093	101	_OX243811.1_000337.1
+>region-305 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4916153..4918047)
+Esngl	1795	101	_OX243811.1_000335.1
+>region-307 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4936020..4936861)
+Esngl	101	742	_OX243811.1_000155.1
+>region-310 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4959948..4965559)
+Esngl	101	5512	_OX243811.1_000157.1
+>region-312 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4979877..4980658)
+Esngl	38	682	_OX243811.1_000159.1
+>region-313 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 4989940..4995053)
+Esngl	101	5014	_OX243811.1_000160.1
+>region-315 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5022253..5025817)
+Eterm	550	101	_OX243811.1_000333.1
+Exon	1879	1749	_OX243811.1_000333.1
+Exon	2695	2541	_OX243811.1_000333.1
+Einit	3465	3371	_OX243811.1_000333.1
+>region-316 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5039842..5043003)
+Eterm	550	101	_OX243811.1_000332.1
+Exon	1548	1418	_OX243811.1_000332.1
+Exon	2335	2181	_OX243811.1_000332.1
+Einit	3062	2968	_OX243811.1_000332.1
+>region-317 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5055577..5058825)
+Eterm	550	101	_OX243811.1_000331.1
+Exon	1724	1594	_OX243811.1_000331.1
+Exon	2362	2208	_OX243811.1_000331.1
+Einit	3149	3055	_OX243811.1_000331.1
+>region-318 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5072079..5083227)
+Einit	101	215	_OX243811.1_000162.1
+Exon	742	873	_OX243811.1_000162.1
+Exon	1189	1368	_OX243811.1_000162.1
+Exon	1458	1613	_OX243811.1_000162.1
+Exon	2279	2354	_OX243811.1_000162.1
+Exon	3041	3173	_OX243811.1_000162.1
+Exon	3922	4056	_OX243811.1_000162.1
+Exon	4517	4620	_OX243811.1_000162.1
+Exon	4852	4976	_OX243811.1_000162.1
+Exon	5720	5832	_OX243811.1_000162.1
+Exon	6449	6589	_OX243811.1_000162.1
+Exon	7050	7149	_OX243811.1_000162.1
+Exon	8017	8117	_OX243811.1_000162.1
+Exon	9268	9435	_OX243811.1_000162.1
+Eterm	10291	11049	_OX243811.1_000162.1
+>region-323 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5139455..5147825)
+Einit	101	205	_OX243811.1_000166.1
+Exon	488	507	_OX243811.1_000166.1
+Exon	2409	2415	_OX243811.1_000166.1
+Exon	4073	4199	_OX243811.1_000166.1
+Exon	5082	5219	_OX243811.1_000166.1
+Exon	5885	6003	_OX243811.1_000166.1
+Exon	6631	6848	_OX243811.1_000166.1
+Exon	7326	7609	_OX243811.1_000166.1
+Eterm	8231	8271	_OX243811.1_000166.1
+>region-325 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5166819..5171762)
+Einit	101	205	_OX243811.1_000167.1
+Exon	784	910	_OX243811.1_000167.1
+Exon	1338	1475	_OX243811.1_000167.1
+Exon	2216	2334	_OX243811.1_000167.1
+Exon	3322	3539	_OX243811.1_000167.1
+Eterm	4622	4844	_OX243811.1_000167.1
+>region-328 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5198910..5201346)
+Einit	101	372	_OX243811.1_000169.1
+Exon	1084	1847	_OX243811.1_000169.1
+Eterm	1901	2337	_OX243811.1_000169.1
+>region-331 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5262560..5270381)
+Eterm	1427	101	_OX243811.1_000327.1
+Exon	2520	2443	_OX243811.1_000327.1
+Exon	3413	3260	_OX243811.1_000327.1
+Exon	4988	4898	_OX243811.1_000327.1
+Exon	6629	6474	_OX243811.1_000327.1
+Einit	7722	7528	_OX243811.1_000327.1
+>region-332 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5277835..5282830)
+Eterm	1442	101	_OX243811.1_000326.1
+Exon	2177	2024	_OX243811.1_000326.1
+Exon	2417	2373	_OX243811.1_000326.1
+Exon	3285	3195	_OX243811.1_000326.1
+Exon	4273	4079	_OX243811.1_000326.1
+Einit	4896	4771	_OX243811.1_000326.1
+>region-334 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5303659..5304116)
+Esngl	358	101	_OX243811.1_000324.1
+>region-337 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5328243..5337189)
+Einit	101	166	_OX243811.1_000173.1
+Exon	1054	1164	_OX243811.1_000173.1
+Exon	1830	1956	_OX243811.1_000173.1
+Exon	2278	2415	_OX243811.1_000173.1
+Exon	3224	3291	_OX243811.1_000173.1
+Exon	3787	3919	_OX243811.1_000173.1
+Exon	4514	4580	_OX243811.1_000173.1
+Exon	4824	4872	_OX243811.1_000173.1
+Exon	5416	5601	_OX243811.1_000173.1
+Exon	5940	6121	_OX243811.1_000173.1
+Exon	6789	6943	_OX243811.1_000173.1
+Exon	7521	7657	_OX243811.1_000173.1
+Eterm	8284	8847	_OX243811.1_000173.1
+>region-338 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5337273..5338581)
+Einit	101	208	_OX243811.1_000174.1
+Exon	699	815	_OX243811.1_000174.1
+Eterm	1165	1209	_OX243811.1_000174.1
+>region-339 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5339107..5339590)
+Einit	101	240	_OX243811.1_000175.1
+Eterm	466	478	_OX243811.1_000175.1
+>region-341 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5345909..5347590)
+Einit	101	320	_OX243811.1_000177.1
+Exon	844	966	_OX243811.1_000177.1
+Eterm	1320	1582	_OX243811.1_000177.1
+>region-343 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5354852..5355715)
+Eterm	54	47	_OX243811.1_000321.1
+Einit	764	647	_OX243811.1_000321.1
+>region-344 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5357681..5359892)
+Einit	101	378	_OX243811.1_000178.1
+Eterm	1086	2112	_OX243811.1_000178.1
+>region-347 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5380762..5382807)
+Einit	101	221	_OX243811.1_000181.1
+Exon	803	942	_OX243811.1_000181.1
+Exon	1101	1230	_OX243811.1_000181.1
+Eterm	1910	1974	_OX243811.1_000181.1
+>region-353 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5516619..5520991)
+Einit	101	279	_OX243811.1_000182.1
+Exon	2927	3144	_OX243811.1_000182.1
+Eterm	4134	4273	_OX243811.1_000182.1
+>region-354 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5530411..5532056)
+Esngl	1546	101	_OX243811.1_000315.1
+>region-356 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5569661..5572248)
+Esngl	2488	101	_OX243811.1_000313.1
+>region-357 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5573058..5576122)
+Esngl	2965	101	_OX243811.1_000312.1
+>region-358 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5591104..5594171)
+Esngl	2968	101	_OX243811.1_000311.1
+>region-359 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5621079..5623897)
+Esngl	2719	101	_OX243811.1_000310.1
+>region-360 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5687489..5690580)
+Esngl	2992	101	_OX243811.1_000309.1
+>region-362 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5709031..5712050)
+Esngl	2920	101	_OX243811.1_000307.1
+>region-364 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5754783..5758102)
+Eterm	784	101	_OX243811.1_000306.1
+Exon	2551	1449	_OX243811.1_000306.1
+Exon	2692	2628	_OX243811.1_000306.1
+Exon	2909	2760	_OX243811.1_000306.1
+Einit	3220	3000	_OX243811.1_000306.1
+>region-367 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5810412..5812090)
+Esngl	1579	101	_OX243811.1_000305.1
+>region-368 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5829210..5830870)
+Esngl	1561	101	_OX243811.1_000304.1
+>region-373 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 5941051..5946045)
+Einit	101	185	_OX243811.1_000187.1
+Exon	2500	2696	_OX243811.1_000187.1
+Eterm	4281	4895	_OX243811.1_000187.1
+>region-376 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6002632..6003699)
+Eterm	352	101	_OX243811.1_000298.1
+Einit	968	633	_OX243811.1_000298.1
+>region-379 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6030535..6031375)
+Einit	101	192	_OX243811.1_000190.1
+Eterm	654	741	_OX243811.1_000190.1
+>region-381 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6042735..6048316)
+Eterm	743	101	_OX243811.1_000295.1
+Exon	1526	1439	_OX243811.1_000295.1
+Exon	3677	3525	_OX243811.1_000295.1
+Exon	4568	4328	_OX243811.1_000295.1
+Einit	5482	5408	_OX243811.1_000295.1
+>region-384 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6098684..6106731)
+Eterm	555	101	_OX243811.1_000292.1
+Exon	1177	1079	_OX243811.1_000292.1
+Exon	2019	1741	_OX243811.1_000292.1
+Exon	5593	5474	_OX243811.1_000292.1
+Exon	6540	6455	_OX243811.1_000292.1
+Exon	7346	6994	_OX243811.1_000292.1
+Einit	7948	7778	_OX243811.1_000292.1
+>region-392 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6233860..6237179)
+Einit	101	179	_OX243811.1_000193.1
+Eterm	2640	3220	_OX243811.1_000193.1
+>region-396 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6291952..6295388)
+Einit	101	769	_OX243811.1_000196.1
+Eterm	2960	3337	_OX243811.1_000196.1
+>region-397 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6328041..6332060)
+Eterm	472	101	_OX243811.1_000284.1
+Exon	2106	2023	_OX243811.1_000284.1
+Einit	3920	3558	_OX243811.1_000284.1
+>region-402 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6457324..6478034)
+Einit	101	1493	_OX243811.1_000200.1
+Exon	4227	4363	_OX243811.1_000200.1
+Exon	6165	6263	_OX243811.1_000200.1
+Exon	12751	12852	_OX243811.1_000200.1
+Exon	13409	13504	_OX243811.1_000200.1
+Exon	13987	14085	_OX243811.1_000200.1
+Exon	14716	14814	_OX243811.1_000200.1
+Exon	15031	15129	_OX243811.1_000200.1
+Exon	16612	16617	_OX243811.1_000200.1
+Exon	16913	16984	_OX243811.1_000200.1
+Exon	17409	17537	_OX243811.1_000200.1
+Exon	18294	18437	_OX243811.1_000200.1
+Eterm	19580	20611	_OX243811.1_000200.1
+>region-403 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6526154..6530229)
+Einit	101	776	_OX243811.1_000201.1
+Eterm	2121	3976	_OX243811.1_000201.1
+>region-404 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6541793..6544352)
+Einit	101	427	_OX243811.1_000202.1
+Eterm	733	2460	_OX243811.1_000202.1
+>region-408 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6631278..6635438)
+Einit	101	776	_OX243811.1_000206.1
+Eterm	2206	4061	_OX243811.1_000206.1
+>region-409 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6645609..6648164)
+Einit	101	427	_OX243811.1_000207.1
+Eterm	717	2456	_OX243811.1_000207.1
+>region-410 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6657194..6662355)
+Esngl	5062	101	_OX243811.1_000282.1
+>region-412 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6683932..6685859)
+Esngl	1828	101	_OX243811.1_000280.1
+>region-423 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6824052..6826722)
+Einit	9	509	_OX243811.1_000213.1
+Exon	1129	1261	_OX243811.1_000213.1
+Eterm	2369	2571	_OX243811.1_000213.1
+>region-424 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6828300..6829789)
+Esngl	1390	101	_OX243811.1_000274.1
+>region-432 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6876954..6907180)
+Einit	28	106	_OX243811.1_000221.1
+Exon	952	1070	_OX243811.1_000221.1
+Exon	2218	2392	_OX243811.1_000221.1
+Exon	3684	3814	_OX243811.1_000221.1
+Exon	4082	4241	_OX243811.1_000221.1
+Exon	4668	4871	_OX243811.1_000221.1
+Exon	5732	6142	_OX243811.1_000221.1
+Exon	7323	7568	_OX243811.1_000221.1
+Exon	8282	8488	_OX243811.1_000221.1
+Exon	8889	9125	_OX243811.1_000221.1
+Exon	9438	9488	_OX243811.1_000221.1
+Exon	9960	10199	_OX243811.1_000221.1
+Exon	10895	11161	_OX243811.1_000221.1
+Exon	11619	11861	_OX243811.1_000221.1
+Exon	12957	13181	_OX243811.1_000221.1
+Exon	15143	15187	_OX243811.1_000221.1
+Exon	15462	15577	_OX243811.1_000221.1
+Exon	18026	18185	_OX243811.1_000221.1
+Exon	18930	19172	_OX243811.1_000221.1
+Exon	20098	20739	_OX243811.1_000221.1
+Exon	22174	22356	_OX243811.1_000221.1
+Exon	23032	23208	_OX243811.1_000221.1
+Exon	23616	23789	_OX243811.1_000221.1
+Exon	24362	24547	_OX243811.1_000221.1
+Exon	25091	25294	_OX243811.1_000221.1
+Exon	25793	25969	_OX243811.1_000221.1
+Exon	26462	26467	_OX243811.1_000221.1
+Exon	26680	26859	_OX243811.1_000221.1
+Exon	27213	27398	_OX243811.1_000221.1
+Exon	27549	27557	_OX243811.1_000221.1
+Exon	28710	28889	_OX243811.1_000221.1
+Eterm	29904	30127	_OX243811.1_000221.1
+>region-433 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6913126..6914663)
+Esngl	101	1438	_OX243811.1_000222.1
+>region-434 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6916852..6921820)
+Eterm	435	101	_OX243811.1_000273.1
+Einit	4869	4641	_OX243811.1_000273.1
+>region-435 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6931467..6932590)
+Eterm	363	101	_OX243811.1_000272.1
+Einit	1024	814	_OX243811.1_000272.1
+>region-436 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6934308..6935330)
+Eterm	486	101	_OX243811.1_000271.1
+Einit	923	704	_OX243811.1_000271.1
+>region-437 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6938427..6940340)
+Eterm	414	101	_OX243811.1_000270.1
+Exon	688	573	_OX243811.1_000270.1
+Exon	825	774	_OX243811.1_000270.1
+Exon	1139	920	_OX243811.1_000270.1
+Einit	1814	1809	_OX243811.1_000270.1
+>region-438 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6942857..6944293)
+Eterm	399	101	_OX243811.1_000269.1
+Einit	1337	1112	_OX243811.1_000269.1
+>region-439 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 6953931..6960448)
+Esngl	101	6418	_OX243811.1_000223.1
+>region-446 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7081449..7082270)
+Esngl	802	101	_OX243811.1_000268.1
+>region-447 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7082269..7083450)
+Esngl	1082	21	_OX243811.1_000267.1
+>region-454 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7301924..7307477)
+Einit	101	895	_OX243811.1_000232.1
+Exon	1523	1673	_OX243811.1_000232.1
+Exon	2217	2392	_OX243811.1_000232.1
+Exon	2727	2871	_OX243811.1_000232.1
+Exon	3540	3656	_OX243811.1_000232.1
+Exon	4001	4288	_OX243811.1_000232.1
+Exon	4835	4999	_OX243811.1_000232.1
+Eterm	5258	5454	_OX243811.1_000232.1
+>region-456 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7372687..7379416)
+Einit	101	955	_OX243811.1_000234.1
+Exon	1384	1519	_OX243811.1_000234.1
+Exon	1825	1991	_OX243811.1_000234.1
+Exon	2702	2843	_OX243811.1_000234.1
+Exon	3725	3871	_OX243811.1_000234.1
+Exon	4536	4799	_OX243811.1_000234.1
+Exon	5627	5776	_OX243811.1_000234.1
+Eterm	6434	6630	_OX243811.1_000234.1
+>region-458 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7397155..7402294)
+Einit	101	1006	_OX243811.1_000236.1
+Exon	1479	1623	_OX243811.1_000236.1
+Exon	2395	2658	_OX243811.1_000236.1
+Exon	3108	3389	_OX243811.1_000236.1
+Exon	3966	4118	_OX243811.1_000236.1
+Exon	4636	4788	_OX243811.1_000236.1
+Eterm	4844	5040	_OX243811.1_000236.1
+>region-459 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7406506..7410422)
+Esngl	101	3817	_OX243811.1_000237.1
+>region-460 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7432355..7433773)
+Esngl	101	1399	_OX243811.1_000238.1
+>region-462 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7443956..7463024)
+Eterm	460	101	_OX243811.1_000262.1
+Exon	1383	1295	_OX243811.1_000262.1
+Exon	2356	2284	_OX243811.1_000262.1
+Exon	2585	2487	_OX243811.1_000262.1
+Exon	4082	4003	_OX243811.1_000262.1
+Exon	4759	4684	_OX243811.1_000262.1
+Exon	5823	5741	_OX243811.1_000262.1
+Exon	6686	6602	_OX243811.1_000262.1
+Exon	7892	7720	_OX243811.1_000262.1
+Exon	8662	8411	_OX243811.1_000262.1
+Exon	10818	10705	_OX243811.1_000262.1
+Exon	16369	16217	_OX243811.1_000262.1
+Exon	16887	16770	_OX243811.1_000262.1
+Einit	18969	18460	_OX243811.1_000262.1
+>region-464 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7480115..7481042)
+Esngl	101	883	_OX243811.1_000240.1
+>region-466 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7481308..7482575)
+Esngl	4	1263	_OX243811.1_000242.1
+>region-467 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7482574..7482876)
+Esngl	6	203	_OX243811.1_000243.1
+>region-470 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7524870..7528825)
+Eterm	566	101	_OX243811.1_000259.1
+Exon	3585	2805	_OX243811.1_000259.1
+Einit	3856	3817	_OX243811.1_000259.1
+>region-471 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7539951..7540827)
+Einit	101	133	_OX243811.1_000245.1
+Eterm	268	777	_OX243811.1_000245.1
+>region-472 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7540918..7547827)
+Eterm	3434	101	_OX243811.1_000258.1
+Exon	4103	3797	_OX243811.1_000258.1
+Exon	4572	4432	_OX243811.1_000258.1
+Exon	5226	5146	_OX243811.1_000258.1
+Exon	5411	5355	_OX243811.1_000258.1
+Exon	5740	5561	_OX243811.1_000258.1
+Exon	6054	5926	_OX243811.1_000258.1
+Exon	6625	6551	_OX243811.1_000258.1
+Einit	6810	6801	_OX243811.1_000258.1
+>region-474 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7693291..7695884)
+Eterm	966	101	_OX243811.1_000257.1
+Exon	1988	1685	_OX243811.1_000257.1
+Einit	2494	2489	_OX243811.1_000257.1
+>region-475 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7698267..7712640)
+Eterm	286	101	_OX243811.1_000256.1
+Exon	523	515	_OX243811.1_000256.1
+Exon	798	652	_OX243811.1_000256.1
+Exon	2903	2617	_OX243811.1_000256.1
+Exon	6858	6711	_OX243811.1_000256.1
+Exon	7900	7691	_OX243811.1_000256.1
+Einit	14274	14086	_OX243811.1_000256.1
+>region-479 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7757593..7758960)
+Esngl	1268	6	_OX243811.1_000252.1
+>region-480 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7769377..7770995)
+Esngl	101	1519	_OX243811.1_000247.1
+>region-483 (OX243811.1 Lumbricus rubellus genome assembly, chromosome: 1 7824143..7826391)
+Esngl	2149	101	_OX243811.1_000251.1
