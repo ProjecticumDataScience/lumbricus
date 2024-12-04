@@ -30,14 +30,5 @@
 
 
 
-###
-##### command line:
-##### augustus --species=caenorhabditis lumbricus_seq_chr1.fasta --genemodel=complete
-### Augustus statistics:   output raw 11 632 genes
-
-
-command bash:
-
-$dir/gmhmme3  -o GeneMark-E-tests/GeneMark.hmm/test/genemark_chr1_lumbricus.gff3  -m GeneMark-E-tests/GeneMark.hmm/input/c_elegans.mod  -f gff3  GeneMark-E-tests/GeneMark.hmm/input/sequence.fasta
 
 
