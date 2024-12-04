@@ -1,7 +1,7 @@
 
 
 
-### fasta file  Lumbricus terrestris GCA_945859605.1  chromosome 1 1% is scanned in SNAP pipeline in combination met Helixer (web version)
+### fasta file  Lumbricus terrestris GCA_945859605.1  chromosome  1% is scanned in SNAP pipeline in combination met Helixer (web version)
 ## Base statistic : 
 1 % procent of chromosome containts:   38 genes, 37 OK, 18 warnings, 1 errors
 
