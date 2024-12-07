@@ -1,0 +1,54 @@
+(base) alena@alena:~/SNAP$ mkdir train_at
+(base) alena@alena:~/SNAP$ cd train_at
+(base) alena@alena:~/SNAP/train_at$ ../gff3_to_zff.pl   ../100/ OX457036.1helixer_on_100procent.gff3/sequence.fasta   ../100/OX457036.1helixer_on_100procent.gff3 > at.zff
+usage: ../gff3_to_zff.pl <fasta file> <gff file>
+(base) alena@alena:~/SNAP/train_at$ ../gff3_to_zff.pl  ../100/sequence.fasta  ../100/OX457036.1helixer_on_100procent.gff3  >at.zff
+(base) alena@alena:~/SNAP/train_at$ ls
+at.zff
+(base) alena@alena:~/SNAP/train_at$ head at.zff
+>OX457036.1
+Exon 17242332 17242335 _OX457036.1_000229.1
+Exon 17242793 17242978 _OX457036.1_000229.1
+Exon 17243544 17243656 _OX457036.1_000229.1
+Exon 17243985 17243986 _OX457036.1_000229.1
+Exon 17244091 17244325 _OX457036.1_000229.1
+Exon 17245426 17245558 _OX457036.1_000229.1
+Exon 17245975 17246157 _OX457036.1_000229.1
+Exon 17247136 17247139 _OX457036.1_000229.1
+Exon 17247292 17247381 _OX457036.1_000229.1
+(base) alena@alena:~/SNAP/train_at$ ../fathom -validate at.zff	.../100/ sequence.fasta  > at.validate
+
+FATHOM - sequence and annotation tool (version 2006-07-28)
+
+usage: fathom <ann> <dna> <commands>
+commands:
+  -help       	report useful information
+  -validate [-quiet]
+  -gene-stats [-errors-ok -nucleotide -dinucleotide]
+  -categorize <int>
+  -export <int> [-plus -errors-ok]
+  -extract <feature> -length <int> -offset <int>
+  -exon-intron
+  -split <-number <int> | -training <float> | -GC <float> | -repeat <float>>
+  -ace-format <-gene-method <string> [-dna -extra <string>]>
+  -compare-genes <predictions> [-details]
+  -score-genes <hmm> [-errors-ok]
+  -filter-genes <hmm> -min-score <float> -min-length <int>
+(base) alena@alena:~/SNAP/train_at$ ../fathom -validate at.zff	../100/sequence.fasta  > at.validate
+ZOE WARNING (from ../fathom): DNA and annotation do not have the same def line!
+
+ZOE WARNING (from ../fathom): OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1
+53401936
+
+3128 genes, 2960 OK, 2301 warnings, 168 errors
+(base) alena@alena:~/SNAP/train_at$ head at.validate
+: _OX457036.1_003128.1 170755 179602 9 - warnings(1): exon-4:short(2)
+Eterm	170755	171063	-	.	0	0	0	_OX457036.1_003128.1
+Exon	171684	171774	-	.	1	0	0	_OX457036.1_003128.1
+Exon	171980	172130	-	.	2	2	0	_OX457036.1_003128.1
+Exon	173691	173823	-	.	0	1	2	_OX457036.1_003128.1
+Exon	173944	174024	-	.	0	0	0	_OX457036.1_003128.1
+Exon	175557	175558	-	.	2	0	1	_OX457036.1_003128.1
+Exon	176498	176506	-	.	2	1	0	_OX457036.1_003128.1
+Exon	179151	179157	-	.	0	1	2	_OX457036.1_003128.1
+Einit	179573	179602	-	.	0	0	1	_OX457036.1_003128.1
