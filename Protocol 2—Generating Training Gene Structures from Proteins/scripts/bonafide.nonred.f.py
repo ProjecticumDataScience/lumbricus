@@ -12,7 +12,7 @@ import re
 
 
 
-origfilename ="bonafideOrtho.gb"
+origfilename ="bonafide.gb"
 goodfilename ="nonred.loci.lst"
 
 

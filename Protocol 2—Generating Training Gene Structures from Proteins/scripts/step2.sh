@@ -9,12 +9,12 @@
 
 startAlign.pl --genome=genome.fa --prot=seed_proteins.faa --prg=gth
 
-# this wil produce gth.concat.aln, see map data proccessing.
+# this wil produce gth.concat.aln, see  data proccessing.
 # activate your enviroment, where your augustus and braker are intsalled
 
 gth2gtf.pl  gth.concat.aln bonafide.gtf
 
-# this wil produce bonafude.gtf file, see map data -proccing, Bonafid
+# this wil produce bonafide.gtf file, see map data -processing, part Bonafid
 
  computeFlankingRegion.pl bonafide.gtf
 

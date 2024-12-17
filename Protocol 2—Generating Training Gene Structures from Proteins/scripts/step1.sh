@@ -9,7 +9,7 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR108/049/ERR10851549/ERR10851549_2.fas
 
 # protein dataset comes from OrthoDB, Arthropoda  : https://bioinf.uni-greifswald.de/bioinf/partitioned_odb11/
 
-# the protein database should be prepaired with ProtHints, otherwise you can not use it with startAlign.pl. Install ProtHints
+# the protein database should be prepaired with ProtHints, if proteins are not preproccessed with ProtHints, you will get en error, running StartAlign.pl  Install ProtHints
 
 # ProtHints installation
 # Install     MCE::Mutex
