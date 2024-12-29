@@ -1,3 +1,10 @@
+ref genoom:
+
+https://ftp.ensembl.org/pub/rapid-release/species/Lumbricus_terrestris/GCA_949752735.1/ensembl/genome/
+
+ref transcriptoom:
+
+https://www.ebi.ac.uk/ena/browser/view/PRJEB59399
 
 TopHat package
 https://ccb.jhu.edu/software/tophat/downloads/
