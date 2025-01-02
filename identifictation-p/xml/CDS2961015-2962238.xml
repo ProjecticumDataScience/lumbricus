@@ -1,0 +1,1479 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7637813</BlastOutput_query-ID>
+  <BlastOutput_query-def>CDS</BlastOutput_query-def>
+  <BlastOutput_query-len>407</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7637813</Iteration_query-ID>
+  <Iteration_query-def>CDS</Iteration_query-def>
+  <Iteration_query-len>407</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>emb|CAF3344680.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria socialis]</Hit_def>
+  <Hit_accession>CAF3344680</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.402</Hsp_bit-score>
+      <Hsp_score>1095</Hsp_score>
+      <Hsp_evalue>1.12117e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAMDNVKENC----RGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRALSTYGR</Hsp_qseq>
+      <Hsp_hseq>LTVLLNRLKCHLDPYLSEEQAGFRQDRSTVHQILILRLLAEKAKRQEKKIYNCFIDFQKAFDTIKHKIIWAVLKSFGVENKMITLLKHIYEKAQSAVRVEKETGEWFQTSVGSRQGDPLSPLLFITYLERVMDKAIQINRGINISGTLVNNLRFADDIDVLEEDCDSLHQQIEQLKVAAEEAGLLINTKKTKTLVFGDRNIEKHVQIAGNIIENVEQFEYLGSLLTWDNTCSDEIKRRIGKSIGAMAALKSIWNSKKIKIENKIRILTTCVFSVLLYASETWTLKEADRKKLLAFEMKCYRRILRISWKDMIRNTDIRKQIARKETIIDNIKRRKLRLFGHICRMNDNRLIKHTVFARINGKPRRGRPCREWMDDIIEWCG-YSGQDLFHLAQDRTKWKEVIRIAVGPNGR</Hsp_hseq>
+      <Hsp_midline>+ +L  RL+  ++ +L++EQAGFR+DR TV QIL LRL+AEKA+R+ KKIYNCF+DFQKAFD+I  K+ WAV++S+GV +K+I +L+ I E A +AVR++ E GEWF+T+ G+RQGDP+SP +FIT ++ V +      RGI++ G  +NNLRFADDID++EE+ D L + +  L   ++  GL++NT KTKT+VFG   IE+ + + G  +ENV++F YLGS  T+D  C  E+  R  K+  A+AAL  IW SK+I ++ K+ +L TCVFS  LYA ETW + +   +++LAFE  CYRR+LR+ W++ ++N  +  +I  ++T++  +  RKL+LFGHICRM+D+R +K  VF  + G  +RG P REW DDI EWCG  S Q L H A +R KWKEVI+ A+   GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|CAF1270699.1|</Hit_id>
+  <Hit_def>unnamed protein product [Adineta ricciae] &gt;emb|CAF1402212.1| unnamed protein product [Adineta ricciae]</Hit_def>
+  <Hit_accession>CAF1270699</Hit_accession>
+  <Hit_len>1029</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>8.85618e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>620</Hsp_hit-from>
+      <Hsp_hit-to>1029</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRALSTYGR</Hsp_qseq>
+      <Hsp_hseq>LMVLLNRLKQHLDPYMSEEQAGFRKDRNTTHQILILRLLAEKAKRNGKKIYNCFVDFTKAFDTIKHNIMWAVLRSYGVDNKVITLLEKIYGNSRSAVRIGSDIGEWFQTSVGTRQGDPLSPLLFIAYLERIMDKTTSTNNGANLSGTLVSNLRFADDIDLISENHIALQEQIQQLTTTAAEAGLLVNTRKTKTMVFGGRTIDMEMEIQGTTIENVEEFEYLGSLLTWDNDCSKEIRRRINKAIGAMASLKHIWNTKKIKIENKLKILTTCVFSVLLYACDTWTLKEGDKKKLLAFEMRCYRRLLRISWKDMVRNIDIRKQIGAHETIVDKIKRRKLKLFGHVCRMDDNRLLKHVVFSRINGKSRRGRPCREWLDDITEWCG-YGCQDLVHLAQSRDQWKGIIRSVVGPNGR</Hsp_hseq>
+      <Hsp_midline>+M+L  RL+  ++ ++++EQAGFRKDR T  QIL LRL+AEKA+R GKKIYNCFVDF KAFD+I   + WAV++SYGV++K+I +L  I  N+ +AVR+ +++GEWF+T+ GTRQGDP+SP +FI      MD       G ++ G  ++NLRFADDID+I EN   L+  +  L T +   GL+VNT KTKTMVFG  TI+ ++ + G T+ENV+EF YLGS  T+D +C +E+  R  KA  A+A+L  IW +K+I ++ KL +L TCVFS  LYAC+TW + +  ++++LAFE  CYRR+LR+ W++ ++N  +  +IG  +T++ K+  RKL+LFGH+CRMDD+R LK +VF  + G ++RG P REW DDITEWCG    Q L H A  RD+WK +I+  +   GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|CAF1474590.1|</Hit_id>
+  <Hit_def>unnamed protein product [Adineta ricciae]</Hit_def>
+  <Hit_accession>CAF1474590</Hit_accession>
+  <Hit_len>1044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.846</Hsp_bit-score>
+      <Hsp_score>1065</Hsp_score>
+      <Hsp_evalue>1.27733e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>635</Hsp_hit-from>
+      <Hsp_hit-to>1044</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRALSTYGR</Hsp_qseq>
+      <Hsp_hseq>LMVLLNRLKHQLDPFLSEEQAGFRKDRSTVHQILILRLLAEKAKRNGKKIYNCFIDFQKAFDTIKHEIIWAVLKSYGVNNKVVTLLEKIYGKSRSAVRIGTDLGDWFQSSVGTRQGDPLSPLLFIAYLERIMDQTTSTNIGIKISGTYINNLKFADDIDLLSEDHISLQDQILQITNAAEEGGLLINIKKTKTMVFGAKNIDKQVEVNGQHIENIEEFEYLGSLLTWDNNCSKEIKRRINKANGAMASMKHMWATGKLTIESKIKLLKTCVFSVLLYASETWTLKETDKQKLLAFEMRCYRRILRIRWMDMVKNVDIRKRIGAHETITDVIKKRKLRLFGHICRMDDSRLLKHVVFSRIHGKTRRGRPCREWLDDITDWCGR-SCRDLVHLAQSRYQWKNLIRTVIGPNGH</Hsp_hseq>
+      <Hsp_midline>+M+L  RL+ Q++  L++EQAGFRKDR TV QIL LRL+AEKA+R GKKIYNCF+DFQKAFD+I  ++ WAV++SYGVN+K++ +L  I   + +AVR+  +LG+WF+++ GTRQGDP+SP +FI      MD       GI + G  INNL+FADDID++ E+   L+  +  +   ++  GL++N  KTKTMVFG++ I++Q+ ++G+ +EN++EF YLGS  T+D NC +E+  R  KA  A+A++  +W + ++ +++K+ +L TCVFS  LYA ETW + +  ++++LAFE  CYRR+LR+ W + +KN  +  RIG  +T+   +  RKL+LFGHICRMDDSR LK +VF  + G  +RG P REW DDIT+WCG  S + L H A  R +WK +I+  +   G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_047478509.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC125031667 [Penaeus chinensis]</Hit_def>
+  <Hit_accession>XP_047478509</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>2.03823e-126</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>QMEEHLA----DEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRALSTYGR</Hsp_qseq>
+      <Hsp_hseq>QLKHHKSPGTDDTQAGFRHDRSTVQQILILRLIAEKAFRKNITIYNCFIDFQKAFDTIDHDTIWAVLRSYGVEPKLIRVLKHVYDSSKAAVRIGNDIGDWFQQEKGLRQGDPISPTIFIVYLERIMEDIQNNTSGFNISGQTINNLRFADDIDLIELDTRSLERSTYIVNREGKRTGLLINADKTKTMAFGTNN-NINIKVEDKDIQCVEEFEYLGSLFTSDNDISREIKTRIGKACGAMGGFNKIWNSKVISITTKIQILRTCVFSILLYAAESWTLNKQDRNKLLAFEMNCYRRILNIKWFDRITNISIRDRLKCHETIVQIIIKRKMGLFGHICRKDDDRLVKNTAFGIAEGTNRRGRPRREWLDDIKDWSQS-RIASLFHTAQNRANWRTLVKQAVDTNGH</Hsp_hseq>
+      <Hsp_midline>Q++ H +    D QAGFR DR TVQQIL LRLIAEKA RK   IYNCF+DFQKAFD+ID    WAV++SYGV  KLI +L+ + +++ AAVR+ N++G+WF+  KG RQGDPISP +FI      M++++ N  G ++ G  INNLRFADDID+IE +   LER+   +  + K  GL++N  KTKTM FG+      I ++ + ++ V+EF YLGS FT D +  RE+  R  KA  A+   +KIW SK I++ TK+ +L TCVFS  LYA E+W + K+   ++LAFE  CYRR+L ++W +++ N  + +R+   +T++Q +I RK+ LFGHICR DD R +K   FGI EGTN+RG P REW DDI +W  +  +  L HTA  R  W+ ++K+A+ T G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|CAF2172314.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria magnacalcarata]</Hit_def>
+  <Hit_accession>CAF2172314</Hit_accession>
+  <Hit_len>978</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>7.25698e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>972</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKN</Hsp_qseq>
+      <Hsp_hseq>LMVLLNRLKHQLDPHLAEEQAGFRKDRSTTQQILMLRLLAEKAKRNGKKLYNCFIDFQKAFDTIKHKIIWAVLRSYGVENKLVILLQQIYEKSQSAVRIGTDIGEWFQTSLGTRQGDPLSPLLFIAYLERVMDTAMQKDNGVSVSGTLINNLRFADDINILAEDYNSLHNQIEQVTREAAKAGLIVNINKTKTMVFGDQKIDTEIQITGTTIENVEKFEYLGSMVTWDNNCSAEIKRRINKAIGAMSNLKQIWGTRKIKVENKLKLLNSCVFSTLLYASETWTLKETDKKKLLAFETKCYRRILRICWKDMVRN</Hsp_hseq>
+      <Hsp_midline>+M+L  RL+ Q++ HLA+EQAGFRKDR T QQIL LRL+AEKA+R GKK+YNCF+DFQKAFD+I  K+ WAV++SYGV +KL+ +L+ I E + +AVR+  ++GEWF+T+ GTRQGDP+SP +FI      MD   +   G+SV G  INNLRFADDI+I+ E+ + L   +  +  ++   GLIVN  KTKTMVFG + I+ +I + G T+ENV++F YLGS  T+D NC  E+  R  KA  A++ L +IW +++I ++ KL +L++CVFS  LYA ETW + +  ++++LAFE  CYRR+LR+ W++ ++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MFM8658812.1|</Hit_id>
+  <Hit_def>RNA-directed DNA polymerase [Candidatus Nitrosotenuis sp.]</Hit_def>
+  <Hit_accession>MFM8658812</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>1.50454e-100</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>ILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAMDNVKE--NCR---GISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCG</Hsp_qseq>
+      <Hsp_hseq>IVLHRVRGVITDNLSDEQGGFRKDYSTVQQILILRLIAEDRLAKNKNLYHCFVDFKKAFDSVWHRGLWASLKAMETPGKAIRVLNNLYEKSEMAVKTKGGLSRWVRTTIGSRQGDPLSPLMFLALLEKIMEIMECGATGGINVQGRIIKDLRFADDIDLLAETETDLQKLTTELYESGKSYGLMINREKTKVMAMGKD-VTADIRIEDTNVELVDKFVYLGSLITRDNNCSQEIRRRISIATGVYGSLNEIWKNKKISIKNKLHLLDSCVMSTLLYACELWTLKKDDRKTLDAFEMKCYRRMLRFGWAEKRTNDSIRSQINRMKTVTTKVMERKMSLFGHICRMKDDRILKMVLFAVTDGKRKRGKPARRWLDDITEWSG</Hsp_hseq>
+      <Hsp_midline>I+  R++G + ++L+DEQ GFRKD  TVQQIL LRLIAE    K K +Y+CFVDF+KAFDS+  +  WA +++     K I +L ++ E +  AV+ K  L  W RT  G+RQGDP+SP +F+  ++ + E   C    GI+VQG  I +LRFADDID++ E   +L++    L    K YGL++N  KTK M  G + +   I ++   +E V +FVYLGS  T D NC +E+  R + A     +L++IWK+K+I++K KL +LD+CV S  LYACE W + K+  + + AFE  CYRR+LR  W EK  N+ + ++I    T+  KV+ RK+ LFGHICRM D R LK ++F + +G  KRG P R W DDITEW G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CAF1621865.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Adineta ricciae]</Hit_def>
+  <Hit_accession>CAF1621865</Hit_accession>
+  <Hit_len>945</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>4.70676e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>635</Hsp_hit-from>
+      <Hsp_hit-to>942</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEW</Hsp_qseq>
+      <Hsp_hseq>LMVLLNRLKHQLDPFLSEEQAGFRKDRSTVHQILILRLLAEKAKRNGKKIYNCFIDFQKAFDTIKHEIIWAVLKSYGVNNKVVTLLEKIYGKSRSAVRIGTDLGDWFQSSVGTRQGDPLSPLLFIAYLERIMDQTTSTNIGIKISGTYINNLKFADDIDLLSEDHISLQDQILQITNAAEEGGLLINIKKTKTMVFGAKNIDKQVEVNGQHIENIEEFEYLGSLLTWDNNCSKEIKRRINKANGAMASMKHMWATGKLTIESKIKLLKTCVFSVLLYASETWTLKETDKQKLLAFEMRCYRRILRIRW</Hsp_hseq>
+      <Hsp_midline>+M+L  RL+ Q++  L++EQAGFRKDR TV QIL LRL+AEKA+R GKKIYNCF+DFQKAFD+I  ++ WAV++SYGVN+K++ +L  I   + +AVR+  +LG+WF+++ GTRQGDP+SP +FI      MD       GI + G  INNL+FADDID++ E+   L+  +  +   ++  GL++N  KTKTMVFG++ I++Q+ ++G+ +EN++EF YLGS  T+D NC +E+  R  KA  A+A++  +W + ++ +++K+ +L TCVFS  LYA ETW + +  ++++LAFE  CYRR+LR+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HMW60562.1|</Hit_id>
+  <Hit_def>reverse transcriptase domain-containing protein [Leptospiraceae bacterium]</Hit_def>
+  <Hit_accession>HMW60562</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.01834e-93</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>ILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDK--WKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>ILQEICEKSKMAVRVEKELGEWFQAEVGTKQGDPLSPTLFITYLERVMDTMKELNTGVSIHGQTISNLKFADDVDLLDSCQENLQRKVTVVDQAGRETGLKMNISKTKTMVFGRKEIDKDVEVRSVKIENVEEFEYLGSLLTWDNDCSKDIRRRIAKATGVSSGFGSIWKSKQISIKVKMSILRTCVFSVFMYACETWTLRKADRDRILAFEMRCYRRMLGIKWQQKITNVEIRKRLAVKKNLLQEVMGRKLTLFGHICRMNDGRMVKDILFGMMDGKSRRGRPSREWFDDIRECCG---LDAGVCCIKARDKIGWKKIVQES</Hsp_hseq>
+      <Hsp_midline>IL++I E +  AVR++ ELGEWF+   GT+QGDP+SP +FIT     MD +KE   G+S+ G  I+NL+FADD+D+++   + L+R V  +    +  GL +N +KTKTMVFG + I++ + +    +ENV+EF YLGS  T+D +C +++  R AKA    +    IWKSK+I++K K+++L TCVFS  +YACETW + K    RILAFE  CYRR+L ++W++K+ N ++  R+ ++  LLQ+V+ RKL LFGHICRM+D R +K ++FG+M+G ++RG P REW DDI E CG   L         RDK  WK++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KAK3883155.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_012514 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3883155</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>2.20099e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLARAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL +    A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KAK3888025.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_007886 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3888025</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>4.94293e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KAK3887462.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_008463 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3887462</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>9.44161e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|KAK3895279.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_000996 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3895279</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>2.60208e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLIQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFMYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  +YACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KAK3880769.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_014750 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3880769</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>2.92979e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQEIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVCQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVMRRKLQWYGHTIRSDG--LAKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  ++IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G  QG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V+ RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KAK3868246.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_026342 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3868246</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>7.41036e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPISVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDG--LAKTILQGTVRGGRRRGRQRKRWTDNIKEWT-----ERSLASAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW      ++   +A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KAK3863793.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_030472 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3863793</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.31421e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLIQGGVGDWFRTTVGVRQCCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLELLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDG--LAKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQ  P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KAK3895277.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_000994 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3895277</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>7.35851e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI--GLR--DTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLRQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTGRGGRRRGRQRKRWTDNIKEWTER-SLASAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI   LR  + LL  V  RKLQ +GH  R D     KT++ G   G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KAK3880455.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_015057 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3880455</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>2.25547e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYG---SAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRLHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +     +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>emb|CAF4643039.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Rotaria magnacalcarata]</Hit_def>
+  <Hit_accession>CAF4643039</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>4.00481e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEI</Hsp_qseq>
+      <Hsp_hseq>LMVLLNRLKHQLDPHLAEEQAGFRKDRSTTQQILMLRLLAEKAKRNGKKLYNCFIDFQKAFDTIKHKIIWAVLRSYGVENKLVILLQQIYEKSQSAVRIGTDIGEWFQTSLGTRQGDPLSPLLFIAYLERVMDTAMQKDNGVSVSGTLINNLRFADDINILAEDYNSLHNQIEQVTREAAKAGLIVNINKTKTMVFGDQKIDTEIQITGTTIENVEKFEYLGSMVTWDNNCSAEIKRRINKAIGAMSNLKQIWDAMDI</Hsp_hseq>
+      <Hsp_midline>+M+L  RL+ Q++ HLA+EQAGFRKDR T QQIL LRL+AEKA+R GKK+YNCF+DFQKAFD+I  K+ WAV++SYGV +KL+ +L+ I E + +AVR+  ++GEWF+T+ GTRQGDP+SP +FI      MD   +   G+SV G  INNLRFADDI+I+ E+ + L   +  +  ++   GLIVN  KTKTMVFG + I+ +I + G T+ENV++F YLGS  T+D NC  E+  R  KA  A++ L +IW + +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KAK3876533.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_018694 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3876533</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>4.41458e-83</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>RLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDG--LAKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAK3887461.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_008463 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3887461</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>7.2597e-83</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>695</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAK3884931.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_010774 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3884931</Hit_accession>
+  <Hit_len>786</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>9.76568e-83</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>772</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIEGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S++G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAK3894875.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_001371 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3894875</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>1.41478e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMD</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNFGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHIANEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSD</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  +G+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|KAK3861466.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_032573 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3861466</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>3.49418e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>370</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQQLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLASAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|KAI8512775.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_094140 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8512775</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>3.80144e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>589</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAMDNVKENC-----RGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQII-LDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKW</Hsp_qseq>
+      <Hsp_hseq>VILN-RLKPKVEEILTEEQAGFRAGRSTLEQIFNIRMLVEKHLDHQREIRHNFIDFKKAFDRVWHEGLWKVMRDYNIDESLVAIIKSLYDNATSAVLHNNQLGDFFRTTVGVRQGCLLSPALFNVFLENIMQEALTDFESSISIGGRQLSNLRFADDIDLMAGSEDEHQDLSTRVESRSTAYGMEVSTSKSKGMINGPTPDARTTVSMGGEVLEDVDSFKYLGSILNREGTSTQEIRARIAQATAALAKLSPILQSKNISLPVKINLYKSLVASIFLYGCESWTTTAEAERRIEAFEMKCLRRILGISYLQRRTNESVRQEVEEVCGKQQSLLSTVKQRKLMWFGHVCRHNT--LAKTILQGTVAGGRKRGRPRKTWLDNIKKWTG-LSTAQLIREAEDRTGW</Hsp_hseq>
+      <Hsp_midline>+ILN RL+ ++EE L +EQAGFR  R T++QI ++R++ EK     ++I + F+DF+KAFD +  +  W VM+ Y +++ L+ I++ + +NA +AV   N+LG++FRT  G RQG  +SP +F   ++N+ +         IS+ G  ++NLRFADDID++  + DE +     + + S  YG+ V+T+K+K M+ G     R  + + GE LE+V  F YLGS    +    +E+  R A+A AALA L  I +SK I+L  K+ +  + V S  LY CE+W  T E ERRI AFE  C RR+L + + ++  NE +   +    G + +LL  V  RKL  FGH+CR +     KT++ G + G  KRG P + W D+I +W G +S  QL   A +R  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_353803154.1|</Hit_id>
+  <Hit_def>reverse transcriptase domain-containing protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_353803154</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>4.03703e-82</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>RLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAMDNVKENCRG-----ISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQ----LYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>RLKPQAEQIIAEEQAGYRAGRSTTEQIFNLRIICEKYLQHQQHLYRVFVDFKKAFDRVWHAALWATMRVYNISPKIVEVIKSLYDKATSAVLHNSAIGNWFRTTIGVRQGCLLSPTLFNIFLERIMSDALADHEGTVSIGGRAISNLRFADDIDGLAGEEQELEQLVQRLDTTSRAYGMEISAEKTKMMTNNTNGINTDIKVQGQSLNTVHSFKYLGAIVS-DNGSRQEVLSRIAQTTAALTRLKPIWKDRTISLHSKVRLLRSLVISIFLYTCEAWTLTADLQRRIQSMEMRCYRRLLGISYTQHITNDEVRQTITQAIGQHDDLLTVVKKRKLRWYGHVTR--SSGLAKTILQGTVQGGRRRGRPKKRWEDNIREWTG-LTLSEAMRAAEDRERWSMLVKRS</Hsp_hseq>
+      <Hsp_midline>RL+ Q E+ +A+EQAG+R  R T +QI +LR+I EK  +  + +Y  FVDF+KAFD +     WA M+ Y ++ K++ +++ + + A +AV   + +G WFRT  G RQG  +SP +F   ++ +  +        +S+ G AI+NLRFADDID +     ELE+ V  L T S+ YG+ ++  KTK M   +  I   I + G++L  V  F YLG+  + D   ++EV  R A+  AAL  L  IWK + I+L +K+ +L + V S  LY CE W +T +++RRI + E  CYRR+L + + + + N++    +   IG  D LL  V  RKL+ +GH+ R   S   KT++ G ++G  +RG P + W+D+I EW G ++L +    A +R++W  ++KR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>emb|CAF4581437.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria socialis]</Hit_def>
+  <Hit_accession>CAF4581437</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>8.15245e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAMDNVKENC----RGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAAL</Hsp_qseq>
+      <Hsp_hseq>LTVLLNRLKRHLDPYLSEEQAGFRQDRSTVHQILILRLLAEKAKRQEKKIYNCFIDFQKAFDTIKHKIIWAVLKSFGVENKMITLLKHIYEKAQSAVRVEKETGEWFQTSVGSRQGDPLSPLLFITYLERVMDKAIQINRGINISGTLVNNLRFADDIDVLEEDCDSLHQQIEQLKVAAEEAGLLINTKKTKTLVFGDRNIEKHVQIAGNIIENVEQFEYLGSLLTWDNTCSDEIKRRIGKSIGAMAAL</Hsp_hseq>
+      <Hsp_midline>+ +L  RL+  ++ +L++EQAGFR+DR TV QIL LRL+AEKA+R+ KKIYNCF+DFQKAFD+I  K+ WAV++S+GV +K+I +L+ I E A +AVR++ E GEWF+T+ G+RQGDP+SP +FIT ++ V +      RGI++ G  +NNLRFADDID++EE+ D L + +  L   ++  GL++NT KTKT+VFG   IE+ + + G  +ENV++F YLGS  T+D  C  E+  R  K+  A+AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>emb|CAF4804264.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Rotaria socialis]</Hit_def>
+  <Hit_accession>CAF4804264</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>9.55785e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAMDNVKENC----RGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAAL</Hsp_qseq>
+      <Hsp_hseq>LTVLLNRLKCHLDPYLSEEQAGFRQDRSTVHQILILRLLAEKAKRQEKKIYNCFIDFQKAFDTIKHKIIWAVLKSFGVENKMITLLKHIYEKAQSAVRVEKETGEWFQTSVGSRQGDPLSPLLFITYLERVMDKAIQINRGINISGTLVNNLRFADDIDVLEEDCDSLHQQIEQLKVAAEEAGLLINTKKTKTLVFGDRNIEKHVQIAGNIIENVEQFEYLGSLLTWDNTCSDEIKRRIGKSIGAMAAL</Hsp_hseq>
+      <Hsp_midline>+ +L  RL+  ++ +L++EQAGFR+DR TV QIL LRL+AEKA+R+ KKIYNCF+DFQKAFD+I  K+ WAV++S+GV +K+I +L+ I E A +AVR++ E GEWF+T+ G+RQGDP+SP +FIT ++ V +      RGI++ G  +NNLRFADDID++EE+ D L + +  L   ++  GL++NT KTKT+VFG   IE+ + + G  +ENV++F YLGS  T+D  C  E+  R  K+  A+AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KAK3884610.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_011129 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3884610</Hit_accession>
+  <Hit_len>996</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.987e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>579</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARASSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLASAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|CAF2161279.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria magnacalcarata] &gt;emb|CAF4208771.1| unnamed protein product [Rotaria magnacalcarata]</Hit_def>
+  <Hit_accession>CAF2161279</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>3.1146e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTK-LAVLDTCVFSGALYACE</Hsp_qseq>
+      <Hsp_hseq>LTVLLNRLKRHLDPYLPEEQAGFRQDRSTVHQILILRLLAEKAKRQEKKIYNCFIDFQKAFDTIKHKIIWAVLQSFGVENKMITLLKHIYEKAQSAVRVEKETGEWFQTSVGTRQGDPLSPLLFITYLERVMDKAMQINRGINISGTLVNNLRFADDIDVLEDDCDSLHQQIEQLKVAAEEAGVLINTKKTKTLVFGDRNIEKHVQIAGNIIENVEQFEYLGSLLTWDNNCSDEIKRRIGKSIGAMAALKIGLRKGDIVIYPAFLKHFDRNLFGSNPYGYE</Hsp_hseq>
+      <Hsp_midline>+ +L  RL+  ++ +L +EQAGFR+DR TV QIL LRL+AEKA+R+ KKIYNCF+DFQKAFD+I  K+ WAV+QS+GV +K+I +L+ I E A +AVR++ E GEWF+T+ GTRQGDP+SP +FIT     MD   +  RGI++ G  +NNLRFADDID++E++ D L + +  L   ++  G+++NT KTKT+VFG   IE+ + + G  +ENV++F YLGS  T+D NC  E+  R  K+  A+AAL    +  +I +    L   D  +F    Y  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAK3887347.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_008548 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3887347</Hit_accession>
+  <Hit_len>895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.44801e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>881</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKIEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KAK3889436.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_006572 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3889436</Hit_accession>
+  <Hit_len>996</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>4.45612e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>579</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDSLEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKIEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKKRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D+++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|KAK3889267.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_006832 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3889267</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>6.00326e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>897</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILNT-LTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLSEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGEWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGS-INNEEGSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN  L  Q EE +A EQAGFRK R T +QI +LR+++EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +GEWFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAK3891947.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_004188 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3891947</Hit_accession>
+  <Hit_len>996</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>9.81368e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>579</Hsp_hit-from>
+      <Hsp_hit-to>982</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|KAK3893675.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_002520 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3893675</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>1.17619e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>897</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTGSTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|KAK3879309.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_016094 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3879309</Hit_accession>
+  <Hit_len>979</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>1.17768e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>562</Hsp_hit-from>
+      <Hsp_hit-to>965</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|KAK3894692.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_001557 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3894692</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.62088e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>897</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|KAK3894693.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_001558 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3894693</Hit_accession>
+  <Hit_len>898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.62254e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>481</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>emb|CAF3416108.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria socialis] &gt;emb|CAF4866561.1| unnamed protein product [Rotaria socialis]</Hit_def>
+  <Hit_accession>CAF3416108</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>1.89091e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAAL</Hsp_qseq>
+      <Hsp_hseq>LIVLLNRLKNHLDPYLSEEQAEFRKDRSTVHQILTLRLLAEKAKRQGKKIYNCFIDFQKAFDTIKHKIIWAMLKSYGVDAKMITLLQKIYEKSQSAVRIGRNNGEWFRTDVGTRQGDPLSPLLFIAYLERVMDQVRQNTCGINISGILINNLRFVDDIDLIDEGVSSLQRQLELTKTAAEQAGPILNINKTKTMVFGDRNIDNTIRIAGNIIENVETFEYLGSLLTWDNNCSEEIKRRIGKATGTMASL</Hsp_hseq>
+      <Hsp_midline>+++L  RL+  ++ +L++EQA FRKDR TV QIL+LRL+AEKA+R+GKKIYNCF+DFQKAFD+I  K+ WA+++SYGV+ K+I +L+ I E + +AVR+    GEWFRT+ GTRQGDP+SP +FI      MD V++N  GI++ G+ INNLRF DDID+I+E V  L+R +    T ++  G I+N  KTKTMVFG   I+  I + G  +ENV+ F YLGS  T+D NC  E+  R  KA   +A+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KAK3894356.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_001893 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3894356</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>5.30425e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>533</Hsp_hit-from>
+      <Hsp_hit-to>936</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKQKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQSYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK K  +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_063613390.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC134786664 [Penaeus indicus]</Hit_def>
+  <Hit_accession>XP_063613390</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>5.99742e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFI----TAMDNVKENCRG-ISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRIGLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>LKIIAKRMASKLNEEIAKEQAGFRPGKGTRDQIMNLKMILEKNRERGLDGFLCFINYSKAFDTVAHDNLWNNMYTMGFPTHIILLLKSLYEQQKAAVRTTYGLTDWFDIEQGVRQGCIISPHLFNIYSEMIMRNALEDYEGSIKIEGHSITNLRYADDVVLIAGSIDELQNLVDRVKTESEKTGLLLNAKKTKVMKIQKTPTDQEIIIDGAPVENVTEFTYLGATFTNKVDDSKEIRKRITLAKNATIALSNIWKDRNISIITKKRLLHSLVFSIASYGSECWVLKATDRKKIESFEIWCYRRVLRISWIEKKTNEEVLQRINIKRRLLNILDERKLTFIGHQMRKNNSFE-KTLLLGVVYGRRTRGRTKIRLYDNNRELTG-LTMVELERKAQDRARWRKCVQRA</Hsp_hseq>
+      <Hsp_midline>+ I+  R+  ++ E +A EQAGFR  +GT  QI++L++I EK R +G   + CF+++ KAFD++     W  M + G    +I +L+ + E   AAVR    L +WF   +G RQG  ISP +F       M N  E+  G I ++G +I NLR+ADD+ +I  ++DEL+  V  + T+S+  GL++N  KTK M       +++II+DG  +ENV EF YLG+TFT  ++  +E+  R   AK A  AL  IWK + I++ TK  +L + VFS A Y  E WV+     ++I +FE  CYRRVLR+ W EK  NE++  RI ++  LL  +  RKL   GH  R ++S + KTL+ G++ G   RG       D+  E  G +++ +L   A +R +W++ ++RA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.93424e-06</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>525</Hsp_hit-from>
+      <Hsp_hit-to>617</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LERTVGTLATDSKPYGLIVNTAKTKTMVFG--SETIE-RQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKE</Hsp_qseq>
+      <Hsp_hseq>LETPVTRVKLASEQAGLMLNTQKTKVMKMAGDPENIEIRDLIVNGEVIETVKKFIYLGAIFTSDCNDSAGIKRRLAIARNAVISLSNTWKDRD</Hsp_hseq>
+      <Hsp_midline>LE  V  +   S+  GL++NT KTK M      E IE R +I++GE +E VK+F+YLG+ FT D N    +  R A A+ A+ +L   WK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|CAF2043533.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria magnacalcarata]</Hit_def>
+  <Hit_accession>CAF2043533</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>9.20278e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>537</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIA</Hsp_qseq>
+      <Hsp_hseq>LMVLLNRLKHQLEPFLSEEQAGFRKDRSTVQQILILRLLAEKAKRNGTKIYNCFIDFQKAFDTIKHKIIWATLRSYGVDNKLVILLEKIYGKSRSAVRIGKDIGEWFQTTVGTRQGDPLSPLLFITYLERIMDKTTAKFNGVNISGTYVNNLRFADDIDLINENHSILQKHLEQITKTAEEAGLLINIQKTKTLVFGDQNIDEQMKIKNENIKNVEEFEYLGSLITWDNNCSKEINRRINKAIGAMTNLKHIWNTKKLT</Hsp_hseq>
+      <Hsp_midline>+M+L  RL+ Q+E  L++EQAGFRKDR TVQQIL LRL+AEKA+R G KIYNCF+DFQKAFD+I  K+ WA ++SYGV++KL+ +L  I   + +AVR+  ++GEWF+T  GTRQGDP+SP +FIT     MD       G+++ G  +NNLRFADDID+I EN   L++ +  +   ++  GL++N  KTKT+VFG + I+ Q+ +  E ++NV+EF YLGS  T+D NC +E+  R  KA  A+  L  IW +K++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>emb|CAF3392057.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria socialis]</Hit_def>
+  <Hit_accession>CAF3392057</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>9.74478e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAAL</Hsp_qseq>
+      <Hsp_hseq>LVILLNRIKHHLDPYLADEQAGFRKDRSTVQQILTLRLLAEKTKRQGKKLYNCFIDFQKAFDTIKHKIIWAVLKSYGIGNKMITVLQNIYEQAQSAVRIDKETGEWLQTSVGTRQGDPLSPLLFITHLERVMDKAMQMDSGINISGTLVNNLRFADDIDIIQEDCDMLLEQIERLRAAAGQAGLAMNTEKTKTLVFGDRNIEKQMHIAGNQIENVEQFEYLGSLLTRDNNFTEEIKRRIGKAIGAI</Hsp_hseq>
+      <Hsp_midline>++IL  R++  ++ +LADEQAGFRKDR TVQQIL+LRL+AEK +R+GKK+YNCF+DFQKAFD+I  K+ WAV++SYG+ +K+I +L++I E A +AVR+  E GEW +T+ GTRQGDP+SP +FIT     MD   +   GI++ G  +NNLRFADDIDII+E+ D L   +  L   +   GL +NT KTKT+VFG   IE+Q+ + G  +ENV++F YLGS  T D N   E+  R  KA  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|KAK3895804.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_000422 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3895804</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.08624e-79</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>897</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFGRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGRVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRRHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAF  +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>emb|CAF3702999.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Rotaria socialis]</Hit_def>
+  <Hit_accession>CAF3702999</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>1.77391e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAA</Hsp_qseq>
+      <Hsp_hseq>LVILLNRIKHHLDPYLADEQAGFRKDRSTVQQILTLRLLAEKTKRQGKKLYNCFIDFQKAFDTIKHKIIWAVLKSYGIGSKMITVLQNIYEQAQSAVRIDKETGEWLQTSVGTRQGDPLSPLLFITHLERVMDKAMQMDSGINISGTLVNNLRFADDIDIIQEDCDMLLEQIERLRAAAGQAGLAMNTEKTKTLVFGDRNIEKQMHIAGNQIENVEQFEYLGSLLTRDNNFTEEIKRRIGKAIGA</Hsp_hseq>
+      <Hsp_midline>++IL  R++  ++ +LADEQAGFRKDR TVQQIL+LRL+AEK +R+GKK+YNCF+DFQKAFD+I  K+ WAV++SYG+  K+I +L++I E A +AVR+  E GEW +T+ GTRQGDP+SP +FIT     MD   +   GI++ G  +NNLRFADDIDII+E+ D L   +  L   +   GL +NT KTKT+VFG   IE+Q+ + G  +ENV++F YLGS  T D N   E+  R  KA  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>emb|CAF5104682.1|</Hit_id>
+  <Hit_def>unnamed protein product [Rotaria magnacalcarata]</Hit_def>
+  <Hit_accession>CAF5104682</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.83321e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAAL</Hsp_qseq>
+      <Hsp_hseq>LTVLLNRLKRHLDPYLSEEQAGFTQDRSTVHQILILRLLAEKAKRQEKKIYNCFIDFQKAFDAIKHKIIWAVLKSFGVENKMITLLKHIYEKAQSAVRVEKETGEWFQTSVGSRQGDPLSPLPFITYLERVMDKAMQINRGINISGTLVNNLRFADDIDVLEEDCDSLHQQIEQLKITAEEAGLLINTKKTKTLVFGDRNIEKHVQIAENIIENVELFEYLGSLLTWDNNCSDEIKRRIGKSIGAMAAL</Hsp_hseq>
+      <Hsp_midline>+ +L  RL+  ++ +L++EQAGF +DR TV QIL LRL+AEKA+R+ KKIYNCF+DFQKAFD+I  K+ WAV++S+GV +K+I +L+ I E A +AVR++ E GEWF+T+ G+RQGDP+SP  FIT     MD   +  RGI++ G  +NNLRFADDID++EE+ D L + +  L   ++  GL++NT KTKT+VFG   IE+ + +    +ENV+ F YLGS  T+D NC  E+  R  K+  A+AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>emb|CAF4966739.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Rotaria magnacalcarata]</Hit_def>
+  <Hit_accession>CAF4966739</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>2.18124e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MMILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFIT----AMDNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAAL</Hsp_qseq>
+      <Hsp_hseq>LTVLLNRLKRHLDPYLSEEQAGFTQDRSTVHQILILRLLAEKAKRQEKKIYNCFIDFQKAFDAIKHKIIWAVLKSFGVENKMITLLKHIYEKAQSAVRVEKETGEWFQTSVGSRQGDPLSPLPFITYLERVMDKAMQINRGINISGTLVNNLRFADDIDVLEEDCDSLHQQIEQLKITAEEAGLLINTKKTKTLVFGDRNIEKHVQIAENIIENVELFEYLGSLLTWDNNCSDEIKRRIGKSIGAMAAL</Hsp_hseq>
+      <Hsp_midline>+ +L  RL+  ++ +L++EQAGF +DR TV QIL LRL+AEKA+R+ KKIYNCF+DFQKAFD+I  K+ WAV++S+GV +K+I +L+ I E A +AVR++ E GEWF+T+ G+RQGDP+SP  FIT     MD   +  RGI++ G  +NNLRFADDID++EE+ D L + +  L   ++  GL++NT KTKT+VFG   IE+ + +    +ENV+ F YLGS  T+D NC  E+  R  K+  A+AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAK3854758.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_038782 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3854758</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>4.26163e-79</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQ</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKIEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQ</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|KAK3894344.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_001881 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3894344</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>1.29946e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>533</Hsp_hit-from>
+      <Hsp_hit-to>936</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDFKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTIPNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKQKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQSYGHTIR--SVGLAKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDNVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVDF+KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK K  +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R       KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KAK3894694.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_001559 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3894694</Hit_accession>
+  <Hit_len>1984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.4741e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>614</Hsp_hit-from>
+      <Hsp_hit-to>1017</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.4741e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>1567</Hsp_hit-from>
+      <Hsp_hit-to>1970</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFDRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRQHLGQYEDLLTTVKRRKLQWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAFD +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKLQ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|KAK3883996.1|</Hit_id>
+  <Hit_def>hypothetical protein Pcinc_011707 [Petrolisthes cinctipes]</Hit_def>
+  <Hit_accession>KAK3883996</Hit_accession>
+  <Hit_len>946</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.322</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>1.74743e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>932</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MILNMRLQGQMEEHLADEQAGFRKDRGTVQQILSLRLIAEKARRKGKKIYNCFVDFQKAFDSIDQKVTWAVMQSYGVNDKLIGILRDINENAMAAVRLKNELGEWFRTNKGTRQGDPISPEVFITAM-----DNVKENCRGISVQGLAINNLRFADDIDIIEENVDELERTVGTLATDSKPYGLIVNTAKTKTMVFGSETIERQIILDGETLENVKEFVYLGSTFTYDLNCKREVTLRFAKAKAALAALDKIWKSKEIALKTKLAVLDTCVFSGALYACETWVITKEIERRILAFERICYRRVLRVEWREKMKNEQLYNRI----GLRDTLLQKVICRKLQLFGHICRMDDSRKLKTLVFGIMEGTNKRGHPFREWKDDITEWCGNISLQQLSHTATERDKWKEVIKRA</Hsp_qseq>
+      <Hsp_hseq>VILN-RLTPQAEEIIAAEQAGFRKGRSTTEQIFNLRVLGEKYSQHQQDIYHLFVDLKKAFGRVWHDALWATMHKYNMGQKLIETIRQLYARAGSAVLMQGGVGDWFRTTVGVRQGCPLSPTLFNIFLERIMTDALEDHMGTVSIGGQTITNLRFADDIDVMAGSEEELMRVVHNLDTASTNYGMEISAEKSKIMTNNTEGIHTPIAVRGQLLETVQHFKYLGSIINEE-GSKMEILSRAAQTTAALAKLKTVWQDKNISLKIKLKLLRAIVLSVFLYACETWTLTAELQRRIQALEMRCFRRILGISYRDHITNEEVRRRIRRHLGQYEDLLTTVKRRKLEWYGHTIRSDGL--AKTILQGTVRGGRRRGRQRKRWTDNIKEWTER-SLAGAQALAHDREGWRDHVYRS</Hsp_hseq>
+      <Hsp_midline>+ILN RL  Q EE +A EQAGFRK R T +QI +LR++ EK  +  + IY+ FVD +KAF  +     WA M  Y +  KLI  +R +   A +AV ++  +G+WFRT  G RQG P+SP +F   +     D ++++   +S+ G  I NLRFADDID++  + +EL R V  L T S  YG+ ++  K+K M   +E I   I + G+ LE V+ F YLGS    +   K E+  R A+  AALA L  +W+ K I+LK KL +L   V S  LYACETW +T E++RRI A E  C+RR+L + +R+ + NE++  RI    G  + LL  V  RKL+ +GH  R D     KT++ G + G  +RG   + W D+I EW    SL      A +R+ W++ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>852406692</Statistics_db-num>
+      <Statistics_db-len>325583849820</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

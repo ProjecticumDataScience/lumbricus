@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3058241</BlastOutput_query-ID>
+  <BlastOutput_query-def>CDS2205956-2206438</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3058241</Iteration_query-ID>
+  <Iteration_query-def>CDS2205956-2206438</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>dbj|GFN75565.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN75565</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.88332e-18</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR----ETCPWSDQPSIRGR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGIKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFRRRVQEATSETDEPTERER</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G++   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R    E    +D+P+ R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|KAG1679905.1|</Hit_id>
+  <Hit_def>Sodium- and chloride-dependent glycine transporter 2 [Nymphon striatum]</Hit_def>
+  <Hit_accession>KAG1679905</Hit_accession>
+  <Hit_len>724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>2.30024e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>581</Hsp_hit-from>
+      <Hsp_hit-to>696</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>IGPYKKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEH----RGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>LDPHKNYDD-KIEAFEMWIYRRMLKISYTEHRTNEFVLRKIEAERSLMNTIKKRKCTYFGHIMRKE------DGLQRLLLEGKIHGRRGRGRPRTAWYHNIKEWTGMRYADCARKAQNREEWR</Hsp_hseq>
+      <Hsp_midline>+ P+K  D+ +IEAF+M   R++L+ S+TE +TN +VL  +  ER L+N+IK+RK +YF H+MRKE      D ++  +  GK H    RG PRT+W  NI++W  M +    R+ ++RE WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>dbj|GFO36601.1|</Hit_id>
+  <Hit_def>UDP-glucuronosyltransferase 2a1-like [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO36601</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>3.37697e-17</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>dbj|GFR64708.1|</Hit_id>
+  <Hit_def>protocadherin-11 X-linked [Elysia marginata]</Hit_def>
+  <Hit_accession>GFR64708</Hit_accession>
+  <Hit_len>1059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.39488e-17</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRG----RLITRQ</Hsp_qseq>
+      <Hsp_hseq>ERRVQAFENKCLRKLLRISYKDHVTNESVRELVVAYVGPQEPLLATVKRRKLAWFGHVTRHDS--LSKTILQGTV-EGKCRRGRQRKAWCDNIKEWTGMAMYELVRSASDRDAWRQIPPTT--PQVEGLSEFRLGLRQ</Hsp_hseq>
+      <Hsp_midline>E R++AF+ KCLR++LR S+ +  TN      V+  VG +  LL ++KRRK+++F H+ R +   L K I++ TV  GK  RG  R +W  NI++W  M   +++R   DR+ WR+  P +  P + G    RL  RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>dbj|GFO12569.1|</Hit_id>
+  <Hit_def>UDP-glucuronosyltransferase 2a1-like [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO12569</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>6.84891e-17</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVFIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  V + +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|GFO17532.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO17532</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>7.14985e-17</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_049870262.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC126369725 [Pectinophora gossypiella]</Hit_def>
+  <Hit_accession>XP_049870262</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>9.25914e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEM-PFDQMMREKKDRE</Hsp_qseq>
+      <Hsp_hseq>KEDTRRRLDAFEMWCYRRMLRLSWTQKVTNMRVLQRVGMSRKLMQTVKKRKVAYLGHILRNERYQLLQLIMMGKI-EGKRHRGRRKKSWLRNIREWTGVTTVEQLFRLASDRE</Hsp_hseq>
+      <Hsp_midline>K++   R++AF+M C R++LR SWT++ TN+ VL  VG+ R L+ ++K+RK++Y  H++R E   L + IM   +  GK HRG  + SW+ NIR+W  +   +Q+ R   DRE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>dbj|GFO10137.1|</Hit_id>
+  <Hit_def>UDP-glucuronosyltransferase 2a1-like [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO10137</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.03991e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|GFO32061.1|</Hit_id>
+  <Hit_def>UDP-glucuronosyltransferase 2a1-like [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO32061</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>1.81284e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKTLRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ LR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|GFO45793.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO45793</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.82866e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KAI8479301.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_429730 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8479301</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>2.06582e-16</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAV----GVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERW</Hsp_qseq>
+      <Hsp_hseq>EAERRIEAFEMKCLRRILGISYLQRRTNESVRQEVEEVCGKQQSLLSTVKQRKLMWFGHVCRH--NTLAKTTLQGTVAGGRK-RGRPRKTWLDNIKKWTGLSTAQLIREAEDRTGW</Hsp_hseq>
+      <Hsp_midline>E E RIEAF+MKCLR+IL  S+ +R+TN  V   V    G ++ LL+++K+RK+ +F H+ R   + L K  ++ TV  G++ RG PR +W+ NI+ W  +   Q++RE +DR  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>dbj|GFN91122.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN91122</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.062e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KAI8496655.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_253100 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8496655</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>5.72021e-16</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAV----GVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERW</Hsp_qseq>
+      <Hsp_hseq>EAERRIEAFEMKCLRRILGISYLQRRTNESVRQEVEEVCGKQQSLLSTVKQRKLMWFGHVCRH--NTLAKTILQGTVAGGRKW-GRPRKTWLDNIKKWTGLSTAQLIREAEDRTGW</Hsp_hseq>
+      <Hsp_midline>E E RIEAF+MKCLR+IL  S+ +R+TN  V   V    G ++ LL+++K+RK+ +F H+ R   + L K I++ TV  G++  G PR +W+ NI+ W  +   Q++RE +DR  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KAI5738866.1|</Hit_id>
+  <Hit_def>hypothetical protein M8J77_012083 [Diaphorina citri]</Hit_def>
+  <Hit_accession>KAI5738866</Hit_accession>
+  <Hit_len>2077</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>6.50511e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1957</Hsp_hit-from>
+      <Hsp_hit-to>2066</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDR</Hsp_qseq>
+      <Hsp_hseq>KKADVKKIQAFEMWCYRRILNISWVDKVTNQEILRRMCKETELVNIIKARKMQYFGHLVRGEKYGVLHRILEGKIC-GKRSRGRRRTSWLQNLREWYQYNTEELFKAAKNR</Hsp_hseq>
+      <Hsp_midline>KK D ++I+AF+M C R+IL  SW ++ TN  +L  +  E  L+N IK RKM YF HL+R E   +   I+E  +  GK  RG  RTSW+ N+R+W +   +++ +  K+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>dbj|GFS01436.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Elysia marginata]</Hit_def>
+  <Hit_accession>GFS01436</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>7.3136e-16</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>DTERRIQAFENKCLRKLLRISYKEHETNESVRELVVAYVGLQEPLLATVKRHKLAWFGHVTRHDS--LSKTILQGTV-EGKHTRGRQKKAWCDNIKGWTGMAMYELVRSASDRDAWQQ</Hsp_hseq>
+      <Hsp_midline>+ E RI+AF+ KCLR++LR S+ E +TN      V+  VG++  LL ++KR K+++F H+ R +   L K I++ TV  GK  RG  + +W  NI+ W  M   +++R   DR+ W++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>dbj|GFO06308.1|</Hit_id>
+  <Hit_def>UDP-glucuronosyltransferase 2a1-like [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO06308</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>7.44233e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRIPWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPSRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR  WTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>dbj|GFO06168.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO06168</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>7.92178e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KAI8512775.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_094140 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8512775</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.00929e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>477</Hsp_hit-from>
+      <Hsp_hit-to>589</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAV----GVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERW</Hsp_qseq>
+      <Hsp_hseq>EAERRIEAFEMKCLRRILGISYLQRRTNESVRQEVEEVCGKQQSLLSTVKQRKLMWFGHVCRH--NTLAKTILQGTVAGGRK-RGRPRKTWLDNIKKWTGLSTAQLIREAEDRTGW</Hsp_hseq>
+      <Hsp_midline>E E RIEAF+MKCLR+IL  S+ +R+TN  V   V    G ++ LL+++K+RK+ +F H+ R   + L K I++ TV  G++ RG PR +W+ NI+ W  +   Q++RE +DR  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>dbj|GFN96058.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN96058</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.75126e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWKEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFEHIKRHQ--TLEKHILEAKM-KGKRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SW E+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAI8516598.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_051790 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8516598</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>2.43334e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>SDIRRIQALEMKCYRKILRISWTDHRTNDSVLEQLGVERTLLNTIKRRKLQYFGHATRAEN--ITTHILQG-VINGRRSRGRPRRRWGDDVRDWMGMPLAECSHGARDRREWR</Hsp_hseq>
+      <Hsp_midline> D  RI+A +MKC R+ILR SWT+ +TN  VL  +GVER LLN+IKRRK+ YF H  R E   +   I++  V  G+  RG PR  W  ++RDW+ MP  +     +DR  WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>dbj|GFN80163.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN80163</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>2.93312e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTFFGHIKRHQ--TLEKHILEAKM-KGQRGKGRPTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K+++F H+ R +   LEK I+E  + +G+  +G P   W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>dbj|GFS18977.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Elysia marginata]</Hit_def>
+  <Hit_accession>GFS18977</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>3.30601e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>DTERRIQAFENKCLRKLLRISYKDHVTNESVREIVVACVGPQEPLLATVKRRKLAWFGHVTRHDS--LSKTILQGTV-EGKRRRGRQKKAWCDNIKEWTGMAMYELVRSASDRDAWRQ</Hsp_hseq>
+      <Hsp_midline>+ E RI+AF+ KCLR++LR S+ +  TN      V+  VG +  LL ++KRRK+++F H+ R +   L K I++ TV  GK  RG  + +W  NI++W  M   +++R   DR+ WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>dbj|GFR98120.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Elysia marginata]</Hit_def>
+  <Hit_accession>GFR98120</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>5.15638e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>DTERRIQAFENKCLRKLLRISYKVHVTNESVREIVVAYVGPQEPLLATVKRRKLAWFGHVTRHDS--LSKTILQGTV-EGKRRRGRQKKAWCDNIKKWTEMAMYELVRSASDRDAWR</Hsp_hseq>
+      <Hsp_midline>+ E RI+AF+ KCLR++LR S+    TN      V+  VG +  LL ++KRRK+++F H+ R +   L K I++ TV  GK  RG  + +W  NI+ W EM   +++R   DR+ WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>dbj|GFO25259.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO25259</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.76186e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVER-CLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KTDSKRITAFELKCYRKILRISWTEKIRNEEVLIKIGTKTPILLQSIKKLKLTYFGHIKRHQ--TLEKHILEAKM-KGKRGKGRSTRRWENDIEEWLETSTSQAGRLTSDRETFR</Hsp_hseq>
+      <Hsp_midline>K D +RI AF++KC R+ILR SWTE+  N  VL+ +G +   LL SIK+ K++YF H+ R +   LEK I+E  + +GK  +G     W ++I +WLE    Q  R   DRE +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_023241473.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC111639767 [Centruroides sculpturatus]</Hit_def>
+  <Hit_accession>XP_023241473</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>8.05159e-15</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>DEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>NEKKLKAFEMWMIRRMLRVSWKARRTNEDILAIANQKRTLLEVVRKRIVRYLGHVMRH--NSLQKLLLEGMI-EGQRGRGRPRKNWFSNIRNWTYLTYEECSREAQDRSWWHE</Hsp_hseq>
+      <Hsp_midline>+E++++AF+M  +R++LR SW  R+TN  +L     +R LL  +++R + Y  H+MR   + L+K ++E  +  G+  RG PR +W SNIR+W  + +++  RE +DR  W E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|KAG1669602.1|</Hit_id>
+  <Hit_def>NADPH oxidase 5 [Nymphon striatum]</Hit_def>
+  <Hit_accession>KAG1669602</Hit_accession>
+  <Hit_len>923</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>8.84375e-15</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>802</Hsp_hit-from>
+      <Hsp_hit-to>908</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>RIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KIEAFEMWIYRRMLKISYTEHRTNEFVLRKIEAKRPLMNTIKKRKCTYFGHIMRKEDD-LQRLLLEGKI-QGRRGRGRPRTAWYHNIKEWTGMRYADCSRKAQNREEWR</Hsp_hseq>
+      <Hsp_midline>+IEAF+M   R++L+ S+TE +TN +VL  +  +R L+N+IK+RK +YF H+MRKE   L++ ++E  + +G+  RG PRT+W  NI++W  M +    R+ ++RE WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|KAG1669601.1|</Hit_id>
+  <Hit_def>NADPH oxidase 5 [Nymphon striatum]</Hit_def>
+  <Hit_accession>KAG1669601</Hit_accession>
+  <Hit_len>893</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.18801e-14</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>772</Hsp_hit-from>
+      <Hsp_hit-to>878</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>RIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>KIEAFEMWIYRRMLKISYTEHRTNEFVLRKIEAKRPLMNTIKKRKCTYFGHIMRKEDD-LQRLLLEGKI-QGRRGRGRPRTAWYHNIKEWTGMRYADCSRKAQNREEWR</Hsp_hseq>
+      <Hsp_midline>+IEAF+M   R++L+ S+TE +TN +VL  +  +R L+N+IK+RK +YF H+MRKE   L++ ++E  + +G+  RG PRT+W  NI++W  M +    R+ ++RE WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>dbj|GFR88346.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Elysia marginata]</Hit_def>
+  <Hit_accession>GFR88346</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.46912e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>DKERRIQVFENKCLRKLLRISYKDHVTNESVRELVVAYVGAQEPLLATVKRRKLAWFGHVTRHDS--LSKTILQGTV-EGKRRRGRQKKAWCDNIKEWTGMTMYELVRSASDRDAWRQ</Hsp_hseq>
+      <Hsp_midline>+ E RI+ F+ KCLR++LR S+ +  TN      V+  VG +  LL ++KRRK+++F H+ R +   L K I++ TV  GK  RG  + +W  NI++W  M   +++R   DR+ WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KYN02133.1|</Hit_id>
+  <Hit_def>hypothetical protein ALC62_07054 [Cyphomyrmex costatus]</Hit_def>
+  <Hit_accession>KYN02133</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.77096e-14</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETC</Hsp_qseq>
+      <Hsp_hseq>RLEAFEMWCYRRILRISWIDHVTNESVLRRMHASRKLLATVKRRKLEYFGHMLRGPKYELLQIIMKGKI-EGKRRIGRKNLSWLRNIRTWSGLNVEELFRVASDREQYKELV</Hsp_hseq>
+      <Hsp_midline>R+EAF+M C R+ILR SW +  TN  VL  +   R LL ++KRRK+ YF H++R     L + IM+  +  GK   G    SW+ NIR W  +  +++ R   DRE+++E  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAI8492710.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_297510 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8492710</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>2.31323e-14</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVL----VAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETC</Hsp_qseq>
+      <Hsp_hseq>KEHTERRIQAFETKSLRRLLGISYHQHKTNEYVYQQVYSLVGPQEAVMSTVRRRKLQWFGHLTRHNN--LAKTILQGTL-EGKRRRGRQKKVWLDNIKDWTSLTVPQLLTAAQDRRTWLYSC</Hsp_hseq>
+      <Hsp_midline>K+  E RI+AF+ K LR++L  S+ + KTN +V       VG +  ++++++RRK+ +F HL R     L K I++ T+  GK  RG  +  W+ NI+DW  +   Q++   +DR  W  +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>emb|CAH1270955.1|</Hit_id>
+  <Hit_def>Hypp4523 [Branchiostoma lanceolatum]</Hit_def>
+  <Hit_accession>CAH1270955</Hit_accession>
+  <Hit_len>1045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.35339e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>917</Hsp_hit-from>
+      <Hsp_hit-to>1027</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>KDTQKIQAFEMKCYRKLLRVSWTEHRTNNSVLEELGIQRTLLNMVKRRKLQYFGHVTRAQN--ISTHILQGKIC-GTRSRGRPRRRWGDDIKEWTGRSLAECTQRAKDREGWRK</Hsp_hseq>
+      <Hsp_midline>+D ++I+AF+MKC R++LR SWTE +TN  VL  +G++R LLN +KRRK+ YF H+ R +   +   I++  +  G   RG PR  W  +I++W      +  +  KDRE WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>dbj|GFS04037.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Elysia marginata]</Hit_def>
+  <Hit_accession>GFS04037</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>3.32081e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRG</Hsp_qseq>
+      <Hsp_hseq>DTERRIQVFENKCLRKLLRISYKDHITNESVRELVVAYVGPQEPLLATVKRRKLAWFGHVTRHDS--LSKTILQGTV-KGKRRRGRQKKAWCDNIKEWTGMAMYELVRSASDRDAWRQK---TDSSALRS</Hsp_hseq>
+      <Hsp_midline>+ E RI+ F+ KCLR++LR S+ +  TN      V+  VG +  LL ++KRRK+++F H+ R +   L K I++ TV +GK  RG  + +W  NI++W  M   +++R   DR+ WR+    +D  ++R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAI5753273.1|</Hit_id>
+  <Hit_def>hypothetical protein M8J77_025408 [Diaphorina citri]</Hit_def>
+  <Hit_accession>KAI5753273</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>3.35471e-14</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRE</Hsp_qseq>
+      <Hsp_hseq>KKVDVNKINAFEMWCYRRILNIPWVDKVTNKEVLRRMDKERELMNIIKTRKLQYFGHVMRGEKYQLLHRIIQGKIC-GKKRRGRPRISWLQNLKDWFDYNSKQLFSAARNRH</Hsp_hseq>
+      <Hsp_midline>KK D  +I AF+M C R+IL   W ++ TN  VL  +  ER L+N IK RK+ YF H+MR E   L   I++  +  GK+ RG PR SW+ N++DW +    Q+    ++R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|KAI8507539.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_149190 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8507539</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.9452e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>KDTQKIEAFEMKCYRKLLRVSWTEHRTNASVLEELGIGRSLLHMIRRRKLQYFGHVSRAQN--ISTHILQGRICG-SRSRGRPRRRWVDDIRDWTGRSLADCTQMAKDRDGWRK</Hsp_hseq>
+      <Hsp_midline>+D ++IEAF+MKC R++LR SWTE +TN  VL  +G+ R LL+ I+RRK+ YF H+ R +   +   I++  +      RG PR  W+ +IRDW         +  KDR+ WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|PIK51329.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Apostichopus japonicus]</Hit_def>
+  <Hit_accession>PIK51329</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>7.10887e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MVAKIGPYKKE-------DEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERW</Hsp_qseq>
+      <Hsp_hseq>LVFPIATYGSETWALGAADRKKIHAFEMWCWRRMLRRSWKERKSNDFVKNQIGAKVTLCQKIDKNKLQYFGHISRREGDNLEKIITQGHV-EGQRKRGRPKVRWADGIKEITGMNICAAHRYARDRSGW</Hsp_hseq>
+      <Hsp_midline>+V  I  Y  E       D ++I AF+M C R++LR SW ERK+N +V   +G +  L   I + K+ YF H+ R+EG  LEK I +  V  G+  RG P+  W   I++   M      R  +DR  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|KAK7092817.1|</Hit_id>
+  <Hit_def>hypothetical protein V1264_008505 [Littorina saxatilis]</Hit_def>
+  <Hit_accession>KAK7092817</Hit_accession>
+  <Hit_len>1020</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.01727e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>883</Hsp_hit-from>
+      <Hsp_hit-to>999</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWV----LVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETC</Hsp_qseq>
+      <Hsp_hseq>ETERKIQAFEFKCLRRLLRISYLEHKTNEYVRNTTTALVGPQEPLLATVKRRKLVWFGHITRHDSLC--KTILQGTLEGGRRRGRPRK-SWTDNVKEWTSLPMDELLTTAQNRPEWKRTA</Hsp_hseq>
+      <Hsp_midline>E E +I+AF+ KCLR++LR S+ E KTN +V       VG +  LL ++KRRK+ +F H+ R +  C  K I++ T+  G+      + SW  N+++W  +P D+++   ++R  W+ T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>dbj|GFS06005.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Elysia marginata]</Hit_def>
+  <Hit_accession>GFS06005</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.06161e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNV----WVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>DTERRIQAFENKCLRKLLRISYKDHVTNESVRELVVAYVGPQEPLLATVKRRKLAWFGHVTRHDS--LSKTILQGTV-EGKRRRERQKKAWCDNIKEWTGMAMYELVRSASDRDAWRQ</Hsp_hseq>
+      <Hsp_midline>+ E RI+AF+ KCLR++LR S+ +  TN      V+  VG +  LL ++KRRK+++F H+ R +   L K I++ TV  GK  R   + +W  NI++W  M   +++R   DR+ WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KAK7106325.1|</Hit_id>
+  <Hit_def>hypothetical protein V1264_017591 [Littorina saxatilis]</Hit_def>
+  <Hit_accession>KAK7106325</Hit_accession>
+  <Hit_len>1023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.06786e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>885</Hsp_hit-from>
+      <Hsp_hit-to>1001</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWV----LVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETC</Hsp_qseq>
+      <Hsp_hseq>ETERKIQAFEFKCLRRLLRISYLEHKTNEYVRNTTTALVGPQEPLLATVKRRKLVWFGHITRHDSLC--KTILQGTLEGGRRRGRPRK-SWTDNVKEWTSLPMDELLTTAQNRPEWKRTA</Hsp_hseq>
+      <Hsp_midline>E E +I+AF+ KCLR++LR S+ E KTN +V       VG +  LL ++KRRK+ +F H+ R +  C  K I++ T+  G+      + SW  N+++W  +P D+++   ++R  W+ T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>emb|CAG9835784.1|</Hit_id>
+  <Hit_def>unnamed protein product [Diabrotica balteata]</Hit_def>
+  <Hit_accession>CAG9835784</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.17854e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRER</Hsp_qseq>
+      <Hsp_hseq>KQNNMKNIKSFEMWCYRRMLKISWVERITNCEVIRRIGKDPEILLTLKRRKLEYFGHLMRGHKYALLQNIMQGKI-EGKRNPGRRRMSWLRNLREWFGCTTNELFRSAVNKVR</Hsp_hseq>
+      <Hsp_midline>K+ + + I++F+M C R++L+ SW ER TN  V+  +G +  +L ++KRRK+ YF HLMR     L ++IM+  +  GK + G  R SW+ N+R+W     +++ R   ++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_070193795.1|</Hit_id>
+  <Hit_def>uncharacterized protein [Littorina saxatilis]</Hit_def>
+  <Hit_accession>XP_070193795</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.21678e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWV--LVAV--GVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCP</Hsp_qseq>
+      <Hsp_hseq>DDERRIQAFETKSLRKLLRIHDTEHKTNDYVRNLVKIIAGPQEPLLATVKRRKLMWFGHVTRHDS--LSKTILQGTVEGGRRRGRQRK-SWSDNIKDWTQLSFPDLLVTASDRNAWRRSLP</Hsp_hseq>
+      <Hsp_midline>+DE RI+AF+ K LR++LR   TE KTN +V  LV +  G +  LL ++KRRK+ +F H+ R +   L K I++ TV  G+      + SW  NI+DW ++ F  ++    DR  WR + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>dbj|GFN74105.1|</Hit_id>
+  <Hit_def>hypothetical protein PoB_000061100 [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN74105</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.28363e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRGRLITRQD</Hsp_qseq>
+      <Hsp_hseq>RKRDEKKINSAEMWFYRRLLRVSWKEKRTDEAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIQGKL-EGKRGRGRPRAAYLDNIKTWTRRNSTEIYTMTERREEWRELV----QKAVRAANASRSD</Hsp_hseq>
+      <Hsp_midline>+K DE++I + +M   R++LR SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI+ W      ++    + RE WRE      Q ++R    +R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KAI8502218.1|</Hit_id>
+  <Hit_def>hypothetical protein Bbelb_198060 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>KAI8502218</Hit_accession>
+  <Hit_len>1020</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.37181e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>892</Hsp_hit-from>
+      <Hsp_hit-to>1002</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>KDTQKIEAFEMKCYRKLLRVSWTEHRTNASVLEELGIGRSLLHMIRRRKLQYFGHVSRAQN--ISTHILQGRICG-SRSRGRPRRRWVDDIRDWTGRSLADCTQMAKDRDGWRK</Hsp_hseq>
+      <Hsp_midline>+D ++IEAF+MKC R++LR SWTE +TN  VL  +G+ R LL+ I+RRK+ YF H+ R +   +   I++  +      RG PR  W+ +IRDW         +  KDR+ WR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|KAI5738867.1|</Hit_id>
+  <Hit_def>hypothetical protein M8J77_012083 [Diaphorina citri]</Hit_def>
+  <Hit_accession>KAI5738867</Hit_accession>
+  <Hit_len>733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.77304e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>613</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRER</Hsp_qseq>
+      <Hsp_hseq>KKADVKKIQAFEMWCYRRILNISWVDKVTNQEILRRMCKETELVNIIKARKMQYFGHLVRGEKYGVLHRILEGKIC-GKRSRGRRRTSWLQNLREWYQYNTEELFKAAKNRHH</Hsp_hseq>
+      <Hsp_midline>KK D ++I+AF+M C R+IL  SW ++ TN  +L  +  E  L+N IK RKM YF HL+R E   +   I+E  +  GK  RG  RTSW+ N+R+W +   +++ +  K+R  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>dbj|GFN85496.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN85496</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.43905e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRE</Hsp_qseq>
+      <Hsp_hseq>RKRDEKKINSAEMWFYRRLLRVSWKEKRTDEAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIQGKL-EGKRGRGRPRAAYLDNIKTWTRRNSTEIYTMTERREEWRE</Hsp_hseq>
+      <Hsp_midline>+K DE++I + +M   R++LR SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI+ W      ++    + RE WRE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>dbj|GFO23813.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO23813</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.95016e-13</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>KEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRGRLITRQD</Hsp_qseq>
+      <Hsp_hseq>KRDEKKINSAEMWFYRRLLRVSWKEKRTDEAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIQGKL-EGKRGRGRPRAAYLDNIKTWTRRNSTEIYTMTERREEWRKLV----QKAVRAANVSRSD</Hsp_hseq>
+      <Hsp_midline>K DE++I + +M   R++LR SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI+ W      ++    + RE WR+      Q ++R   ++R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>dbj|GFO27711.1|</Hit_id>
+  <Hit_def>UDP-glucuronosyltransferase 2a1-like [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO27711</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>4.12316e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRGRLITRQD</Hsp_qseq>
+      <Hsp_hseq>RKRDQKKINSAEMWFYRRLLRVSWKEKRTDEAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIQGKL-EGKRGRGRPRAAYLDNIKTWTRRNSTEIYTMTERREEWRKLV----QKAVRAANASRSD</Hsp_hseq>
+      <Hsp_midline>+K D+++I + +M   R++LR SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI+ W      ++    + RE WR+      Q ++R    +R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_065054752.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC135683433 [Rhopilema esculentum]</Hit_def>
+  <Hit_accession>XP_065054752</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>4.13307e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWR</Hsp_qseq>
+      <Hsp_hseq>RKAEMKKIEAFELWVWRRLLRVPWTSRRTNEWVPGQIKTERSSFNTIRKRQLTYYGHINKADNS-LEKLIMQGKI-EGKRGRGRPATKWFDNIKTIKTRNVYQLNKDTKNRAEWR</Hsp_hseq>
+      <Hsp_midline>+K + ++IEAF++   R++LR  WT R+TN WV   +  ER   N+I++R+++Y+ H+ + + S LEK IM+  +  GK  RG P T W  NI+        Q+ ++ K+R  WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>dbj|GFN85803.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN85803</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>5.50394e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>405</Hsp_hit-from>
+      <Hsp_hit-to>533</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRGRLITRQD</Hsp_qseq>
+      <Hsp_hseq>RKRDEKRINSAEMWFYRRLLRVSWKEKRTDEAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIKGKL-EGKRGRGRPRAAYLDNIKTWTRRNSTEIYTMTERREEWRELV----QKAVRAANASRSD</Hsp_hseq>
+      <Hsp_midline>+K DE+RI + +M   R++LR SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI+ W      ++    + RE WRE      Q ++R    +R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>dbj|GFN79648.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFN79648</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>5.66139e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRGRLITRQD</Hsp_qseq>
+      <Hsp_hseq>RKRDEKKINSAEMWFYRRLLRVSWKEKRTDDAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIQGKL-EGKRGRGRPRAAYLDNINTWTRRNSTEIYTMTERREEWRELV----QKAVRAANASRSD</Hsp_hseq>
+      <Hsp_midline>+K DE++I + +M   R++LR SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI  W      ++    + RE WRE      Q ++R    +R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>dbj|GFO28294.1|</Hit_id>
+  <Hit_def>endonuclease-reverse transcriptase [Plakobranchus ocellatus]</Hit_def>
+  <Hit_accession>GFO28294</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>5.68009e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KKEDEERIEAFDMKCLRQILRESWTERKTNVWVLVAVGVERCLLNSIKRRKMSYFRHLMRKEGSCLEKDIMEDTVYRGKEHRGGPRTSWISNIRDWLEMPFDQMMREKKDRERWRETCPWSDQPSIRGRLITRQD</Hsp_qseq>
+      <Hsp_hseq>RKRDEKKINSAEIWFYRRLFRVSWKEKRTDEAILAELQVRRHLLESIRKRKLSFFGHICRSKCT-LMKDIIQGKL-EGKRGRGRPRAAYLDNIKTWTRRNSTEIYTMTERREEWRELV----QKAVRAANASRSD</Hsp_hseq>
+      <Hsp_midline>+K DE++I + ++   R++ R SW E++T+  +L  + V R LL SI++RK+S+F H+ R + + L KDI++  +  GK  RG PR +++ NI+ W      ++    + RE WRE      Q ++R    +R D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>852406692</Statistics_db-num>
+      <Statistics_db-len>325583849820</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

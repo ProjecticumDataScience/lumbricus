@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8136807</BlastOutput_query-ID>
+  <BlastOutput_query-def>CDS2267178-2267675</BlastOutput_query-def>
+  <BlastOutput_query-len>165</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8136807</Iteration_query-ID>
+  <Iteration_query-def>CDS2267178-2267675</Iteration_query-def>
+  <Iteration_query-len>165</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PYX61602.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein DMG74_22350, partial [Acidobacteriota bacterium]</Hit_def>
+  <Hit_accession>PYX61602</Hit_accession>
+  <Hit_len>999</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>7.1738e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>836</Hsp_hit-from>
+      <Hsp_hit-to>991</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWAS</Hsp_qseq>
+      <Hsp_hseq>MAKDAFGKRKELLAQKMNIRLKKRMIKTIVWSVALYAAETWTLRKEDIRRLEALEMWLWRRLEKVSWEDRMTNEKVLESVGESRKLVETIVQRKKNWIGHVLRGEGLLREVMEGKMVGKRPRGRPRIGMLEE-LKEGSFEKMKRRAENREEWRSWVP</Hsp_hseq>
+      <Hsp_midline>M K+AF KRKELL   M+  +KKRM+K ++WSV LY A+TWT+RKED++R+EA EMW+WRR+E+VSW +  +NE+VL+ V E R L+ TI  R+KNW+GH+LRG  L R+++EGKM GKR RGRPR   L+  + E  + K+K RA++REEWR W  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|CAF1004369.1|</Hit_id>
+  <Hit_def>unnamed protein product [Didymodactylos carnosus] &gt;emb|CAF3773643.1| unnamed protein product [Didymodactylos carnosus]</Hit_def>
+  <Hit_accession>CAF1004369</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>1.17252e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>540</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMM--MEDG-YGKLKERAQHREEWRRWAS</Hsp_qseq>
+      <Hsp_hseq>MAKDAFNKRRELLTQRMGRKLKKKIIKAVVWSVALYGSETWTIRKEELDRLQAFEMWIWRRMERISWKDKITNVQVLKQVEEERQLLNVIKRRKAVWFGHILRGNGLLIDVIEGRIEGKRPRGRIRTMMLDDLKNDFKDGFYCEMKRFAQDRLNWKTFYA</Hsp_hseq>
+      <Hsp_midline>M K+AF KR+ELL   M R +KK+++KA++WSV LYG++TWT+RKE++ R++AFEMWIWRRMER+SW +  +N +VLK+VEEER L+N I+ R+  W GHILRGN L  D++EG++ GKR RGR R   LD +    +DG Y ++K  AQ R  W+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|PNF24084.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G04308 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF24084</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>3.54705e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRINCLLKEVIEGKIEGRIEVTRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PNF39833.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G02826 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF39833</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>4.86283e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGRIEVTRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|PNF33135.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G14515 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF33135</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>1.37481e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKTLFTSKLDLNLRKKLVKCYIWSIAQYGAETWTLRAVDQKYLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHILRGNCLLKEVIKGKTEGQIEVIRRQGRRRKKMLDDLGDRRGYSHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+  YGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GHILRGN L +++++GK  G+    R +GR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|PNF42414.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G18161 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF42414</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>2.19972e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKTKNLFTNKLDLNLRKKLVKCYIWSMALYGAETWTLGAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLFRVSEQRNILHEIRKRKANWIGHILRSNCLVKDVIEGKIEGRIEVTRRRGRRCKKMLDDLGDRRGYSHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K K L    +  +++K++VK  IWS+ LYGA+TWT+   D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GHILR N L +D++EGK+ G+    R RGR  +K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KAL1447695.1|</Hit_id>
+  <Hit_def>hypothetical protein WDU94_012218 [Cyamophila willieti]</Hit_def>
+  <Hit_accession>KAL1447695</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>8.34138e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELL-KGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDG---YGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKIAFNKKKTLLCSNNISINIRKQLIKTLVWSVALYGSEAWTISERDKKRVEAFEMWCWRRMKKIKWTERMSNERVLDLVGESRQIWNTLVDRRHKWMGHLFRHNEFLVDIIEGRMVGNRGRGRPRLAFIDQIVKSSGCESYAEMKEKTSDRAVWR</Hsp_hseq>
+      <Hsp_midline>M K AF K+K LL    +S +I+K+++K L+WSV LYG++ WT+ + D KR+EAFEMW WRRM+++ WTE  SNE VL  V E R + NT+  R+  WMGH+ R N    DI+EG+M G RGRGRPR  F+D ++   G   Y ++KE+   R  WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|PNF41923.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G15289 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF41923</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.07399e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRHCLLKEAIEGKIDGRIEVTRRRGRRHKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR + L ++ +EGK+ G+    R RGR  +K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|PNF24607.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G03089 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF24607</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>2.02089e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTNYVRNEEVLIRVSEPRNILHEIRKRKANWIGHVLRRNCLVKEVIEGKIEGRIEATKRRGRRCKKMLDDLGDRRGYFHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT +  NEEVL +V E R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    + RGR  +K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PNF43803.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G09554 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF43803</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>2.79998e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHILRGNCLLKEVIEGKIEGRIEVTRRRGGRRRKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GHILRGN L ++++EGK+ G+    R RG  R K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|PNF17737.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G07070 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF17737</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>4.12848e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPAGRQQT</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKYYIWSMALYGAETWTLRAVDQKHLDSFEMWCWRRMKKISWTDYVRNEEVLFRVSEQRNILHQIRKLKANWIGHILRSNCLLKEVIEGKIEGRIEMTRRRKKMLDDLGDRRGYSQLKEKALDRIKWRNCFGRDCGPVVWQIT</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +++FEMW WRRM+++SWT++  NEEVL +V E+R++++ IR  + NW+GHILR N L ++++EGK+ G+    R R+K LD +    GY +LKE+A  R +WR       GP   Q T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|PNF20497.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G06273 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF20497</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>5.60193e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAG----KRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFKMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGWIEVTRRRGRRHKKMLDDLGDRRGYSHLKERALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+F+MW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G     R RGR  +K LD +    GY  LKERA  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|PNF25648.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G00624, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF25648</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>5.77261e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>IAKAAFSKKKNLFTSKLDLNLRTKLVKCYVWSIALYGAETWTLRAVDQKYLESFEMWCWRRMEKISWTDYVRNEEVLFRVSEQRNILHELRKRKANWIGHILRGNCLLKEVIEGKIEGRIQVTRRRGIRRKKMLNDLGDRRGYFHLKEKALDRIKWR</Hsp_hseq>
+      <Hsp_midline>+ K AF+K+K L    +  +++ ++VK  +WS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ +R R+ NW+GHILRGN L ++++EGK+ G+    R RG  R+K L+ +    GY  LKE+A  R +WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|PNF31501.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G00777, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF31501</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>5.95824e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKASFSKKKSLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKWKANWLGHVLRRNCLLKEVIEGKIEGRIEVTRRRKKMLDDLGDRRGYCHLKENALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K +F+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR  + NW+GH+LR N L ++++EGK+ G+    R R+K LD +    GY  LKE A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|PNF31063.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G17497 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF31063</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>7.44644e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHILSGNSLLKEVIEGKIEGRIEVTRRRGRRRKKMLDDLGDRRGYFHLKEKALDRIKWRNCFGRDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GHIL GNSL ++++EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|PNF33254.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G10628 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF33254</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.43336e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGGDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR    G  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|PGH39547.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein CRN43_08400, partial [Candidatus Nephrothrix sp. EaCA]</Hit_def>
+  <Hit_accession>PGH39547</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>1.12447e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDGYG</Hsp_qseq>
+      <Hsp_hseq>MAKNAFNQRKELLSKNLNKDIKKRIIKTIIWSVALYAAETWTYRKEDIRRLEAFEMWVWRKMEKISWRDMKTNEEVLQMVQEERSLMDVIWRRKKNWIGHILRGESLLREVIEGRMIGKRPRGRKRLGMLNEFLKESSYA</Hsp_hseq>
+      <Hsp_midline>M K AF +RKELL   +++DIKKR++K +IWSV LY A+TWT RKED++R+EAFEMW+WR+ME++SW + K+NEEVL+ V+EERSLM+ I  R+KNW+GHILRG SL R+++EG+M GKR RGR R   L+  + E  Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|PNF26901.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G15122 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF26901</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.54116e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIAGRIEVTRRRGRRRKKMLDDLGERRGYCHLKEKALDRIKWR</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+AG+    R RGR R+K LD +    GY  LKE+A  R +WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|PNF32598.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G18093 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF32598</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>2.31032e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYVWSIALYGAETWTLRAIDQKHLESFEMWCWRRMEKNSWTDYVRNEEVLFRVSEQRNTLQEIRKWKANWIGHILRGNCLLKEVIEGKIEGRIEVARRRGRRHKKMLDDLGDRRGYFHLKEKAVDRIKWR</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  +WS+ LYGA+TWT+R  D K +E+FEMW WRRME+ SWT++  NEEVL +V E+R+ +  IR  + NW+GHILRGN L ++++EGK+ G+    R RGR  +K LD +    GY  LKE+A  R +WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAL1448654.1|</Hit_id>
+  <Hit_def>hypothetical protein WDU94_014026 [Cyamophila willieti]</Hit_def>
+  <Hit_accession>KAL1448654</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.04397e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELL-KGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDG---YGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>LAKIAFNKKKSILCSNNIDIKIKKQLIKTLVWSVALYGSETWTISEVEKKRLEAFEMWCWRRMKKIKWTERMSNERVLDLVEERRQIWNTLEDRRHKWMGHLFRHNGFLIDIIEGRMSGNRGRGRPRLVYINQVIKASGCRNYEEMKEKTANRTEWR</Hsp_hseq>
+      <Hsp_midline>+ K AF K+K +L    +   IKK+++K L+WSV LYG++TWT+ + + KR+EAFEMW WRRM+++ WTE  SNE VL  VEE R + NT+  R+  WMGH+ R N    DI+EG+M+G RGRGRPR  +++ ++   G   Y ++KE+  +R EWR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|PNF40453.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G15551, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF40453</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>5.47473e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFTKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AFTK+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|PNF35816.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G09413, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF35816</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>5.76643e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|PNF24950.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G09158 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF24950</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>6.57958e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|PNF35377.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G01725 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF35377</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>8.92545e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGRIEMTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|PNF17733.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G07386 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF17733</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.74564e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRINWRNCFERDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R  WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|PNF33240.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G10603 [Cryptotermes secundus] &gt;gb|PNF37162.1| hypothetical protein B7P43_G00437 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF33240</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>1.87524e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|PNF20990.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G09483, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF20990</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.04985e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KDR22935.1|</Hit_id>
+  <Hit_def>hypothetical protein L798_14792, partial [Zootermopsis nevadensis]</Hit_def>
+  <Hit_accession>KDR22935</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>2.08806e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMMEDG----YGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKAAFVKKRILLTSKLGLEMKKKLVKCYVWSVALYGAETWTLRKKEQKYVESFEMWCWRRIEKIRWTDRVTNEEVLRRVNEQRNILQAITRRKANWLGHIMRRNGLLSDIIEGQVEGKRGLGRRLIQLTD--DLKQGKKMKFQELKREAENRENWR</Hsp_hseq>
+      <Hsp_midline>M K AF K++ LL   +  ++KK++VK  +WSV LYGA+TWT+RK++ K +E+FEMW WRR+E++ WT+  +NEEVL++V E+R+++  I  R+ NW+GHI+R N L  DI+EG++ GKRG GR   +  D   ++ G    + +LK  A++RE WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|PNF35957.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G03527, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF35957</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.31029e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|PNF40737.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G00657 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF40737</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.34266e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|PNF35359.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G02580 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF35359</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.35282e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|PNF41343.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G16617 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF41343</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.39527e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRSVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRINWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R  WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|PNF18023.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G12641, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF18023</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.44871e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|PNF43662.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G16176 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF43662</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.57649e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAG----KRGRGRPREKFLDWMMMEDGYGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGWIEVTRRRGRRRKKMLDDLGDRRGYCHLKERALDRIKWR</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G     R RGR R+K LD +    GY  LKERA  R +WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|PNF38174.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G14247, partial [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF38174</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.59469e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|PNF20747.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G14168 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF20747</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.39024e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRTVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|PNF20357.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G12826 [Cryptotermes secundus] &gt;gb|PNF26083.1| hypothetical protein B7P43_G05403 [Cryptotermes secundus] &gt;gb|PNF31821.1| hypothetical protein B7P43_G09338 [Cryptotermes secundus] &gt;gb|PNF32947.1| hypothetical protein B7P43_G01865 [Cryptotermes secundus] &gt;gb|PNF40845.1| hypothetical protein B7P43_G16005 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF20357</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.50248e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|PNF42160.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G08326 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF42160</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.61842e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|PNF32335.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G13250 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF32335</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.7382e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|PNF43070.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G02715 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF43070</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.82025e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|PNF25584.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G03823 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF25584</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.86195e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|PNF41750.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G03464 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF41750</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.86195e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|PNF28353.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G18108 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF28353</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>5.23373e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKILFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKLLDDLGDRRGYCHLKEKALDRITWRNCFGRDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R  WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|KDR13536.1|</Hit_id>
+  <Hit_def>hypothetical protein L798_11449, partial [Zootermopsis nevadensis]</Hit_def>
+  <Hit_accession>KDR13536</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>6.25648e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGKRGRGRPREKFLDWMMM--EDGYGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKAAFVKKRILLTSKLGLEMKEKLVKCYVWSVALYGAETWTLRKKEQKYLESFEMWCWRRIEKIRWTDRVTNEEVLRRVNEQRSILQAITRRKANWLGHIMRRNGLMSDIIEGQVEGKRGLGRRLIQLTDDLKQGKKMTFQELRREAENRENWR</Hsp_hseq>
+      <Hsp_midline>M K AF K++ LL   +  ++K+++VK  +WSV LYGA+TWT+RK++ K +E+FEMW WRR+E++ WT+  +NEEVL++V E+RS++  I  R+ NW+GHI+R N L  DI+EG++ GKRG GR   +  D +    +  + +L+  A++RE WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|PNF17573.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G15179 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF17573</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>6.71797e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWR</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWR</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|PNF31013.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G01181 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF31013</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>6.72327e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFERDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|PNF20801.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G13836 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF20801</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>6.87051e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCYERDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|PNF14543.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G15036 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF14543</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>7.61445e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWASGPAG</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKTLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHVKEKALDRIKWRNCFERDCG</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  +KE+A  R +WR       G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|PNF27027.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G11930 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF27027</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>7.73991e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEAIEGKIDGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++ +EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|PNF39563.1|</Hit_id>
+  <Hit_def>hypothetical protein B7P43_G11063 [Cryptotermes secundus]</Hit_def>
+  <Hit_accession>PNF39563</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>8.75881e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MGKEAFTKRKELLKGGMSRDIKKRMVKALIWSVKLYGADTWTMRKEDVKRIEAFEMWIWRRMERVSWTEHKSNEEVLKKVEEERSLMNTIRTRQKNWMGHILRGNSLQRDIVEGKMAGK----RGRGRPREKFLDWMMMEDGYGKLKERAQHREEWRRWA---SGPA</Hsp_qseq>
+      <Hsp_hseq>MAKAAFSKKKNLFTSKLDLNLRKKLVKCYIWSIALYGAETWTLRAVDQKHLESFEMWCWRRMEKISWTDYVRNEEVLIRVSEQRNILHEIRKRKANWIGHVLRRNCLLKEVIEGKIEGRIEVTRRRGRRRKKMLDDLGDRRGYCHLKEKALDRIKWRNCFGRDCGPV</Hsp_hseq>
+      <Hsp_midline>M K AF+K+K L    +  +++K++VK  IWS+ LYGA+TWT+R  D K +E+FEMW WRRME++SWT++  NEEVL +V E+R++++ IR R+ NW+GH+LR N L ++++EGK+ G+    R RGR R+K LD +    GY  LKE+A  R +WR       GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>852406692</Statistics_db-num>
+      <Statistics_db-len>325583849820</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

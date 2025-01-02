@@ -59,18 +59,12 @@ print "$_\t$txInGb3{$_}\n";
 
 #this script from protocol 6
  filterGenesIn.pl nonred.loci.lst bonafide.gb > bonafide.f.gb
-# captures only the last Locus, while there are 600 genes on 
-# list. 
-#  it is necessary to convert this into a loop, 
-#that would grab all 600 genes, not just the last one on the list. 
-
-# the modified file is : bonafide.nonred.f.py, run on python IDE
-# aftter run the script. it is necessary to delete the first  //   of the file from the first line in the gb file
-#  it prouces file  bonafide.f.gb  with 600 genes, see map reduancy
-# sometimes you can get complainig of non-genebank format, than you have to fix it with text editor, add extra whitespace and doubleslash after each locus
-#this can be done automatically with a text editor, supporting regex, such as notepad++
+# captures only the last Locus, while there are 600 genes on
+# list.
+#  it is necessary to convert this into a loop,
+#that would grab all 600 genes, not just the last one on the list.
 # Regex for Locus:
 #   (LOCUS.*OX457036[A-Za-z1-9._-]{1,}.*)
 
 
-# the next step is creating  new model (species), Creating new model wil be descrbed in protocol 1 
+# the next step is creating  new model (species), Creating new model wil be descrbed in protocol 1
