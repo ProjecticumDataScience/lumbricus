@@ -1,0 +1,407 @@
+##gff-version 3
+##sequence-region   OX457036.1 1 98895420
+OX457036.1	gth	gene	4635323	4635397	.	-	.	ID=gene1
+OX457036.1	gth	mRNA	4635323	4635397	.	-	.	ID=mRNA1;Parent=gene1;Target=tr 1 25 +,tr 1 25 +
+OX457036.1	gth	exon	4635323	4635397	1	-	.	Parent=mRNA1
+###
+OX457036.1	gth	gene	19842078	19846783	.	-	.	ID=gene2
+OX457036.1	gth	mRNA	19842078	19846783	.	-	.	ID=mRNA2;Parent=gene2;Target=tr 1 275 +
+OX457036.1	gth	exon	19842078	19842163	0.812	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19842078	19842163	.	-	2	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19842163	19842164	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19842832	19842833	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19842833	19842938	0.809	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19842833	19842938	.	-	0	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19842938	19842939	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19843464	19843465	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19843465	19843612	0.949	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19843465	19843612	.	-	1	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19843612	19843613	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19844063	19844064	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19844064	19844125	0.864	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19844064	19844125	.	-	0	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19844125	19844126	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19844719	19844720	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19844720	19844788	1	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19844720	19844788	.	-	0	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19844788	19844789	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19845087	19845088	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19845088	19845174	0.942	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19845088	19845174	.	-	0	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19845174	19845175	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19845866	19845867	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19845867	19845981	0.972	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19845867	19845981	.	-	1	ID=CDS1;Parent=mRNA2
+OX457036.1	gth	three_prime_cis_splice_site	19845981	19845982	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	five_prime_cis_splice_site	19846631	19846632	0.05	-	.	Parent=mRNA2
+OX457036.1	gth	exon	19846632	19846783	0.849	-	.	Parent=mRNA2
+OX457036.1	gth	CDS	19846632	19846783	.	-	0	ID=CDS1;Parent=mRNA2
+###
+OX457036.1	gth	gene	23684137	23688585	.	-	.	ID=gene3
+OX457036.1	gth	mRNA	23684137	23688585	.	-	.	ID=mRNA3;Parent=gene3;Target=tr 1 155 +,tr 1 155 +,tr 1 155 +
+OX457036.1	gth	exon	23684137	23684244	0.966	-	.	Parent=mRNA3
+OX457036.1	gth	CDS	23684137	23684244	.	-	0	ID=CDS2;Parent=mRNA3
+OX457036.1	gth	three_prime_cis_splice_site	23684244	23684245	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	five_prime_cis_splice_site	23685070	23685071	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	exon	23685071	23685188	0.97	-	.	Parent=mRNA3
+OX457036.1	gth	CDS	23685071	23685188	.	-	1	ID=CDS2;Parent=mRNA3
+OX457036.1	gth	three_prime_cis_splice_site	23685188	23685189	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	five_prime_cis_splice_site	23686202	23686203	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	exon	23686203	23686272	0.945	-	.	Parent=mRNA3
+OX457036.1	gth	CDS	23686203	23686272	.	-	2	ID=CDS2;Parent=mRNA3
+OX457036.1	gth	three_prime_cis_splice_site	23686272	23686273	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	five_prime_cis_splice_site	23686770	23686771	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	exon	23686771	23686867	0.972	-	.	Parent=mRNA3
+OX457036.1	gth	CDS	23686771	23686867	.	-	0	ID=CDS2;Parent=mRNA3
+OX457036.1	gth	three_prime_cis_splice_site	23686867	23686868	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	five_prime_cis_splice_site	23688513	23688514	0.05	-	.	Parent=mRNA3
+OX457036.1	gth	exon	23688514	23688585	0.943	-	.	Parent=mRNA3
+OX457036.1	gth	CDS	23688514	23688585	.	-	0	ID=CDS2;Parent=mRNA3
+OX457036.1	gth	mRNA	23684170	23686325	.	-	.	ID=mRNA4;Parent=gene3;Target=tr 1 106 +,tr 1 106 +
+OX457036.1	gth	exon	23684170	23684244	0.905	-	.	Parent=mRNA4
+OX457036.1	gth	CDS	23684170	23684244	.	-	0	ID=CDS3;Parent=mRNA4
+OX457036.1	gth	three_prime_cis_splice_site	23684244	23684245	0.05	-	.	Parent=mRNA4
+OX457036.1	gth	five_prime_cis_splice_site	23685070	23685071	0.05	-	.	Parent=mRNA4
+OX457036.1	gth	exon	23685071	23685188	1	-	.	Parent=mRNA4
+OX457036.1	gth	CDS	23685071	23685188	.	-	1	ID=CDS3;Parent=mRNA4
+OX457036.1	gth	three_prime_cis_splice_site	23685188	23685189	0.05	-	.	Parent=mRNA4
+OX457036.1	gth	five_prime_cis_splice_site	23686202	23686203	0.05	-	.	Parent=mRNA4
+OX457036.1	gth	CDS	23686203	23686324	.	-	0	ID=CDS3;Parent=mRNA4
+OX457036.1	gth	exon	23686203	23686325	0.629	-	.	Parent=mRNA4
+OX457036.1	gth	mRNA	23685008	23686325	.	-	.	ID=mRNA5;Parent=gene3;Target=tr 1 100 +
+OX457036.1	gth	exon	23685008	23685188	0.742	-	.	Parent=mRNA5
+OX457036.1	gth	CDS	23685056	23685188	.	-	1	ID=CDS4;Parent=mRNA5
+OX457036.1	gth	three_prime_cis_splice_site	23685188	23685189	0.05	-	.	Parent=mRNA5
+OX457036.1	gth	five_prime_cis_splice_site	23686202	23686203	0.05	-	.	Parent=mRNA5
+OX457036.1	gth	CDS	23686203	23686324	.	-	0	ID=CDS4;Parent=mRNA5
+OX457036.1	gth	exon	23686203	23686325	0.629	-	.	Parent=mRNA5
+###
+OX457036.1	gth	gene	37878320	37880676	.	+	.	ID=gene4
+OX457036.1	gth	mRNA	37878320	37880676	.	+	.	ID=mRNA6;Parent=gene4;Target=sp 1 149 +
+OX457036.1	gth	exon	37878320	37878496	0.788	+	.	Parent=mRNA6
+OX457036.1	gth	CDS	37878331	37878496	.	+	0	ID=CDS5;Parent=mRNA6
+OX457036.1	gth	five_prime_cis_splice_site	37878497	37878498	0.05	+	.	Parent=mRNA6
+OX457036.1	gth	three_prime_cis_splice_site	37880235	37880236	0.05	+	.	Parent=mRNA6
+OX457036.1	gth	exon	37880237	37880479	1	+	.	Parent=mRNA6
+OX457036.1	gth	CDS	37880237	37880479	.	+	2	ID=CDS5;Parent=mRNA6
+OX457036.1	gth	five_prime_cis_splice_site	37880480	37880481	0.05	+	.	Parent=mRNA6
+OX457036.1	gth	three_prime_cis_splice_site	37880645	37880646	0.05	+	.	Parent=mRNA6
+OX457036.1	gth	CDS	37880647	37880663	.	+	2	ID=CDS5;Parent=mRNA6
+OX457036.1	gth	exon	37880647	37880676	0.478	+	.	Parent=mRNA6
+OX457036.1	gth	mRNA	37880200	37880445	.	+	.	ID=mRNA7;Parent=gene4;Target=tr 1 83 +
+OX457036.1	gth	exon	37880200	37880445	0.847	+	.	Parent=mRNA7
+OX457036.1	gth	CDS	37880236	37880445	.	+	0	ID=CDS6;Parent=mRNA7
+###
+OX457036.1	gth	gene	39296946	39299658	.	+	.	ID=gene5
+OX457036.1	gth	mRNA	39296946	39299658	.	+	.	ID=mRNA8;Parent=gene5;Target=tr 1 532 +
+OX457036.1	gth	exon	39296946	39297094	0.87	+	.	Parent=mRNA8
+OX457036.1	gth	CDS	39297085	39297094	.	+	0	ID=CDS7;Parent=mRNA8
+OX457036.1	gth	five_prime_cis_splice_site	39297095	39297096	0.05	+	.	Parent=mRNA8
+OX457036.1	gth	three_prime_cis_splice_site	39297143	39297144	0.05	+	.	Parent=mRNA8
+OX457036.1	gth	exon	39297145	39297834	0.933	+	.	Parent=mRNA8
+OX457036.1	gth	CDS	39297145	39297834	.	+	2	ID=CDS7;Parent=mRNA8
+OX457036.1	gth	five_prime_cis_splice_site	39297835	39297836	0.05	+	.	Parent=mRNA8
+OX457036.1	gth	three_prime_cis_splice_site	39298902	39298903	0.05	+	.	Parent=mRNA8
+OX457036.1	gth	exon	39298904	39299658	0.956	+	.	Parent=mRNA8
+OX457036.1	gth	CDS	39298904	39299658	.	+	2	ID=CDS7;Parent=mRNA8
+###
+OX457036.1	gth	gene	44647522	44649903	.	+	.	ID=gene6
+OX457036.1	gth	mRNA	44647522	44649903	.	+	.	ID=mRNA9;Parent=gene6;Target=sp 1 376 +,sp 1 376 +,tr 1 376 +,sp 1 372 +,tr 1 198 +
+OX457036.1	gth	exon	44647522	44647647	0.963	+	.	Parent=mRNA9
+OX457036.1	gth	CDS	44647522	44647647	.	+	0	ID=CDS8;Parent=mRNA9
+OX457036.1	gth	five_prime_cis_splice_site	44647648	44647649	0.05	+	.	Parent=mRNA9
+OX457036.1	gth	three_prime_cis_splice_site	44648900	44648901	0.05	+	.	Parent=mRNA9
+OX457036.1	gth	exon	44648902	44649903	0.988	+	.	Parent=mRNA9
+OX457036.1	gth	CDS	44648902	44649903	.	+	0	ID=CDS8;Parent=mRNA9
+###
+OX457036.1	gth	gene	51521591	51524945	.	+	.	ID=gene7
+OX457036.1	gth	mRNA	51521591	51524945	.	+	.	ID=mRNA10;Parent=gene7;Target=tr 1 288 +
+OX457036.1	gth	exon	51521591	51521876	0.991	+	.	Parent=mRNA10
+OX457036.1	gth	CDS	51521591	51521876	.	+	0	ID=CDS9;Parent=mRNA10
+OX457036.1	gth	five_prime_cis_splice_site	51521877	51521878	0.002	+	.	Parent=mRNA10
+OX457036.1	gth	three_prime_cis_splice_site	51522716	51522717	0.05	+	.	Parent=mRNA10
+OX457036.1	gth	exon	51522718	51522846	1	+	.	Parent=mRNA10
+OX457036.1	gth	CDS	51522718	51522846	.	+	2	ID=CDS9;Parent=mRNA10
+OX457036.1	gth	five_prime_cis_splice_site	51522847	51522848	0.05	+	.	Parent=mRNA10
+OX457036.1	gth	three_prime_cis_splice_site	51523792	51523793	0.05	+	.	Parent=mRNA10
+OX457036.1	gth	exon	51523794	51523972	1	+	.	Parent=mRNA10
+OX457036.1	gth	CDS	51523794	51523972	.	+	2	ID=CDS9;Parent=mRNA10
+OX457036.1	gth	five_prime_cis_splice_site	51523973	51523974	0.05	+	.	Parent=mRNA10
+OX457036.1	gth	three_prime_cis_splice_site	51524674	51524675	0.05	+	.	Parent=mRNA10
+OX457036.1	gth	exon	51524676	51524945	1	+	.	Parent=mRNA10
+OX457036.1	gth	CDS	51524676	51524945	.	+	0	ID=CDS9;Parent=mRNA10
+###
+OX457036.1	gth	gene	51535969	51539680	.	+	.	ID=gene8
+OX457036.1	gth	mRNA	51535969	51539680	.	+	.	ID=mRNA11;Parent=gene8;Target=tr 1 240 +
+OX457036.1	gth	exon	51535969	51536197	0.981	+	.	Parent=mRNA11
+OX457036.1	gth	CDS	51535969	51536197	.	+	0	ID=CDS10;Parent=mRNA11
+OX457036.1	gth	five_prime_cis_splice_site	51536198	51536199	0.05	+	.	Parent=mRNA11
+OX457036.1	gth	three_prime_cis_splice_site	51537630	51537631	0.05	+	.	Parent=mRNA11
+OX457036.1	gth	exon	51537632	51537751	1	+	.	Parent=mRNA11
+OX457036.1	gth	CDS	51537632	51537751	.	+	2	ID=CDS10;Parent=mRNA11
+OX457036.1	gth	five_prime_cis_splice_site	51537752	51537753	0.05	+	.	Parent=mRNA11
+OX457036.1	gth	three_prime_cis_splice_site	51538286	51538287	0.05	+	.	Parent=mRNA11
+OX457036.1	gth	exon	51538288	51538421	0.981	+	.	Parent=mRNA11
+OX457036.1	gth	CDS	51538288	51538421	.	+	2	ID=CDS10;Parent=mRNA11
+OX457036.1	gth	five_prime_cis_splice_site	51538422	51538423	0.05	+	.	Parent=mRNA11
+OX457036.1	gth	three_prime_cis_splice_site	51539442	51539443	0.05	+	.	Parent=mRNA11
+OX457036.1	gth	exon	51539444	51539680	1	+	.	Parent=mRNA11
+OX457036.1	gth	CDS	51539444	51539680	.	+	0	ID=CDS10;Parent=mRNA11
+OX457036.1	gth	mRNA	51536029	51539674	.	+	.	ID=mRNA12;Parent=gene8;Target=tr 1 186 +
+OX457036.1	gth	exon	51536029	51536197	0.984	+	.	Parent=mRNA12
+OX457036.1	gth	CDS	51536029	51536197	.	+	0	ID=CDS11;Parent=mRNA12
+OX457036.1	gth	five_prime_cis_splice_site	51536198	51536199	0.05	+	.	Parent=mRNA12
+OX457036.1	gth	three_prime_cis_splice_site	51537630	51537631	0.05	+	.	Parent=mRNA12
+OX457036.1	gth	exon	51537632	51537751	1	+	.	Parent=mRNA12
+OX457036.1	gth	CDS	51537632	51537751	.	+	2	ID=CDS11;Parent=mRNA12
+OX457036.1	gth	five_prime_cis_splice_site	51537752	51537753	0.05	+	.	Parent=mRNA12
+OX457036.1	gth	three_prime_cis_splice_site	51538286	51538287	0.05	+	.	Parent=mRNA12
+OX457036.1	gth	exon	51538288	51538381	0.966	+	.	Parent=mRNA12
+OX457036.1	gth	CDS	51538288	51538381	.	+	2	ID=CDS11;Parent=mRNA12
+OX457036.1	gth	five_prime_cis_splice_site	51538382	51538383	0.05	+	.	Parent=mRNA12
+OX457036.1	gth	three_prime_cis_splice_site	51539493	51539494	0.05	+	.	Parent=mRNA12
+OX457036.1	gth	CDS	51539495	51539543	.	+	1	ID=CDS11;Parent=mRNA12
+OX457036.1	gth	exon	51539495	51539674	0.965	+	.	Parent=mRNA12
+###
+OX457036.1	gth	gene	55501673	55529958	.	-	.	ID=gene9
+OX457036.1	gth	mRNA	55501673	55529958	.	-	.	ID=mRNA13;Parent=gene9;Target=tr 1 180 +
+OX457036.1	gth	exon	55501673	55501808	1	-	.	Parent=mRNA13
+OX457036.1	gth	CDS	55501673	55501808	.	-	1	ID=CDS12;Parent=mRNA13
+OX457036.1	gth	three_prime_cis_splice_site	55501808	55501809	0.05	-	.	Parent=mRNA13
+OX457036.1	gth	five_prime_cis_splice_site	55503247	55503248	0.05	-	.	Parent=mRNA13
+OX457036.1	gth	exon	55503248	55503482	0.988	-	.	Parent=mRNA13
+OX457036.1	gth	CDS	55503248	55503482	.	-	2	ID=CDS12;Parent=mRNA13
+OX457036.1	gth	three_prime_cis_splice_site	55503482	55503483	0.05	-	.	Parent=mRNA13
+OX457036.1	gth	five_prime_cis_splice_site	55529788	55529789	0.05	-	.	Parent=mRNA13
+OX457036.1	gth	CDS	55529789	55529957	.	-	0	ID=CDS12;Parent=mRNA13
+OX457036.1	gth	exon	55529789	55529958	0.842	-	.	Parent=mRNA13
+###
+OX457036.1	gth	gene	57431403	57470525	.	+	.	ID=gene10
+OX457036.1	gth	mRNA	57431403	57470525	.	+	.	ID=mRNA14;Parent=gene10;Target=tr 19 1451 +
+OX457036.1	gth	exon	57431403	57431473	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57431403	57431473	.	+	0	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57431474	57431475	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57435002	57435003	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57435004	57435075	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57435004	57435075	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57435076	57435077	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57440688	57440689	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57440690	57440761	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57440690	57440761	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57440762	57440763	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57441464	57441465	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57441466	57441537	0.978	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57441466	57441537	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57441538	57441539	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57441976	57441977	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57441978	57442049	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57441978	57442049	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57442050	57442051	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57445541	57445542	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57445543	57445697	0.973	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57445543	57445697	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57445698	57445699	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57448375	57448376	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57448377	57448494	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57448377	57448494	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57448495	57448496	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57448966	57448967	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57448968	57449152	0.987	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57448968	57449152	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57449153	57449154	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57450196	57450197	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57450198	57450467	0.983	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57450198	57450467	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57450468	57450469	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57450780	57450781	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57450782	57450898	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57450782	57450898	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57450899	57450900	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57451641	57451642	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57451643	57451804	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57451643	57451804	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57451805	57451806	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57452186	57452187	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57452188	57452463	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57452188	57452463	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57452464	57452465	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57452992	57452993	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57452994	57453266	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57452994	57453266	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57453267	57453268	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57454108	57454109	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57454110	57454343	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57454110	57454343	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57454344	57454345	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57455054	57455055	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57455056	57455594	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57455056	57455594	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57455595	57455596	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57456170	57456171	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57456172	57456445	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57456172	57456445	.	+	0	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57456446	57456447	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57457572	57457573	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57457574	57458044	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57457574	57458044	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57458045	57458046	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57458496	57458497	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57458498	57458615	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57458498	57458615	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57458616	57458617	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57459716	57459717	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57459718	57459932	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57459718	57459932	.	+	1	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57459933	57459934	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57468144	57468145	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57468146	57468438	0.905	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57468146	57468438	.	+	2	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57468439	57468440	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57469065	57469066	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57469067	57469210	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57469067	57469210	.	+	0	ID=CDS13;Parent=mRNA14
+OX457036.1	gth	five_prime_cis_splice_site	57469211	57469212	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	three_prime_cis_splice_site	57470431	57470432	0.05	+	.	Parent=mRNA14
+OX457036.1	gth	exon	57470433	57470525	1	+	.	Parent=mRNA14
+OX457036.1	gth	CDS	57470433	57470525	.	+	0	ID=CDS13;Parent=mRNA14
+###
+OX457036.1	gth	gene	61318810	61318884	.	+	.	ID=gene11
+OX457036.1	gth	mRNA	61318810	61318884	.	+	.	ID=mRNA15;Parent=gene11;Target=tr 1 25 +
+OX457036.1	gth	exon	61318810	61318884	0.853	+	.	Parent=mRNA15
+###
+OX457036.1	gth	gene	66405337	66406225	.	-	.	ID=gene12
+OX457036.1	gth	mRNA	66405337	66406225	.	-	.	ID=mRNA16;Parent=gene12;Target=tr 1 94 +
+OX457036.1	gth	exon	66405337	66405354	1	-	.	Parent=mRNA16
+OX457036.1	gth	CDS	66405337	66405354	.	-	0	ID=CDS14;Parent=mRNA16
+OX457036.1	gth	three_prime_cis_splice_site	66405354	66405355	0.05	-	.	Parent=mRNA16
+OX457036.1	gth	five_prime_cis_splice_site	66405524	66405525	0.05	-	.	Parent=mRNA16
+OX457036.1	gth	exon	66405525	66405607	0.84	-	.	Parent=mRNA16
+OX457036.1	gth	CDS	66405525	66405607	.	-	2	ID=CDS14;Parent=mRNA16
+OX457036.1	gth	three_prime_cis_splice_site	66405607	66405608	0.05	-	.	Parent=mRNA16
+OX457036.1	gth	five_prime_cis_splice_site	66406044	66406045	0.05	-	.	Parent=mRNA16
+OX457036.1	gth	exon	66406045	66406225	0.832	-	.	Parent=mRNA16
+OX457036.1	gth	CDS	66406045	66406225	.	-	0	ID=CDS14;Parent=mRNA16
+###
+OX457036.1	gth	gene	77677055	77681198	.	-	.	ID=gene13
+OX457036.1	gth	mRNA	77677055	77681198	.	-	.	ID=mRNA17;Parent=gene13;Target=tr 1 239 +
+OX457036.1	gth	exon	77677055	77677291	0.942	-	.	Parent=mRNA17
+OX457036.1	gth	CDS	77677055	77677291	.	-	0	ID=CDS15;Parent=mRNA17
+OX457036.1	gth	three_prime_cis_splice_site	77677291	77677292	0.05	-	.	Parent=mRNA17
+OX457036.1	gth	five_prime_cis_splice_site	77678132	77678133	0.05	-	.	Parent=mRNA17
+OX457036.1	gth	exon	77678133	77678266	0.904	-	.	Parent=mRNA17
+OX457036.1	gth	CDS	77678133	77678266	.	-	2	ID=CDS15;Parent=mRNA17
+OX457036.1	gth	three_prime_cis_splice_site	77678266	77678267	0.05	-	.	Parent=mRNA17
+OX457036.1	gth	five_prime_cis_splice_site	77679864	77679865	0.05	-	.	Parent=mRNA17
+OX457036.1	gth	exon	77679865	77679984	0.978	-	.	Parent=mRNA17
+OX457036.1	gth	CDS	77679865	77679984	.	-	2	ID=CDS15;Parent=mRNA17
+OX457036.1	gth	three_prime_cis_splice_site	77679984	77679985	0.05	-	.	Parent=mRNA17
+OX457036.1	gth	five_prime_cis_splice_site	77680969	77680970	0.05	-	.	Parent=mRNA17
+OX457036.1	gth	exon	77680970	77681198	0.985	-	.	Parent=mRNA17
+OX457036.1	gth	CDS	77680970	77681198	.	-	0	ID=CDS15;Parent=mRNA17
+###
+OX457036.1	gth	gene	77692877	77696233	.	-	.	ID=gene14
+OX457036.1	gth	mRNA	77692877	77696233	.	-	.	ID=mRNA18;Parent=gene14;Target=tr 1 158 +,tr 1 25 +
+OX457036.1	gth	exon	77692877	77692981	1	-	.	Parent=mRNA18
+OX457036.1	gth	CDS	77692877	77692981	.	-	0	ID=CDS16;Parent=mRNA18
+OX457036.1	gth	three_prime_cis_splice_site	77692981	77692982	0.05	-	.	Parent=mRNA18
+OX457036.1	gth	five_prime_cis_splice_site	77693596	77693597	0.05	-	.	Parent=mRNA18
+OX457036.1	gth	exon	77693597	77693810	0.987	-	.	Parent=mRNA18
+OX457036.1	gth	CDS	77693597	77693810	.	-	1	ID=CDS16;Parent=mRNA18
+OX457036.1	gth	three_prime_cis_splice_site	77693810	77693811	0.05	-	.	Parent=mRNA18
+OX457036.1	gth	five_prime_cis_splice_site	77696078	77696079	0.05	-	.	Parent=mRNA18
+OX457036.1	gth	exon	77696079	77696233	1	-	.	Parent=mRNA18
+OX457036.1	gth	CDS	77696079	77696233	.	-	0	ID=CDS16;Parent=mRNA18
+###
+OX457036.1	gth	gene	77700923	77703603	.	-	.	ID=gene15
+OX457036.1	gth	mRNA	77700923	77703603	.	-	.	ID=mRNA19;Parent=gene15;Target=tr 1 158 +,sp 1 142 +
+OX457036.1	gth	exon	77700923	77701032	1	-	.	Parent=mRNA19
+OX457036.1	gth	CDS	77700925	77701032	.	-	0	ID=CDS17;Parent=mRNA19
+OX457036.1	gth	three_prime_cis_splice_site	77701032	77701033	0.05	-	.	Parent=mRNA19
+OX457036.1	gth	five_prime_cis_splice_site	77701849	77701850	0.05	-	.	Parent=mRNA19
+OX457036.1	gth	exon	77701850	77702063	0.983	-	.	Parent=mRNA19
+OX457036.1	gth	CDS	77701850	77702063	.	-	1	ID=CDS17;Parent=mRNA19
+OX457036.1	gth	three_prime_cis_splice_site	77702063	77702064	0.05	-	.	Parent=mRNA19
+OX457036.1	gth	five_prime_cis_splice_site	77703448	77703449	0.05	-	.	Parent=mRNA19
+OX457036.1	gth	exon	77703449	77703603	0.981	-	.	Parent=mRNA19
+OX457036.1	gth	CDS	77703449	77703603	.	-	0	ID=CDS17;Parent=mRNA19
+###
+OX457036.1	gth	gene	87112687	87114691	.	-	.	ID=gene16
+OX457036.1	gth	mRNA	87112687	87114691	.	-	.	ID=mRNA20;Parent=gene16;Target=sp 1 376 +,sp 1 376 +,tr 1 376 +,sp 1 372 +
+OX457036.1	gth	exon	87112687	87113448	0.979	-	.	Parent=mRNA20
+OX457036.1	gth	CDS	87112687	87113448	.	-	0	ID=CDS18;Parent=mRNA20
+OX457036.1	gth	three_prime_cis_splice_site	87113448	87113449	0.05	-	.	Parent=mRNA20
+OX457036.1	gth	five_prime_cis_splice_site	87113973	87113974	0.05	-	.	Parent=mRNA20
+OX457036.1	gth	exon	87113974	87114213	1	-	.	Parent=mRNA20
+OX457036.1	gth	CDS	87113974	87114213	.	-	0	ID=CDS18;Parent=mRNA20
+OX457036.1	gth	three_prime_cis_splice_site	87114213	87114214	0.05	-	.	Parent=mRNA20
+OX457036.1	gth	five_prime_cis_splice_site	87114565	87114566	0.05	-	.	Parent=mRNA20
+OX457036.1	gth	exon	87114566	87114691	0.952	-	.	Parent=mRNA20
+OX457036.1	gth	CDS	87114566	87114691	.	-	0	ID=CDS18;Parent=mRNA20
+###
+OX457036.1	gth	gene	87121959	87123083	.	-	.	ID=gene17
+OX457036.1	gth	mRNA	87121959	87123083	.	-	.	ID=mRNA21;Parent=gene17;Target=tr 1 198 +
+OX457036.1	gth	exon	87121959	87122471	0.969	-	.	Parent=mRNA21
+OX457036.1	gth	CDS	87121959	87122471	.	-	0	ID=CDS19;Parent=mRNA21
+OX457036.1	gth	three_prime_cis_splice_site	87122471	87122472	0.05	-	.	Parent=mRNA21
+OX457036.1	gth	five_prime_cis_splice_site	87123002	87123003	0.05	-	.	Parent=mRNA21
+OX457036.1	gth	exon	87123003	87123083	1	-	.	Parent=mRNA21
+OX457036.1	gth	CDS	87123003	87123083	.	-	0	ID=CDS19;Parent=mRNA21
+###
+OX457036.1	gth	gene	90736655	90737174	.	+	.	ID=gene18
+OX457036.1	gth	mRNA	90736655	90737174	.	+	.	ID=mRNA22;Parent=gene18;Target=tr 36 121 +,sp 1 63 +
+OX457036.1	gth	exon	90736655	90736679	0.265	+	.	Parent=mRNA22
+OX457036.1	gth	CDS	90736656	90736679	.	+	0	ID=CDS20;Parent=mRNA22
+OX457036.1	gth	five_prime_cis_splice_site	90736680	90736681	0.05	+	.	Parent=mRNA22
+OX457036.1	gth	three_prime_cis_splice_site	90736930	90736931	0.002	+	.	Parent=mRNA22
+OX457036.1	gth	exon	90736932	90737174	0.836	+	.	Parent=mRNA22
+OX457036.1	gth	CDS	90736932	90737174	.	+	0	ID=CDS20;Parent=mRNA22
+###
+OX457036.1	gth	gene	91986436	91991649	.	+	.	ID=gene19
+OX457036.1	gth	mRNA	91986436	91991649	.	+	.	ID=mRNA23;Parent=gene19;Target=tr 1 440 +
+OX457036.1	gth	exon	91986436	91986784	0.881	+	.	Parent=mRNA23
+OX457036.1	gth	CDS	91986436	91986784	.	+	0	ID=CDS21;Parent=mRNA23
+OX457036.1	gth	five_prime_cis_splice_site	91986785	91986786	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	three_prime_cis_splice_site	91987587	91987588	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	exon	91987589	91987672	0.768	+	.	Parent=mRNA23
+OX457036.1	gth	CDS	91987589	91987672	.	+	2	ID=CDS21;Parent=mRNA23
+OX457036.1	gth	five_prime_cis_splice_site	91987673	91987674	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	three_prime_cis_splice_site	91988251	91988252	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	exon	91988253	91988294	0.59	+	.	Parent=mRNA23
+OX457036.1	gth	CDS	91988253	91988294	.	+	2	ID=CDS21;Parent=mRNA23
+OX457036.1	gth	five_prime_cis_splice_site	91988295	91988296	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	three_prime_cis_splice_site	91989531	91989532	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	exon	91989533	91989716	0.983	+	.	Parent=mRNA23
+OX457036.1	gth	CDS	91989533	91989716	.	+	2	ID=CDS21;Parent=mRNA23
+OX457036.1	gth	five_prime_cis_splice_site	91989717	91989718	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	three_prime_cis_splice_site	91990530	91990531	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	exon	91990532	91990623	1	+	.	Parent=mRNA23
+OX457036.1	gth	CDS	91990532	91990623	.	+	1	ID=CDS21;Parent=mRNA23
+OX457036.1	gth	five_prime_cis_splice_site	91990624	91990625	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	three_prime_cis_splice_site	91991076	91991077	0.05	+	.	Parent=mRNA23
+OX457036.1	gth	exon	91991078	91991649	0.671	+	.	Parent=mRNA23
+OX457036.1	gth	CDS	91991078	91991649	.	+	2	ID=CDS21;Parent=mRNA23
+###
+OX457036.1	gth	gene	98669537	98671928	.	+	.	ID=gene20
+OX457036.1	gth	mRNA	98669537	98671928	.	+	.	ID=mRNA24;Parent=gene20;Target=tr 1 133 +
+OX457036.1	gth	exon	98669537	98669650	0.858	+	.	Parent=mRNA24
+OX457036.1	gth	CDS	98669537	98669650	.	+	0	ID=CDS22;Parent=mRNA24
+OX457036.1	gth	five_prime_cis_splice_site	98669651	98669652	0.05	+	.	Parent=mRNA24
+OX457036.1	gth	three_prime_cis_splice_site	98670963	98670964	0.05	+	.	Parent=mRNA24
+OX457036.1	gth	exon	98670965	98671119	0.896	+	.	Parent=mRNA24
+OX457036.1	gth	CDS	98670965	98671119	.	+	0	ID=CDS22;Parent=mRNA24
+OX457036.1	gth	five_prime_cis_splice_site	98671120	98671121	0.05	+	.	Parent=mRNA24
+OX457036.1	gth	three_prime_cis_splice_site	98671797	98671798	0.05	+	.	Parent=mRNA24
+OX457036.1	gth	exon	98671799	98671928	0.831	+	.	Parent=mRNA24
+OX457036.1	gth	CDS	98671799	98671928	.	+	1	ID=CDS22;Parent=mRNA24
+OX457036.1	gth	mRNA	98670666	98671928	.	+	.	ID=mRNA25;Parent=gene20;Target=tr 25 132 +
+OX457036.1	gth	exon	98670666	98670704	0.333	+	.	Parent=mRNA25
+OX457036.1	gth	CDS	98670666	98670704	.	+	0	ID=CDS23;Parent=mRNA25
+OX457036.1	gth	five_prime_cis_splice_site	98670705	98670706	0.05	+	.	Parent=mRNA25
+OX457036.1	gth	three_prime_cis_splice_site	98670963	98670964	0.05	+	.	Parent=mRNA25
+OX457036.1	gth	exon	98670965	98671119	1	+	.	Parent=mRNA25
+OX457036.1	gth	CDS	98670965	98671119	.	+	0	ID=CDS23;Parent=mRNA25
+OX457036.1	gth	five_prime_cis_splice_site	98671120	98671121	0.05	+	.	Parent=mRNA25
+OX457036.1	gth	three_prime_cis_splice_site	98671797	98671798	0.05	+	.	Parent=mRNA25
+OX457036.1	gth	exon	98671799	98671928	1	+	.	Parent=mRNA25
+OX457036.1	gth	CDS	98671799	98671928	.	+	1	ID=CDS23;Parent=mRNA25
+###
