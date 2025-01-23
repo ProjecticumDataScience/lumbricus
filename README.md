@@ -10,3 +10,4 @@ source for webapp: https://github.com/alenagrrr3/nodejs
 resultaten van de pipline positieve controle C Elegans hier:
 https://wclumterr.netlify.app/
 
+ model: ~/lumbricus/protocol2/model/regenworm
