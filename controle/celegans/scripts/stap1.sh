@@ -1,3 +1,7 @@
+
+# resultaten van de pipline positieve controle C Elegans hier, tracks+refseq: https://wclumterr.netlify.app/
+
+
 startAlign.pl --genome BX284601.5.fasta --prot UP000001940_6239.fasta  --pos OX457036.1:1-10000000  --prg gth
 
 
