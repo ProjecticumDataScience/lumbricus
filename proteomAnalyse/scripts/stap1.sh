@@ -4,6 +4,7 @@
 
 # prerequirements: 1.  sudo cp -r regenworm /usr/share/augustus/config/species/
 #  2.  cp -r regenworm  anaconda3/envs/c/config/species/
+# model:   ~/lumbricus/protocol2/model/regenworm
 
 fastas=("chr1.fasta" "chr2.fasta" "chr3.fasta" "chr4.fasta")
 
