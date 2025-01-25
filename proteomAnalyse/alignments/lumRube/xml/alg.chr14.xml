@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<GTH_output xmlns="http://www.genomethreader.org/GTH_output/" GTH_XML_version="1.1">
+  <header xmlns="http://www.genomethreader.org/GTH_output/header/">
+    <source program="GenomeThreader" version="1.7.1" build_date="redacted" run_date="2025-01-25 19:09:36"/>
+    <gDNA_template_files>
+      <temp_name>14.fasta</temp_name>
+    </gDNA_template_files>
+    <reference_files>
+      <file ref_name="idmapping_2025_01_18.fasta" type="Protein"/>
+    </reference_files>
+    <splice_site_parameters parameter_type="Bayesian" species="generic"/>
+    <parameters>
+      <parameter name="bssmfile" value="none"/>
+      <parameter name="scorematrixfile" value="BLOSUM62"/>
+      <parameter name="searchmode" value="forward=True,reverse=True)"/>
+<!--
+$ Arguments: -genomic 14.fasta -protein idmapping_2025_01_18.fasta -xmlout
+-->
+    </parameters>
+    <overall_reference_type>Protein</overall_reference_type>
+  </header>
+<alignment_module>
+<spliced_alignment xmlns="http://www.genomethreader.org/GTH_output/alignment_module/spliced_alignment/">
+  <reference ref_file="idmapping_2025_01_18.fasta" ref_id="tr" ref_description="tr|D1MJA9|D1MJA9_EISFE Peptidyl-prolyl cis-trans isomerase (Fragment) OS=Eisenia fetida OX=6396 PE=2 SV=1">
+    <seq>DGTGGKSIYGNKFEDENFTLKHTGRGILSMANAGKNTNGSQFFICTA</seq>
+  </reference>
+  <gDNA_segment>
+    <template temp_file="14.fasta" temp_id="OX243824.1" temp_strand="+" temp_description="OX243824.1 Lumbricus rubellus genome assembly, chromosome: 14">
+      <position start="4324822" stop="4325493"/>
+    </template>
+  </gDNA_segment>
+  <predicted_gene_structure>
+    <exon-intron_info>
+      <exon e_serial="1">
+        <gDNA_exon_boundary g_start="4325122" g_stop="4325261" g_length="140"/>
+        <reference_exon_boundary r_type="Protein" r_start="1" r_stop="47" r_length="47" r_score="0.493"/>
+      </exon>
+    </exon-intron_info>
+    <MATCH_line gen_id="OX243824.1" gen_strand="+" ref_id="tr">
+      <total_alignment_score>0.493</total_alignment_score>
+      <cumulative_length_of_scored_exons>140</cumulative_length_of_scored_exons>
+      <coverage percentage="0.993" high_type="P"/>
+    </MATCH_line>
+    <PGS_line>
+      <gDNA gen_id="OX243824.1" gen_strand="+"/>
+      <rProt rProt_id="tr"/>
+      <gDNA_exon_coordinates>
+        <exon e_start="4325122" e_stop="4325261"/>
+      </gDNA_exon_coordinates>
+    </PGS_line>
+    <alignment>
+      <genome_strand>GACGGCACAGGTGGTAAATCCATCTACGGCCGGAAATTCGACGACGAAAACTTCAACCTACTGCACACCGGGCCTGGTCTGTAGCTGAGTTTAATTA-TTATGCTAGATTCGTGCTGTATTCTAAAATGTTT---TGCGATTTT</genome_strand>
+      <genomeProt> D  G  T  G  G  K  S  I  Y  G  R  K  F  D  D  E  N  F  N  L  L  H  T  G  P  G  L     L  S  L  I     Y  A  R  F  V  L  Y  S  K  M  F     C  D  F </genomeProt>
+      <queryProt> D  G  T  G  G  K  S  I  Y  G  N  K  F  E  D  E  N  F  T  L  K  H  T  G  R  G  I  -  L  S  M  A  N  A  G  K  N  T  N  G  S  Q  F  F  I  C  T  A </queryProt>
+    </alignment>
+  </predicted_gene_structure>
+</spliced_alignment>
+<spliced_alignment xmlns="http://www.genomethreader.org/GTH_output/alignment_module/spliced_alignment/">
+  <reference ref_file="idmapping_2025_01_18.fasta" ref_id="tr" ref_description="tr|Q8MWU0|Q8MWU0_9ANNE Hox08 (Fragment) OS=Eisenia andrei OX=168636 PE=4 SV=1">
+    <seq>HFNKYLTRARRIEIAAALGLNETQV</seq>
+  </reference>
+  <gDNA_segment>
+    <template temp_file="14.fasta" temp_id="OX243824.1" temp_strand="-" temp_description="OX243824.1 Lumbricus rubellus genome assembly, chromosome: 14">
+      <position start="9237928" stop="9237254"/>
+    </template>
+  </gDNA_segment>
+  <predicted_gene_structure>
+    <exon-intron_info>
+      <exon e_serial="1">
+        <gDNA_exon_boundary g_start="9237628" g_stop="9237554" g_length="75"/>
+        <reference_exon_boundary r_type="Protein" r_start="1" r_stop="25" r_length="25" r_score="0.911"/>
+      </exon>
+    </exon-intron_info>
+    <MATCH_line gen_id="OX243824.1" gen_strand="-" ref_id="tr">
+      <total_alignment_score>0.911</total_alignment_score>
+      <cumulative_length_of_scored_exons>75</cumulative_length_of_scored_exons>
+      <coverage percentage="1.000" high_type="P"/>
+    </MATCH_line>
+    <PGS_line>
+      <gDNA gen_id="OX243824.1" gen_strand="-"/>
+      <rProt rProt_id="tr"/>
+      <gDNA_exon_coordinates>
+        <exon e_start="9237628" e_stop="9237554"/>
+      </gDNA_exon_coordinates>
+    </PGS_line>
+    <alignment>
+      <genome_strand>CATTTCAATCGATATCTGACGAGAGCCAGGAGGATCGAGATTGCATCTGTATTAGGACTCAACGAGACACAGGTA</genome_strand>
+      <genomeProt> H  F  N  R  Y  L  T  R  A  R  R  I  E  I  A  S  V  L  G  L  N  E  T  Q  V </genomeProt>
+      <queryProt> H  F  N  K  Y  L  T  R  A  R  R  I  E  I  A  A  A  L  G  L  N  E  T  Q  V </queryProt>
+    </alignment>
+  </predicted_gene_structure>
+</spliced_alignment>
+<spliced_alignment xmlns="http://www.genomethreader.org/GTH_output/alignment_module/spliced_alignment/">
+  <reference ref_file="idmapping_2025_01_18.fasta" ref_id="tr" ref_description="tr|A8K517|A8K517_HUMAN Small ribosomal subunit protein uS12 OS=Homo sapiens OX=9606 GN=RPS23 PE=2 SV=1">
+    <seq>MGKCRGLRTARKLRSHRRDQKWHDKQYKKAHLGTALKANPFGGASHAKGIVLEKVGVEAKQPNSAIRKCVRVQLIKNGKKITAFVPNDGCLNFIEENDEVLVAGFGRKGHAVGDIPGVRFKVVKVANVSLLALYKGKKERPRS</seq>
+  </reference>
+  <gDNA_segment>
+    <template temp_file="14.fasta" temp_id="OX243824.1" temp_strand="+" temp_description="OX243824.1 Lumbricus rubellus genome assembly, chromosome: 14">
+      <position start="9339119" stop="9342037"/>
+    </template>
+  </gDNA_segment>
+  <predicted_gene_structure>
+    <exon-intron_info>
+      <exon e_serial="1">
+        <gDNA_exon_boundary g_start="9339341" g_stop="9339504" g_length="164"/>
+        <reference_exon_boundary r_type="Protein" r_start="1" r_stop="55" r_length="55" r_score="0.820"/>
+      </exon>
+      <intron i_serial="1">
+        <gDNA_intron_boundary i_start="9339505" i_stop="9340231" i_length="727">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="2">
+        <gDNA_exon_boundary g_start="9340232" g_stop="9340352" g_length="121"/>
+        <reference_exon_boundary r_type="Protein" r_start="56" r_stop="95" r_length="40" r_score="0.979"/>
+      </exon>
+      <intron i_serial="2">
+        <gDNA_intron_boundary i_start="9340353" i_stop="9341593" i_length="1241">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="3">
+        <gDNA_exon_boundary g_start="9341594" g_stop="9341737" g_length="144"/>
+        <reference_exon_boundary r_type="Protein" r_start="96" r_stop="143" r_length="48" r_score="0.961"/>
+      </exon>
+    </exon-intron_info>
+    <MATCH_line gen_id="OX243824.1" gen_strand="+" ref_id="tr">
+      <total_alignment_score>0.907</total_alignment_score>
+      <cumulative_length_of_scored_exons>429</cumulative_length_of_scored_exons>
+      <coverage percentage="1.000" high_type="P"/>
+    </MATCH_line>
+    <PGS_line>
+      <gDNA gen_id="OX243824.1" gen_strand="+"/>
+      <rProt rProt_id="tr"/>
+      <gDNA_exon_coordinates>
+        <exon e_start="9339341" e_stop="9339504"/>
+        <exon e_start="9340232" e_stop="9340352"/>
+        <exon e_start="9341594" e_stop="9341737"/>
+      </gDNA_exon_coordinates>
+    </PGS_line>
+    <alignment>
+      <genome_strand>TTAGGTAAGCCACGAGGTCTTAGGACTGCTCGCAAGCTGAAGAACCATCGTCGTGAGCAGAGATGGCATGACAAAGACTACAAGAAGTCTCACTTGGGAACCCGTTGGAAGTCCAATCCTTTTGGTGGAGCCTCCCACGCCAAGGGAATCGTCCTGGAAAAAGTGTAAGCCTTTCAGAACTGTTACAAGTTTAAGTCTTATTATAAACTCTCTGTATATTTTTTGTTTGAATGTTAAGTTCAACAAATTCCTGAAGGGTTATTTGAGGTAATTTCTTCTAGTATGATATCTTGAAATTGCTGTTCATATGGTTCACTTTTGTGGCTCATGCATAAATTTGTAAACACTGCGCTGAATGGACAGATCTATACTGTTTTTGCATACAATTTTTGCATTTGTTAATTTTTTATTTGTACACTATTGAACTAGATTCATCTATTGCTGAAAGAATTGTAGACTAAATTTTACAATGTCATCATAAACTATGTAACTAGAGCTAATATTTAAACTTGTAAATATACCAGTTTAAGAAAAACATTACTTGCACAGATACTATGAAGAATTTATTCTTTGACTTAGAATTAGTGCTCTATTTCAATGTAACTCTTTAGCGATGATTGTATACTAAAAGCGACTTGGAGACCTACGCAGCTCATTGTTAACCATTTAACCCTTTAATGCCGAGATGGTAGTAAATGGTATGGGAAATCCTATACCCTCCGGCATTTATAAAGGGTTAACGACCAGCTACACGTGTTTTCAATGCATATTAGTGCGCGCTGATCGTTAGAGTGTTAAAGAGGTGTTAACAGGATGAAAATGATTTTTTCTGGTTGTTGTTCTAGCTTAGTGTACCAGCGCCAATAAAATCTTCTGTGATTGTTTTTGCAGTGGAGTTGAAGCCAAGCAGCCGAACTCGGCCATCCGTAAGTGCGTGAGGGTGCAGCTGATCAAGAACGGAAAGAAGATCACTGCGTTCGTTCCGAGGGATGGTTGTCTCAACTTCATTGAGGTTTGTCAATTTATGAGATTTTTTTAAAATATGTTTTCATATAGGAAATTATTAGTAAAACAATTTCATGAGCTGTACGTGTTGACTAATAATTATATAGTATCATGTTTTTAAATTAGAATTTCTTACAGTAATAAAACGTCTCAACCTTCTGAACGAAAGTGTACGAAAATATTGAGCATTTAAATTCGTTTGAAAGACTTCTTGTCAGGAGTTAATTGTGTGTTTTGATATCTGAAGTGGGACGAGGGGTAGACACACATTGCGTTTGTGTATACTGCATGTGTGTGTGTCAAACTATGGCACGAAGGGATGCATGCTGCTAAATCTGTTCCATTAAGATTTCTGTGATTCAGATATGATGTGAAAGCTCAACGCCATTTTATGACGTGAAATATAAAGTTACTTAATTTTTATTTTGATAATTTAATTAGCATTGTCATTAGCATGCTTTATACACACTGTGCACTGTCTACTCGAATGGTTTCTGGTGTGCGTTTTAATGTACGTTTGTCGTTAAGGTGTGATTTTTCTAAGTCAGAATTGCAATAAGTTCATGCGAGCAGCAAGCTACTTCTGTACGGCTTAATTGCCAATGCGGATTTTATATTTCAAGACATACATACTGTAGCCCACAGTCTCTGATGTTAAAGCGTGTTGGACTCCTTGCTCTGCTAGGAAGGGCAACTCCTAGTCCCACGGGCTTGCTTGGCTGCCAGGCAACACTAAGCTTTCTCGGTGGTAATTGCGTCCATCTGGAAAGACCTCCATTCAAAGCTACTTTTATTACATCTCACTAATCAAACCTTGTTTCGTAAATACACAAATTTTGTCGTTTTATTTTTTTCCGTGTCTGAGATAGGAGTGCTCCAGAGTAGATTTCTTTAAAGAGAGCTATATAATTCCATAGTTTGAACGAATATGATACACAAGATATTTTAAGTACCTTGCATCAACACAACTCATCGGGCGTAGTGGTGGCGTCGTTGCCTTGGAGCCGGAAGGTTCGAATCCACCTCGTCGTGTAAGGACCTTGGGCAAGTCCTTCACTCACAATTGCTCAGCACTTCAGCGTGAAACTCCGATGCAGTGTTCGCTCTGCATTCGGGAGCGCCTATGAGTAGTGAGAGCTTGAAGGGGCACTATAACAAGTGCACATACAAACAAACCACACGTAGGTATATTTTTACAACGTATTCCTTGACCTTCAAAGAGTAATTTGTGTTTGGTATGCATTGTAGGAGAACGATGAAGTTTTGGTCGCTGGATTCGGTCGTAAGGGTCACGCCGTCGGTGATATCCCCGGAGTCCGTTTCAAGGTCGTCAAGGTCGCCAGCGTTTCCCTGCTTGCCTTGTACAAACAGAAGAAGGAGAGGCCAAGGTCG</genome_strand>
+      <genomeProt> L  G  K  P  R  G  L  R  T  A  R  K  L  K  N  H  R  R  E  Q  R  W  H  D  K  D  Y  K  K  S  H  L  G  T  R  W  K  S  N  P  F  G  G  A  S  H  A  K  G  I  V  L  E  K  V                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         G  V  E  A  K  Q  P  N  S  A  I  R  K  C  V  R  V  Q  L  I  K  N  G  K  K  I  T  A  F  V  P  R  D  G  C  L  N  F  I  E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           E  N  D  E  V  L  V  A  G  F  G  R  K  G  H  A  V  G  D  I  P  G  V  R  F  K  V  V  K  V  A  S  V  S  L  L  A  L  Y  K  Q  K  K  E  R  P  R  S </genomeProt>
+      <queryProt> M  G  K  C  R  G  L  R  T  A  R  K  L  R  S  H  R  R  D  Q  K  W  H  D  K  Q  Y  K  K  A  H  L  G  T  A  L  K  A  N  P  F  G  G  A  S  H  A  K  G  I  V  L  E  K  V.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................  G  V  E  A  K  Q  P  N  S  A  I  R  K  C  V  R  V  Q  L  I  K  N  G  K  K  I  T  A  F  V  P  N  D  G  C  L  N  F  I  E ......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... E  N  D  E  V  L  V  A  G  F  G  R  K  G  H  A  V  G  D  I  P  G  V  R  F  K  V  V  K  V  A  N  V  S  L  L  A  L  Y  K  G  K  K  E  R  P  R  S </queryProt>
+    </alignment>
+  </predicted_gene_structure>
+</spliced_alignment>
+<spliced_alignment xmlns="http://www.genomethreader.org/GTH_output/alignment_module/spliced_alignment/">
+  <reference ref_file="idmapping_2025_01_18.fasta" ref_id="sp" ref_description="sp|Q9GRJ3|RS23_LUMRU Small ribosomal subunit protein uS12 OS=Lumbricus rubellus OX=35632 GN=RPS23 PE=2 SV=1">
+    <seq>MGKPRGLRTARKLKNHRREQRWHDKDYKKSHLGTRWKSNPFGGASHAKGIVLEKVGVEAKQPNSAIRKCVRVQLIKNGKKITAFVPRDGCLNFIEENDEVLVAGFGRKGHAVGDIPGVRFKVVKVASVSLLALYKQKKERPRS</seq>
+  </reference>
+  <gDNA_segment>
+    <template temp_file="14.fasta" temp_id="OX243824.1" temp_strand="+" temp_description="OX243824.1 Lumbricus rubellus genome assembly, chromosome: 14">
+      <position start="9339044" stop="9342037"/>
+    </template>
+  </gDNA_segment>
+  <predicted_gene_structure>
+    <exon-intron_info>
+      <exon e_serial="1">
+        <gDNA_exon_boundary g_start="9339341" g_stop="9339504" g_length="164"/>
+        <reference_exon_boundary r_type="Protein" r_start="1" r_stop="55" r_length="55" r_score="0.988"/>
+      </exon>
+      <intron i_serial="1">
+        <gDNA_intron_boundary i_start="9339505" i_stop="9340231" i_length="727">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="2">
+        <gDNA_exon_boundary g_start="9340232" g_stop="9340352" g_length="121"/>
+        <reference_exon_boundary r_type="Protein" r_start="56" r_stop="95" r_length="40" r_score="1.000"/>
+      </exon>
+      <intron i_serial="2">
+        <gDNA_intron_boundary i_start="9340353" i_stop="9341593" i_length="1241">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="3">
+        <gDNA_exon_boundary g_start="9341594" g_stop="9341737" g_length="144"/>
+        <reference_exon_boundary r_type="Protein" r_start="96" r_stop="143" r_length="48" r_score="1.000"/>
+      </exon>
+    </exon-intron_info>
+    <MATCH_line gen_id="OX243824.1" gen_strand="+" ref_id="sp">
+      <total_alignment_score>0.995</total_alignment_score>
+      <cumulative_length_of_scored_exons>429</cumulative_length_of_scored_exons>
+      <coverage percentage="1.000" high_type="P"/>
+    </MATCH_line>
+    <PGS_line>
+      <gDNA gen_id="OX243824.1" gen_strand="+"/>
+      <rProt rProt_id="sp"/>
+      <gDNA_exon_coordinates>
+        <exon e_start="9339341" e_stop="9339504"/>
+        <exon e_start="9340232" e_stop="9340352"/>
+        <exon e_start="9341594" e_stop="9341737"/>
+      </gDNA_exon_coordinates>
+    </PGS_line>
+    <alignment>
+      <genome_strand>TTAGGTAAGCCACGAGGTCTTAGGACTGCTCGCAAGCTGAAGAACCATCGTCGTGAGCAGAGATGGCATGACAAAGACTACAAGAAGTCTCACTTGGGAACCCGTTGGAAGTCCAATCCTTTTGGTGGAGCCTCCCACGCCAAGGGAATCGTCCTGGAAAAAGTGTAAGCCTTTCAGAACTGTTACAAGTTTAAGTCTTATTATAAACTCTCTGTATATTTTTTGTTTGAATGTTAAGTTCAACAAATTCCTGAAGGGTTATTTGAGGTAATTTCTTCTAGTATGATATCTTGAAATTGCTGTTCATATGGTTCACTTTTGTGGCTCATGCATAAATTTGTAAACACTGCGCTGAATGGACAGATCTATACTGTTTTTGCATACAATTTTTGCATTTGTTAATTTTTTATTTGTACACTATTGAACTAGATTCATCTATTGCTGAAAGAATTGTAGACTAAATTTTACAATGTCATCATAAACTATGTAACTAGAGCTAATATTTAAACTTGTAAATATACCAGTTTAAGAAAAACATTACTTGCACAGATACTATGAAGAATTTATTCTTTGACTTAGAATTAGTGCTCTATTTCAATGTAACTCTTTAGCGATGATTGTATACTAAAAGCGACTTGGAGACCTACGCAGCTCATTGTTAACCATTTAACCCTTTAATGCCGAGATGGTAGTAAATGGTATGGGAAATCCTATACCCTCCGGCATTTATAAAGGGTTAACGACCAGCTACACGTGTTTTCAATGCATATTAGTGCGCGCTGATCGTTAGAGTGTTAAAGAGGTGTTAACAGGATGAAAATGATTTTTTCTGGTTGTTGTTCTAGCTTAGTGTACCAGCGCCAATAAAATCTTCTGTGATTGTTTTTGCAGTGGAGTTGAAGCCAAGCAGCCGAACTCGGCCATCCGTAAGTGCGTGAGGGTGCAGCTGATCAAGAACGGAAAGAAGATCACTGCGTTCGTTCCGAGGGATGGTTGTCTCAACTTCATTGAGGTTTGTCAATTTATGAGATTTTTTTAAAATATGTTTTCATATAGGAAATTATTAGTAAAACAATTTCATGAGCTGTACGTGTTGACTAATAATTATATAGTATCATGTTTTTAAATTAGAATTTCTTACAGTAATAAAACGTCTCAACCTTCTGAACGAAAGTGTACGAAAATATTGAGCATTTAAATTCGTTTGAAAGACTTCTTGTCAGGAGTTAATTGTGTGTTTTGATATCTGAAGTGGGACGAGGGGTAGACACACATTGCGTTTGTGTATACTGCATGTGTGTGTGTCAAACTATGGCACGAAGGGATGCATGCTGCTAAATCTGTTCCATTAAGATTTCTGTGATTCAGATATGATGTGAAAGCTCAACGCCATTTTATGACGTGAAATATAAAGTTACTTAATTTTTATTTTGATAATTTAATTAGCATTGTCATTAGCATGCTTTATACACACTGTGCACTGTCTACTCGAATGGTTTCTGGTGTGCGTTTTAATGTACGTTTGTCGTTAAGGTGTGATTTTTCTAAGTCAGAATTGCAATAAGTTCATGCGAGCAGCAAGCTACTTCTGTACGGCTTAATTGCCAATGCGGATTTTATATTTCAAGACATACATACTGTAGCCCACAGTCTCTGATGTTAAAGCGTGTTGGACTCCTTGCTCTGCTAGGAAGGGCAACTCCTAGTCCCACGGGCTTGCTTGGCTGCCAGGCAACACTAAGCTTTCTCGGTGGTAATTGCGTCCATCTGGAAAGACCTCCATTCAAAGCTACTTTTATTACATCTCACTAATCAAACCTTGTTTCGTAAATACACAAATTTTGTCGTTTTATTTTTTTCCGTGTCTGAGATAGGAGTGCTCCAGAGTAGATTTCTTTAAAGAGAGCTATATAATTCCATAGTTTGAACGAATATGATACACAAGATATTTTAAGTACCTTGCATCAACACAACTCATCGGGCGTAGTGGTGGCGTCGTTGCCTTGGAGCCGGAAGGTTCGAATCCACCTCGTCGTGTAAGGACCTTGGGCAAGTCCTTCACTCACAATTGCTCAGCACTTCAGCGTGAAACTCCGATGCAGTGTTCGCTCTGCATTCGGGAGCGCCTATGAGTAGTGAGAGCTTGAAGGGGCACTATAACAAGTGCACATACAAACAAACCACACGTAGGTATATTTTTACAACGTATTCCTTGACCTTCAAAGAGTAATTTGTGTTTGGTATGCATTGTAGGAGAACGATGAAGTTTTGGTCGCTGGATTCGGTCGTAAGGGTCACGCCGTCGGTGATATCCCCGGAGTCCGTTTCAAGGTCGTCAAGGTCGCCAGCGTTTCCCTGCTTGCCTTGTACAAACAGAAGAAGGAGAGGCCAAGGTCG</genome_strand>
+      <genomeProt> L  G  K  P  R  G  L  R  T  A  R  K  L  K  N  H  R  R  E  Q  R  W  H  D  K  D  Y  K  K  S  H  L  G  T  R  W  K  S  N  P  F  G  G  A  S  H  A  K  G  I  V  L  E  K  V                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         G  V  E  A  K  Q  P  N  S  A  I  R  K  C  V  R  V  Q  L  I  K  N  G  K  K  I  T  A  F  V  P  R  D  G  C  L  N  F  I  E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           E  N  D  E  V  L  V  A  G  F  G  R  K  G  H  A  V  G  D  I  P  G  V  R  F  K  V  V  K  V  A  S  V  S  L  L  A  L  Y  K  Q  K  K  E  R  P  R  S </genomeProt>
+      <queryProt> M  G  K  P  R  G  L  R  T  A  R  K  L  K  N  H  R  R  E  Q  R  W  H  D  K  D  Y  K  K  S  H  L  G  T  R  W  K  S  N  P  F  G  G  A  S  H  A  K  G  I  V  L  E  K  V.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................  G  V  E  A  K  Q  P  N  S  A  I  R  K  C  V  R  V  Q  L  I  K  N  G  K  K  I  T  A  F  V  P  R  D  G  C  L  N  F  I  E ......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... E  N  D  E  V  L  V  A  G  F  G  R  K  G  H  A  V  G  D  I  P  G  V  R  F  K  V  V  K  V  A  S  V  S  L  L  A  L  Y  K  Q  K  K  E  R  P  R  S </queryProt>
+    </alignment>
+  </predicted_gene_structure>
+</spliced_alignment>
+<spliced_alignment xmlns="http://www.genomethreader.org/GTH_output/alignment_module/spliced_alignment/">
+  <reference ref_file="idmapping_2025_01_18.fasta" ref_id="tr" ref_description="tr|A0A2I7YV06|A0A2I7YV06_EISFE Membrane associated progesterone receptor OS=Eisenia fetida OX=6396 PE=2 SV=1">
+    <seq>METKGAPTEDLSSGGFLSKFLSDLVDSPVNLALLGVCGYLLYRVLKGRRPDDAPYVPDESLPPLPKRDMTVEEIRPYDGKQPDGRILMAVNGKVFDVTRGKKFYGPDGPYGIFAGRDASRGLATFALSEEVLKDGYDDLSDLSPMEMDSVREWETQFMMKYDCIGKLIKPEPEEKPEDGEKEKVSSVTEKAVGDEVHSETTPEETSEGDVKKPSSE</seq>
+  </reference>
+  <gDNA_segment>
+    <template temp_file="14.fasta" temp_id="OX243824.1" temp_strand="-" temp_description="OX243824.1 Lumbricus rubellus genome assembly, chromosome: 14">
+      <position start="10590547" stop="10588097"/>
+    </template>
+  </gDNA_segment>
+  <predicted_gene_structure>
+    <exon-intron_info>
+      <exon e_serial="1">
+        <gDNA_exon_boundary g_start="10590280" g_stop="10589968" g_length="313"/>
+        <reference_exon_boundary r_type="Protein" r_start="1" r_stop="106" r_length="106" r_score="0.761"/>
+      </exon>
+      <intron i_serial="1">
+        <gDNA_intron_boundary i_start="10589967" i_stop="10588549" i_length="1419">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="2">
+        <gDNA_exon_boundary g_start="10588548" g_stop="10588389" g_length="160"/>
+        <reference_exon_boundary r_type="Protein" r_start="107" r_stop="160" r_length="54" r_score="0.891"/>
+      </exon>
+      <intron i_serial="2">
+        <gDNA_intron_boundary i_start="10588388" i_stop="10588285" i_length="104">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="3">
+        <gDNA_exon_boundary g_start="10588284" g_stop="10588267" g_length="18"/>
+        <reference_exon_boundary r_type="Protein" r_start="161" r_stop="166" r_length="6" r_score="0.222"/>
+      </exon>
+      <intron i_serial="3">
+        <gDNA_intron_boundary i_start="10588266" i_stop="10588111" i_length="156">
+          <donor d_prob="0.050"/>
+          <acceptor a_prob="0.050"/>
+        </gDNA_intron_boundary>
+      </intron>
+      <exon e_serial="4">
+        <gDNA_exon_boundary g_start="10588110" g_stop="10588097" g_length="14"/>
+        <reference_exon_boundary r_type="Protein" r_start="167" r_stop="171" r_length="5" r_score="0.167"/>
+      </exon>
+    </exon-intron_info>
+    <MATCH_line gen_id="OX243824.1" gen_strand="-" ref_id="tr">
+      <total_alignment_score>0.805</total_alignment_score>
+      <cumulative_length_of_scored_exons>505</cumulative_length_of_scored_exons>
+      <coverage percentage="0.779" high_type="P"/>
+    </MATCH_line>
+    <PGS_line>
+      <gDNA gen_id="OX243824.1" gen_strand="-"/>
+      <rProt rProt_id="tr"/>
+      <gDNA_exon_coordinates>
+        <exon e_start="10590280" e_stop="10589968"/>
+        <exon e_start="10588548" e_stop="10588389"/>
+        <exon e_start="10588284" e_stop="10588267"/>
+        <exon e_start="10588110" e_stop="10588097"/>
+      </gDNA_exon_coordinates>
+    </PGS_line>
+    <alignment>
+      <genome_strand>ACTGAAGTAAAA---ATGGACACCAAAGAA---GCTGAAGGCGGATTTCTGTCAAAATTCATATCAGATCTAGTGGCCAGTCCGGTAAATCTTGCACTACTGGGTATCTGTGGTTATCTACTGTACAGGGTCTTGAAAGGCAGAGAGCAGGATGATCCCCCTTTCGTGCCCGAGGTGGGTCTGCCCCCGTTGCCGAAGAGGGACATGACTGTCGAGGAAATCAGACCGTACGACGGAAAACAGCCCGACGGACGTATTCTGATGGCTGTCAATGGAAAAGTGTTTGATGTCACGCGCGGAAAAAAGTTTTATGGCCCAGGTTTGTCTTCAATGTGGAATTTTGTTTACTCTGGAACTTCTGTAACGCCATTAGGTATCGTCTTCCGGCAATCGGAAAACGTCCTACTTCTTGGCCTCCATGCCCTCCGTCCGGCTGGCACAGCTAAAATCCTGGGTAAAATCCCAGACTGGCTGCCCGTACTCCAAACAATATGGCCGTTAACGAATGCAATAAAATTAGAGCGCGACCTATAGACGACATCGCAACGTGAGGGTCGGTTAGGGCTCAGGTTAGGCGTCGTGAGGGTCGGTTAGGGTTAGTTTTAGTTTAGGCTGTGACTAGCGGACCGCCAAGCGGCCGTCGAATCTCAAATACTAGCGGACCGCCAGTCACGTGTAACCTGTCACATGACTGGCGGCCGTCCAATACGGAATACTAGCAAGCCGCCAGGCTTTCTATTTACACCAATCCACAAGAGTTTCTAATGGCTAAACAAACCCTAAAACTAACCCTAACCGACCCTCACGACGCCTAACCTGAACCTAACCAACACTGACGAAAAAATTGGTTGCTTACTCTGTTTCTAGTAATTTTCTAAGTCATTAAAACAAGAAAATTTTTGTCCGACATAAAACCAACTATCGGTAACTGCCGCCATTGTAACAATATTCAAGAATCAAGACTCGTCATGTGACAGGTTACACGTGACTAGCGGTCCGCTAGTATTTGAGATTCGACGGCCGCTTGGCGGTCCGCTAGTCACTTCGTTTAGTTTAATGCAGTCATTCTGCTGAAATTGAAGCTGAATTGATGAGCAATGTCGTCGATGGTCGCGCTCTAATTTTATTGCATTCGTTGGCAGCCATATTGTTTGGAGTACGGGCAGCAAGTCTGGGATTTTACCAAATCCTGTTTAATGTCGGGGTTTTGTGCGTTTGTTGTATTGGTCTATTAGCTATTATGACATGGCAGTTTTACACGTGCATTTTGTCCCCAAGAAGTTCCTCTTGGGCTGTACCAGCCTAACACTTCAATCTATGCACTTGTTTGTTTTTTAACTGCGGCTCTTAATTTCGTCAAGAAGTTTCAGACCATGATTTGTTTCATGCTATAATGTATCTATGGATTGCGTATTTGACTATAAGCCCCAACTGATTTCATACAGCATTAAAATGCGACTTCGTTTCTGGTTAATTAGGGGGTCCTTTGAGGTCGAAGTGAGATATTCAGTGCGTCCTCACTGCTGGCTTATATACTATATAGGCCTAATAATAAAAATTATTGTATGCTGAATTGCCAGTGGCTTCTAAGACTGCAGAAAATCTTATAGTGAATTATGTAACAATGATATTGGATTATTGGGTTGTGTTGCAGCATGTGTAACTGCCTTTTAAAGAACAATTCTATACATATTTGACTACTACTGCTACAAAAACATTGCTTTGGTGTTTTTTGTAGATGGTCCTTATGGGATATTTGCTGGCAGGGATGCATCTAGAGGTCTGGCGACTTTTGCGTTGTCAGAGGATGTTCTAAAGGATGGATATGATGACCTGAGTGACCTTAGTGCAATGGAGATGGACAGCGTGCGTGAATGGGACATGCAGTTTACGAGTACGTTTCTTCTTCGTTCAAGATTTAACAGCTGCTCAGTTCATATTTATTTATTTTCTCCATTCGTGCCCCTTTAAGCTTGCTACTCAGAAGCGCTCCTGACTACAGCGCGGACGCTGTATCAGAGTTTCAAGCCGAAGCGCACGAGCAATTGCTAGTGCAGGACTTGCCCAAGGTCCCTGGGGTGGATTCGTCACAGCTGTATGTTGCCACTGGCTGCACACTTTAAGCCCTCGTACGTAGTATCTTTGATGCAAGCAATGTGGCATGACCTTTCCGCAGCTTTTTCTATCCT-G-</genome_strand>
+      <genomeProt> T  E  V  K     M  D  T  K  E     A  E  G  G  F  L  S  K  F  I  S  D  L  V  A  S  P  V  N  L  A  L  L  G  I  C  G  Y  L  L  Y  R  V  L  K  G  R  E  Q  D  D  P  P  F  V  P  E  V  G  L  P  P  L  P  K  R  D  M  T  V  E  E  I  R  P  Y  D  G  K  Q  P  D  G  R  I  L  M  A  V  N  G  K  V  F  D  V  T  R  G  K  K  F  Y  G  P                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             D  G  P  Y  G  I  F  A  G  R  D  A  S  R  G  L  A  T  F  A  L  S  E  D  V  L  K  D  G  Y  D  D  L  S  D  L  S  A  M  E  M  D  S  V  R  E  W  D  M  Q  F  T  S  T                                                                                                          A  D  A  V  S  D                                                                                                                                                              F  F  Y  P    </genomeProt>
+      <queryProt> M  E  T  K  G  A  P  T  E  D  L  S  S  G  G  F  L  S  K  F  L  S  D  L  V  D  S  P  V  N  L  A  L  L  G  V  C  G  Y  L  L  Y  R  V  L  K  G  R  R  P  D  D  A  P  Y  V  P  D  E  S  L  P  P  L  P  K  R  D  M  T  V  E  E  I  R  P  Y  D  G  K  Q  P  D  G  R  I  L  M  A  V  N  G  K  V  F  D  V  T  R  G  K  K  F  Y  G  P  ...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D  G  P  Y  G  I  F  A  G  R  D  A  S  R  G  L  A  T  F  A  L  S  E  E  V  L  K  D  G  Y  D  D  L  S  D  L  S  P  M  E  M  D  S  V  R  E  W  E  T  Q  F  M  M  K........................................................................................................  Y  D  C  I  G  K............................................................................................................................................................  L  I  K  P  E </queryProt>
+    </alignment>
+  </predicted_gene_structure>
+</spliced_alignment>
+  <total_number_ESTs_reported>5</total_number_ESTs_reported>
+  </alignment_module>
+  <PGL_module xmlns="http://www.genomethreader.org/GTH_output/PGL_module/">
+  <predicted_gene_location>
+    <PGL_line PGL_serial="1" PGL_strand="+" PGL_start="4325122" PGL_stop="4325261"/>
+    <AGS_information>
+      <AGS_line AGS_serial="1">
+        <exon_coordinates>
+          <exon e_start="4325122" e_stop="4325261"/>
+        </exon_coordinates>
+      </AGS_line>
+      <SCR_line>
+        <exon-only e_score="0.493"/>
+      </SCR_line>
+      <exon-intron_info xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/exon-intron_info/">
+        <exon e_serial="1" e_score="0.493">
+          <gDNA_exon_boundary e_start="4325122" e_stop="4325261" e_length="140"/>
+        </exon>
+      </exon-intron_info>
+      <supporting_evidence xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/supporting_evidence/">
+        <PGS_line>
+          <gDNA_exon_coordinates>
+            <exon start="4325122" stop="4325261"/>
+          </gDNA_exon_coordinates>
+          <referenceProtein id="tr"/>
+        </PGS_line>
+      </supporting_evidence>
+      <three_phase_translation xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/">
+        <description PGL_serial="1" AGS_serial="1" gDNA_strand="+"/>
+        <translation>
+          <gDNA_template>GACGGCACAGGTGGTAAATCCATCTACGGCCGGAAATTCGACGACGAAAACTTCAACCTACTGCACACCGGGCCTGGTCTGTAGCTGAGTTTAATTATTATGCTAGATTCGTGCTGTATTCTAAAATGTTTTGCGATTTT</gDNA_template>
+          <first_frame> D  G  T  G  G  K  S  I  Y  G  R  K  F  D  D  E  N  F  N  L  L  H  T  G  P  G  L  *  L  S  L  I  I  M  L  D  S  C  C  I  L  K  C  F  A  I   </first_frame>
+          <second_frame>  T  A  Q  V  V  N  P  S  T  A  G  N  S  T  T  K  T  S  T  Y  C  T  P  G  L  V  C  S  *  V  *  L  L  C  *  I  R  A  V  F  *  N  V  L  R  F  </second_frame>
+          <third_frame>   R  H  R  W  *  I  H  L  R  P  E  I  R  R  R  K  L  Q  P  T  A  H  R  A  W  S  V  A  E  F  N  Y  Y  A  R  F  V  L  Y  S  K  M  F  C  D  F </third_frame>
+        </translation>
+        <probable_ORFs xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/probable_ORFs/">
+          <none gDNA_id="OX243824.1"/>
+        </probable_ORFs>
+      </three_phase_translation>
+    </AGS_information>
+  </predicted_gene_location>
+  <predicted_gene_location>
+    <PGL_line PGL_serial="2" PGL_strand="-" PGL_start="9237628" PGL_stop="9237554"/>
+    <AGS_information>
+      <AGS_line AGS_serial="1">
+        <exon_coordinates>
+          <exon e_start="9237628" e_stop="9237554"/>
+        </exon_coordinates>
+      </AGS_line>
+      <SCR_line>
+        <exon-only e_score="0.911"/>
+      </SCR_line>
+      <exon-intron_info xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/exon-intron_info/">
+        <exon e_serial="1" e_score="0.911">
+          <gDNA_exon_boundary e_start="9237628" e_stop="9237554" e_length="75"/>
+        </exon>
+      </exon-intron_info>
+      <supporting_evidence xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/supporting_evidence/">
+        <PGS_line>
+          <gDNA_exon_coordinates>
+            <exon start="9237628" stop="9237554"/>
+          </gDNA_exon_coordinates>
+          <referenceProtein id="tr"/>
+        </PGS_line>
+      </supporting_evidence>
+      <three_phase_translation xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/">
+        <description PGL_serial="2" AGS_serial="1" gDNA_strand="-"/>
+        <translation>
+          <gDNA_template>CATTTCAATCGATATCTGACGAGAGCCAGGAGGATCGAGATTGCATCTGTATTAGGACTCAACGAGACACAGGTA</gDNA_template>
+          <first_frame> H  F  N  R  Y  L  T  R  A  R  R  I  E  I  A  S  V  L  G  L  N  E  T  Q  V </first_frame>
+          <second_frame>  I  S  I  D  I  *  R  E  P  G  G  S  R  L  H  L  Y  *  D  S  T  R  H  R   </second_frame>
+          <third_frame>   F  Q  S  I  S  D  E  S  Q  E  D  R  D  C  I  C  I  R  T  Q  R  D  T  G  </third_frame>
+        </translation>
+        <probable_ORFs xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/probable_ORFs/">
+          <none gDNA_id="OX243824.1"/>
+        </probable_ORFs>
+      </three_phase_translation>
+    </AGS_information>
+  </predicted_gene_location>
+  <predicted_gene_location>
+    <PGL_line PGL_serial="3" PGL_strand="+" PGL_start="9339341" PGL_stop="9341737"/>
+    <AGS_information>
+      <AGS_line AGS_serial="1">
+        <exon_coordinates>
+          <exon e_start="9339341" e_stop="9339504"/>
+          <exon e_start="9340232" e_stop="9340352"/>
+          <exon e_start="9341594" e_stop="9341737"/>
+        </exon_coordinates>
+      </AGS_line>
+      <SCR_line>
+        <exon-intron don_prob="0.050" acc_prob="0.050" e_score="0.988"/>
+        <exon-intron don_prob="0.050" acc_prob="0.050" e_score="1.000"/>
+        <exon-only e_score="1.000"/>
+      </SCR_line>
+      <exon-intron_info xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/exon-intron_info/">
+        <exon e_serial="1" e_score="0.988">
+          <gDNA_exon_boundary e_start="9339341" e_stop="9339504" e_length="164"/>
+        </exon>
+        <intron i_serial="1" don_prob="0.050" acc_prob="0.050">
+          <gDNA_intron_boundary i_start="9339505" i_stop="9340231" i_length="727"/>
+        </intron>
+        <exon e_serial="2" e_score="1.000">
+          <gDNA_exon_boundary e_start="9340232" e_stop="9340352" e_length="121"/>
+        </exon>
+        <intron i_serial="2" don_prob="0.050" acc_prob="0.050">
+          <gDNA_intron_boundary i_start="9340353" i_stop="9341593" i_length="1241"/>
+        </intron>
+        <exon e_serial="3" e_score="1.000">
+          <gDNA_exon_boundary e_start="9341594" e_stop="9341737" e_length="144"/>
+        </exon>
+      </exon-intron_info>
+      <supporting_evidence xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/supporting_evidence/">
+        <PGS_line>
+          <gDNA_exon_coordinates>
+            <exon start="9339341" stop="9339504"/>
+            <exon start="9340232" stop="9340352"/>
+            <exon start="9341594" stop="9341737"/>
+          </gDNA_exon_coordinates>
+          <referenceProtein id="tr"/>
+        </PGS_line>
+        <PGS_line>
+          <gDNA_exon_coordinates>
+            <exon start="9339341" stop="9339504"/>
+            <exon start="9340232" stop="9340352"/>
+            <exon start="9341594" stop="9341737"/>
+          </gDNA_exon_coordinates>
+          <referenceProtein id="sp"/>
+        </PGS_line>
+      </supporting_evidence>
+      <three_phase_translation xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/">
+        <description PGL_serial="3" AGS_serial="1" gDNA_strand="+"/>
+        <translation>
+          <gDNA_template>TTAGGTAAGCCACGAGGTCTTAGGACTGCTCGCAAGCTGAAGAACCATCGTCGTGAGCAGAGATGGCATGACAAAGACTACAAGAAGTCTCACTTGGGAACCCGTTGGAAGTCCAATCCTTTTGGTGGAGCCTCCCACGCCAAGGGAATCGTCCTGGAAAAAGT : TGGAGTTGAAGCCAAGCAGCCGAACTCGGCCATCCGTAAGTGCGTGAGGGTGCAGCTGATCAAGAACGGAAAGAAGATCACTGCGTTCGTTCCGAGGGATGGTTGTCTCAACTTCATTGAG : GAGAACGATGAAGTTTTGGTCGCTGGATTCGGTCGTAAGGGTCACGCCGTCGGTGATATCCCCGGAGTCCGTTTCAAGGTCGTCAAGGTCGCCAGCGTTTCCCTGCTTGCCTTGTACAAACAGAAGAAGGAGAGGCCAAGGTCG</gDNA_template>
+          <first_frame> L  G  K  P  R  G  L  R  T  A  R  K  L  K  N  H  R  R  E  Q  R  W  H  D  K  D  Y  K  K  S  H  L  G  T  R  W  K  S  N  P  F  G  G  A  S  H  A  K  G  I  V  L  E  K  V :   G  V  E  A  K  Q  P  N  S  A  I  R  K  C  V  R  V  Q  L  I  K  N  G  K  K  I  T  A  F  V  P  R  D  G  C  L  N  F  I  E  :  E  N  D  E  V  L  V  A  G  F  G  R  K  G  H  A  V  G  D  I  P  G  V  R  F  K  V  V  K  V  A  S  V  S  L  L  A  L  Y  K  Q  K  K  E  R  P  R  S </first_frame>
+          <second_frame>  *  V  S  H  E  V  L  G  L  L  A  S  *  R  T  I  V  V  S  R  D  G  M  T  K  T  T  R  S  L  T  W  E  P  V  G  S  P  I  L  L  V  E  P  P  T  P  R  E  S  S  W  K  K   : L  E  L  K  P  S  S  R  T  R  P  S  V  S  A  *  G  C  S  *  S  R  T  E  R  R  S  L  R  S  F  R  G  M  V  V  S  T  S  L  R :   R  T  M  K  F  W  S  L  D  S  V  V  R  V  T  P  S  V  I  S  P  E  S  V  S  R  S  S  R  S  P  A  F  P  C  L  P  C  T  N  R  R  R  R  G  Q  G   </second_frame>
+          <third_frame>   R  *  A  T  R  S  *  D  C  S  Q  A  E  E  P  S  S  *  A  E  M  A  *  Q  R  L  Q  E  V  S  L  G  N  P  L  E  V  Q  S  F  W  W  S  L  P  R  Q  G  N  R  P  G  K  S  :  W  S  *  S  Q  A  A  E  L  G  H  P  *  V  R  E  G  A  A  D  Q  E  R  K  E  D  H  C  V  R  S  E  G  W  L  S  Q  L  H  *   : G  E  R  *  S  F  G  R  W  I  R  S  *  G  S  R  R  R  *  Y  P  R  S  P  F  Q  G  R  Q  G  R  Q  R  F  P  A  C  L  V  Q  T  E  E  G  E  A  K  V  </third_frame>
+        </translation>
+        <probable_ORFs xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/probable_ORFs/">
+          <orf_entry>
+            <id_line>
+              <gDNA id="OX243824.1" strand="+"/>
+              <serials PGL_serial="3" AGS_serial="1" PPS_serial="1"/>
+              <orf_info>
+                <exon_boundaries>
+                  <exon start="9339341" stop="9339504"/>
+                  <exon start="9340232" stop="9340352"/>
+                  <exon start="9341594" stop="9341737"/>
+                </exon_boundaries>
+                <frame>0</frame>
+                <number_coding_nucleotides>429</number_coding_nucleotides>
+                <number_encoded_amino_acids>143</number_encoded_amino_acids>
+              </orf_info>
+            </id_line>
+            <predicted_protein_sequence>LGKPRGLRTARKLKNHRREQRWHDKDYKKSHLGTRWKSNPFGGASHAKGIVLEKVGVEAKQPNSAIRKCVRVQLIKNGKKITAFVPRDGCLNFIEENDEVLVAGFGRKGHAVGDIPGVRFKVVKVASVSLLALYKQKKERPRS</predicted_protein_sequence>
+          </orf_entry>
+        </probable_ORFs>
+      </three_phase_translation>
+    </AGS_information>
+  </predicted_gene_location>
+  <predicted_gene_location>
+    <PGL_line PGL_serial="4" PGL_strand="-" PGL_start="10590280" PGL_stop="10588097"/>
+    <AGS_information>
+      <AGS_line AGS_serial="1">
+        <exon_coordinates>
+          <exon e_start="10590280" e_stop="10589968"/>
+          <exon e_start="10588548" e_stop="10588389"/>
+          <exon e_start="10588284" e_stop="10588267"/>
+          <exon e_start="10588110" e_stop="10588097"/>
+        </exon_coordinates>
+      </AGS_line>
+      <SCR_line>
+        <exon-intron don_prob="0.050" acc_prob="0.050" e_score="0.761"/>
+        <exon-intron don_prob="0.050" acc_prob="0.050" e_score="0.891"/>
+        <exon-intron don_prob="0.050" acc_prob="0.050" e_score="0.222"/>
+        <exon-only e_score="0.167"/>
+      </SCR_line>
+      <exon-intron_info xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/exon-intron_info/">
+        <exon e_serial="1" e_score="0.761">
+          <gDNA_exon_boundary e_start="10590280" e_stop="10589968" e_length="313"/>
+        </exon>
+        <intron i_serial="1" don_prob="0.050" acc_prob="0.050">
+          <gDNA_intron_boundary i_start="10589967" i_stop="10588549" i_length="1419"/>
+        </intron>
+        <exon e_serial="2" e_score="0.891">
+          <gDNA_exon_boundary e_start="10588548" e_stop="10588389" e_length="160"/>
+        </exon>
+        <intron i_serial="2" don_prob="0.050" acc_prob="0.050">
+          <gDNA_intron_boundary i_start="10588388" i_stop="10588285" i_length="104"/>
+        </intron>
+        <exon e_serial="3" e_score="0.222">
+          <gDNA_exon_boundary e_start="10588284" e_stop="10588267" e_length="18"/>
+        </exon>
+        <intron i_serial="3" don_prob="0.050" acc_prob="0.050">
+          <gDNA_intron_boundary i_start="10588266" i_stop="10588111" i_length="156"/>
+        </intron>
+        <exon e_serial="4" e_score="0.167">
+          <gDNA_exon_boundary e_start="10588110" e_stop="10588097" e_length="14"/>
+        </exon>
+      </exon-intron_info>
+      <supporting_evidence xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/supporting_evidence/">
+        <PGS_line>
+          <gDNA_exon_coordinates>
+            <exon start="10590280" stop="10589968"/>
+            <exon start="10588548" stop="10588389"/>
+            <exon start="10588284" stop="10588267"/>
+            <exon start="10588110" stop="10588097"/>
+          </gDNA_exon_coordinates>
+          <referenceProtein id="tr"/>
+        </PGS_line>
+      </supporting_evidence>
+      <three_phase_translation xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/">
+        <description PGL_serial="4" AGS_serial="1" gDNA_strand="-"/>
+        <translation>
+          <gDNA_template>ACTGAAGTAAAAATGGACACCAAAGAAGCTGAAGGCGGATTTCTGTCAAAATTCATATCAGATCTAGTGGCCAGTCCGGTAAATCTTGCACTACTGGGTATCTGTGGTTATCTACTGTACAGGGTCTTGAAAGGCAGAGAGCAGGATGATCCCCCTTTCGTGCCCGAGGTGGGTCTGCCCCCGTTGCCGAAGAGGGACATGACTGTCGAGGAAATCAGACCGTACGACGGAAAACAGCCCGACGGACGTATTCTGATGGCTGTCAATGGAAAAGTGTTTGATGTCACGCGCGGAAAAAAGTTTTATGGCCCAG : ATGGTCCTTATGGGATATTTGCTGGCAGGGATGCATCTAGAGGTCTGGCGACTTTTGCGTTGTCAGAGGATGTTCTAAAGGATGGATATGATGACCTGAGTGACCTTAGTGCAATGGAGATGGACAGCGTGCGTGAATGGGACATGCAGTTTACGAGTAC : CGCGGACGCTGTATCAGA : CTTTTTCTATCCTG</gDNA_template>
+          <first_frame> T  E  V  K  M  D  T  K  E  A  E  G  G  F  L  S  K  F  I  S  D  L  V  A  S  P  V  N  L  A  L  L  G  I  C  G  Y  L  L  Y  R  V  L  K  G  R  E  Q  D  D  P  P  F  V  P  E  V  G  L  P  P  L  P  K  R  D  M  T  V  E  E  I  R  P  Y  D  G  K  Q  P  D  G  R  I  L  M  A  V  N  G  K  V  F  D  V  T  R  G  K  K  F  Y  G  P   : D  G  P  Y  G  I  F  A  G  R  D  A  S  R  G  L  A  T  F  A  L  S  E  D  V  L  K  D  G  Y  D  D  L  S  D  L  S  A  M  E  M  D  S  V  R  E  W  D  M  Q  F  T  S  T :   A  D  A  V  S  D :   F  F  Y  P  </first_frame>
+          <second_frame>  L  K  *  K  W  T  P  K  K  L  K  A  D  F  C  Q  N  S  Y  Q  I  *  W  P  V  R  *  I  L  H  Y  W  V  S  V  V  I  Y  C  T  G  S  *  K  A  E  S  R  M  I  P  L  S  C  P  R  W  V  C  P  R  C  R  R  G  T  *  L  S  R  K  S  D  R  T  T  E  N  S  P  T  D  V  F  *  W  L  S  M  E  K  C  L  M  S  R  A  E  K  S  F  M  A  Q  :  M  V  L  M  G  Y  L  L  A  G  M  H  L  E  V  W  R  L  L  R  C  Q  R  M  F  *  R  M  D  M  M  T  *  V  T  L  V  Q  W  R  W  T  A  C  V  N  G  T  C  S  L  R  V   : P  R  T  L  Y  Q   : T  F  S  I  L </second_frame>
+          <third_frame>   *  S  K  N  G  H  Q  R  S  *  R  R  I  S  V  K  I  H  I  R  S  S  G  Q  S  G  K  S  C  T  T  G  Y  L  W  L  S  T  V  Q  G  L  E  R  Q  R  A  G  *  S  P  F  R  A  R  G  G  S  A  P  V  A  E  E  G  H  D  C  R  G  N  Q  T  V  R  R  K  T  A  R  R  T  Y  S  D  G  C  Q  W  K  S  V  *  C  H  A  R  K  K  V  L  W  P  R :   W  S  L  W  D  I  C  W  Q  G  C  I  *  R  S  G  D  F  C  V  V  R  G  C  S  K  G  W  I  *  *  P  E  *  P  *  C  N  G  D  G  Q  R  A  *  M  G  H  A  V  Y  E  Y  :  R  G  R  C  I  R  :  L  F  L  S   </third_frame>
+        </translation>
+        <probable_ORFs xmlns="http://www.genomethreader.org/GTH_output/PGL_module/predicted_gene_location/AGS_information/three_phase_translation/probable_ORFs/">
+          <orf_entry>
+            <id_line>
+              <gDNA id="OX243824.1" strand="-"/>
+              <serials PGL_serial="4" AGS_serial="1" PPS_serial="1"/>
+              <orf_info>
+                <exon_boundaries>
+                  <exon start="10590280" stop="10589968"/>
+                  <exon start="10588548" stop="10588389"/>
+                  <exon start="10588284" stop="10588267"/>
+                  <exon start="10588110" stop="10588098"/>
+                </exon_boundaries>
+                <frame>0</frame>
+                <number_coding_nucleotides>504</number_coding_nucleotides>
+                <number_encoded_amino_acids>168</number_encoded_amino_acids>
+              </orf_info>
+            </id_line>
+            <predicted_protein_sequence>TEVKMDTKEAEGGFLSKFISDLVASPVNLALLGICGYLLYRVLKGREQDDPPFVPEVGLPPLPKRDMTVEEIRPYDGKQPDGRILMAVNGKVFDVTRGKKFYGPDGPYGIFAGRDASRGLATFALSEDVLKDGYDDLSDLSAMEMDSVREWDMQFTSTADAVSDFFYP</predicted_protein_sequence>
+          </orf_entry>
+        </probable_ORFs>
+      </three_phase_translation>
+    </AGS_information>
+  </predicted_gene_location>
+  </PGL_module>
+</GTH_output>
+<!--
+$ general statistics:
+$ 5 chains have been computed
+$ 
+$ memory statistics:
+$ 5 spliced alignments have been stored
+$ 4 predicted gene locations have been stored
+$ 0 megabytes was the average size of the backtrace matrix
+$ 5 backtrace matrices have been allocated
+$ 
+$ date finished: 2025-01-25 19:10:12
+-->
