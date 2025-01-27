@@ -1,22 +1,20 @@
 
-
-# create soft link
-
-ln -s genemark.f.good.gtf  bonafide.gtf
+ # use bed_to_gff.pl from the GeneMark ET distribution to convert aligment file to hints
 
 
-# compute flanking regions
+ perl  path_to/GeneMarkES/bed_to_gff.pl \
+ --bed  path_to/tophat_out/junctions.bed \
+ --gff introns.gff  --label TopHat2
 
-computeFlankingRegion.pl bonafide.gtf
 
 
-# this wil produce output:
+# the output file introns.gff contains strand information that can be used for ET trainging
+#the output of junctons.bed
+#OX457036.1	202801	204722	JUNC00000008	1	+	202801	204722	255,0,0	2	119,32	0,1889
+# the output of introns.gff:
+#OX457036.1	TopHat2	intron	253060	254504	12	+	.	.
+# the file with introns is used to build a genemark model:
 
-# Total length gene length (including introns): 1780572. Number of genes: 1975. Average Length: 901.555443037975
-# The flanking_DNA value is: 450 (the Minimum of 10 000 and 450)
-# next step is to get bonafide.gb trainingset
+ ../../gmes_petap.pl     --verbose --sequence   genome.fa   --ET  introns.gff
 
-gff2gbSmallDNA.pl bonafide.gtf genome.fa 450 tmp.gb
-filterGenesIn_mRNAname.pl bonafide.gtf tmp.gb > bonafide.gb
-
-# bonafide.gb is now in the map processing
+ # this command wil produce gmhmm.mod, and genemark.gtf, see data proccessing
