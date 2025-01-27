@@ -20,6 +20,7 @@ done
 # usage outside the loop:
 #gth -genomic sequence.fasta  -protein  idmapping_2025_01_18.fasta -xmlout  > output.chr1.lumrube.xml
 
-# this wil produce xml alginment file, this xml alignment is used in the second step : 
+# this wil produce gff annoatation for each fasta and 
+#this wil produce xml alginment file, this xml alignment is used in the second step : 
 
 #protocol2/stap2.sh
