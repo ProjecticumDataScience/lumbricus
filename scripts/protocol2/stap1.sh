@@ -4,8 +4,8 @@
 
 # prerequirements: 1.  sudo cp -r regenworm /usr/share/augustus/config/species/
 #  2.  cp -r regenworm  anaconda3/envs/c/config/species/
-# model:  https://github.com/ProjecticumDataScience/lumbricus/tree/master/data/protocol2/model
-# raw  https://raw.githubusercontent.com/ProjecticumDataScience/lumbricus/refs/heads/master/data_input/protocol02/proteins/idmapping_2025_01_18.fasta
+# model:  https://github.com/ProjecticumDataScience/lumbricus/tree/master/data/protocol2/model/regenworm
+# raw fasta:  https://raw.githubusercontent.com/ProjecticumDataScience/lumbricus/refs/heads/master/data_input/protocol02/proteins/idmapping_2025_01_18.fasta
 
 fastas=("chr1.fasta" "chr2.fasta" "chr3.fasta" "chr4.fasta")
 
