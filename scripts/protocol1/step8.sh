@@ -7,11 +7,14 @@
 
 # in python script:
 
-#Je moet het "pattern" aanpassen naar je bonafide: 
+#Je moet het "pattern" aanpassen naar je bonafide file: 
 #dit is een string die na de LOCUS komt, zoals deze
 # " OX457036.1 Lumbricus terrestris genoomassemblage, chromosoom: 1_50559-55310."
 
+# 
 ## usage:   
-# python get_uniq.py  infile.gb
+
+python get_uniq.py  infile.gb
+
 # this wil produce bonafide.unique.db
 # https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/bonafide/bonafide.unique.gb
