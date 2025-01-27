@@ -1,4 +1,4 @@
-# *** this step is needed only if your compiler doesn't identifies the Unique LOCUS in Bonafide.gb ***
+# *** this step optional and is needed only if your compiler doesn't identifies the Unique LOCUS in Bonafide.gb ***
 # 
 # If there are no uniqe identfiers, we need to format a string in a gb file:
 # LOCUS       OX457036.1 Lumbricus terrestris genome assembly, chromosome: 1_18743774-18745105   1332 bp  DNA
