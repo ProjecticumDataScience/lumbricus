@@ -1,4 +1,4 @@
-# this script evaluates the modelaugustus --species=wormET0  test.gb > test.out
+# this script evaluates the model  augustus 
 
 # test.out  : https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/bonafide/test.out
 
