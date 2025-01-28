@@ -121,6 +121,22 @@ To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter geno
 
 Scripts are ordered by protocol:
 
+* <strong> protocol-2 ,/strong>
+* scripts/protocol2/dbscript.py
+
+this script will create a database from identified genes for Lumbricus Terrestris, Lumbricus Rubellus
+usage from bash: 
+
+python dbscript.py -i inputfile.xml -o dabase.txt
+ 
+* <strong> protocol-2.1 ,/strong>
+*  scripts/protocol2.1/get_uniprot.py
+
+this script will  fetch proteome c elegans, esenia fetida, lumbricus from Uniprot and will create multifasta zip file  
+
+usage from bash: 
+python get_uniprot.py
+ 
 
 ### Issues
 
