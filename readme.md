@@ -43,10 +43,10 @@ en het analyseren van de proteomen van Lumbricus terrestris en Rubellus.
 
 Het doel van dit project is:
 
-*  om een ab  de novo  genomische annotatie te maken voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
-* Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2,1. 
+* een ab  de novo  genomische annotatie te maken voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
+* Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2.1. 
 * Tot slot voeren we een vergelijkende proteomische analyse uit van de genen die betrokken zijn bij motorische functies,
- volgens protocol 2, 2,1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
+ volgens protocol 2, 2.1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
 
 
 <!-- GETTING STARTED -->
