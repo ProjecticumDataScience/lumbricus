@@ -38,8 +38,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project involves aligning transcriptome reads, training with the AUGUSTUS program, 
-and analyzing the proteomes of Lumbricus terrestris and Rubellus.
+Dit project omvat het  alignment van transcriptoomlezingen, het trainen met het AUGUSTUS-programma 
+en het analyseren van de proteomen van Lumbricus terrestris en Rubellus.
 
 Het doel van dit project:
 
@@ -52,27 +52,28 @@ Het doel van dit project:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-File structure:
+Bestandsstructuur:
 
-<p> <strong> 'scripts' </strong>contains scripts used to run the workflow.Scripts are ordered by protocol.</p>
-<p> <strong> 'data'  </strong>section includes all the files that have been processed during the workflow.</p> 
-<p> This includes things like alignment outputs, models, and UniProt protein collections.
-Data is ordered by protocol </p>
 
-<p>  The <strong> 'data_input ' </strong> section includes reference genomic and transctiptomic data.  </p>
+ <p> <strong> 'data'  </strong> Deze sectie bevat alle bestanden die tijdens de workflow zijn verwerkt.</p> 
+ <p> Dit omvat dingen zoals uitkomsten van rna-seq alignments, modellen(=species) en UniProt-eiwitcollecties.
+ De gegevens zijn gesorteerd op protocol.</p>
 
-<p> <strong> 'results'</strong> contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
- webapp source code, proteomic analytics report  </p> 
+
+<p>  The <strong> 'data_input ' </strong>In dit gedeelte vind je reference genomic and transctiptomic data.  </p>
+
+<p> <strong> 'results'</strong>  Inclusief map met genen databases voor Lumbricus Terrestris en Lumbricus Rubellus, 
+de webapp broncode en een analytisch rapport over proteomica. </p> 
     
-<p>  <string> Tophat</string>   is used for splice aware alignment.  </p> 
-<p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 are used to build model ab de novo  </p>
-<p> <string> GenomeThreader is used to align proteins </string>  </p>
+<p>  <string> Tophat</string>   wordt gebruikt voor splice aware   alignment.  </p> 
+<p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 worden gebruikt om model ab de novo te bouwen  </p>
+<p> <string> GenomeThreader wordt gebruikt om eiwitten uit te alignen </string>  </p>
 
 <h4>  Protocols: </h4>
  
-  <p> <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq </p>
-  <p> <strong>Protocol2.1  </strong>-includes building model bases on proteins  </p>
- <p>  <strong>Protocol2 </strong> -includes building genome database idenitfied gene structures </p>
+  <p> <strong>Protocol1 </strong>  - omvat alignment  tranasctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
+  <p> <strong>Protocol2.1  </strong>-omvat het bouwen van model  op eiwitten bases  </p>
+ <p>  <strong>Protocol2 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
   
   
@@ -100,7 +101,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 
 ### Positiv 
-Positiv control in this experiment is C. Elegans. The testing model is developed from proteins.  
+De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikkeld op basis van eiwitten.  
  
  
 
@@ -114,7 +115,7 @@ Positiv control in this experiment is C. Elegans. The testing model is developed
 
 ### Usage
 
-To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter genome coordiantes in the app:
+Om genoom Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoomcoördinaten invoeren in de app:
  
 
   <a href="https://wclumterr.netlify.app/">
@@ -125,20 +126,20 @@ To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter geno
 
 ### Scripts
 
-Scripts are ordered by protocol:
+Scripts zijn geordend volgens het protocol.
 
 * <strong> protocol-2 </strong>
 * scripts/protocol2/dbscript.py
 
-this script will create a database from identified genes for Lumbricus Terrestris, Lumbricus Rubellus
-usage from bash: 
-
+ Dit script zal een database aanmaken van de geïdentificeerde genen voor Lumbricus Terrestris en Lumbricus Rubellus.
+ Gebruik in bash: 
 python dbscript.py -i inputfile.xml -o dabase.txt
  
 * <strong> protocol-2.1  </strong>
 *  scripts/protocol2.1/get_uniprot.py
 
-this script will  fetch proteome c elegans, esenia fetida, lumbricus from Uniprot and will create multifasta GZ file  
+
+ Dit script haalt het proteoom van C. elegans, E. fetida en Lumbricus op van Uniprot en maakt een multifasta GZ-bestand aan.
 
 usage from bash: 
 python get_uniprot.py
@@ -147,17 +148,17 @@ python get_uniprot.py
 ### Issues
 
 <ol>
-  <li> -it is a complex package, where you need a lot of Perl, Linux configuration, including  installing GeneMark ET.</li>
-  <li>  -Protocol2,  The 'startAlign.pl' script  terminates the process if the memory usage goes over a certain limit. 
- If you run into this problem, try splitting the fasta file into two sections,
- or use the --pos option to limit the position.</li>
-  <li>- Protocol1 Bonafide error: "not unique identifiers", you can use scripts/protocol1/get_uniq.py
-Every python script is runnable from bash, python get_uniq.py,
-you should change the pattern to match the line after LOCUS in bonafide.gb.</li>
+  <li> - Dit pakket is best complex en vereist Perl en Linux-configuratie,inclusief het installeren van GeneMark ET.</li>
+<li> Het 'startAlign.pl' script stopt het proces als het geheugengebruik boven een bepaalde limiet komt. Als je dit probleem tegenkomt, 
+probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken. </li>
+  <li>-Protocol1 
+   Bonafide fout: "niet unieke identificaties", je kunt scripts/protocol1/get_uniq.py gebruiken. 
+   Elke Python-script kan vanuit bash worden uitgevoerd, python get_uniq.py. 
+   Je moet het patroon aanpassen zodat het overeenkomt met de regel na LOCUS in bonafide.gb.
+  </li>
 
-<li>-Protocol1 randomSplit.pl  assignes 0 genes to the test or trainingset
-In this case you can use split -n ,
-or debug  the script randomSplit.pl step by step and look for where the results are reset to zero </li> 
+<li>-Protocol1 randomSplit.pl kent 0 genen toe aan de test- of trainingset. Je kunt in dit geval split -n gebruiken, 
+of het script randomSplit.pl stap voor stap doorlopen om te ontdekken waar de resultaten op nul worden gereset.</li> 
 </ol>
 
 
