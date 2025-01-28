@@ -12,3 +12,5 @@ startAlign.pl --genome BX284601.5.fasta --prot UP000001940_6239.fasta  --pos OX4
 
 # this wil produce object gth conact align:
 https://raw.githubusercontent.com/ProjecticumDataScience/lumbricus/refs/heads/master/data/controle/celegans/gth.concat.aln
+
+# after getting gth.concat.aln, you schoud replace "ENA" throught current chromosome name in your gth.concat.aln file 

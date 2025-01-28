@@ -1,6 +1,6 @@
 
 # Om het model te bouwen, moet je configureren met pakketten genemark/augustus/braker.
-# Ik verwijs u naar de technische documentatie hier https://github.com/ProjecticumDataScience/lumbricus/blob/master/docs/docs.pdf
+# Ik verwijs u naar de  documentatie GeneMark-E-S 
 
 
 # installatie
