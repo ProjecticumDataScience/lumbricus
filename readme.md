@@ -54,16 +54,15 @@ and analyzing the proteomes of Lumbricus terrestris and Rubellus.
 
 File structure:
 
-<strong> 'scripts' </strong>contains scripts used to run the workflow.
-    scripts are ordered by protocol.
-<strong> 'data'  </strong>section includes all the files that have been processed during the workflow. 
-This includes things like alignment outputs, models, and UniProt protein collections.
-Data is ordered by protocol
+<p> <strong> 'scripts' </strong>contains scripts used to run the workflow.Scripts are ordered by protocol.</p>
+<p> <strong> 'data'  </strong>section includes all the files that have been processed during the workflow.</p> 
+<p> This includes things like alignment outputs, models, and UniProt protein collections.
+Data is ordered by protocol </p>
 
-The <strong> 'data_input ' </strong> section includes reference genomic and transctiptomic data. 
+<p>  The <strong> 'data_input ' </strong> section includes reference genomic and transctiptomic data.  </p>
 
-<strong> 'results'</strong> contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
- webapp source code, proteomic analytics report
+<p> <strong> 'results'</strong> contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
+ webapp source code, proteomic analytics report  </p> 
     
 Tophat  is used for splice aware alignment.
 Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
