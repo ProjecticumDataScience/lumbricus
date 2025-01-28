@@ -43,7 +43,7 @@ en het analyseren van de proteomen van Lumbricus terrestris en Rubellus.
 
 Het doel van dit project is:
 
-* een ab  de novo  genomische annotatie te maken voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
+* een ab  de novo  genomische annotatie  voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
 * Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2.1. 
 * Tot slot voeren we een vergelijkende proteomische analyse uit van de genen die betrokken zijn bij motorische functies,
  volgens protocol 2, 2.1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
@@ -56,7 +56,7 @@ Bestandsstructuur:
 
 
  <p> <strong> 'data'  </strong> Deze sectie bevat alle bestanden die tijdens de workflow zijn verwerkt.</p> 
- <p> Dit omvat dingen zoals uitkomsten van rna-seq alignments, modellen(=species) en UniProt-eiwitcollecties.
+ <p> Dit omvat dingen zoals uitkomsten van rna-seq alignments, GenomeThreader protein Alignments. Modellen(=species) en UniProt-eiwitcollecties.
  De gegevens zijn gesorteerd op protocol.</p>
 
 
@@ -65,6 +65,8 @@ Bestandsstructuur:
 <p> <strong> 'results'</strong>  Inclusief map met genen databases voor Lumbricus Terrestris en Lumbricus Rubellus, 
 de webapp broncode en een analytisch rapport over proteomica. </p> 
     
+<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon : </p>
+<p> https://genome321.s3.amazonaws.com/bams.zip </p>	
 <p>  <string> Tophat</string>   wordt gebruikt voor splice aware   alignment.  </p> 
 <p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 worden gebruikt om model ab de novo te bouwen  </p>
 <p> <string> GenomeThreader wordt gebruikt om eiwitten uit te alignen </string>  </p>
