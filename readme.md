@@ -41,8 +41,12 @@
 This project involves aligning transcriptome reads, training with the AUGUSTUS program, 
 and analyzing the proteomes of Lumbricus terrestris and Rubellus.
 
+Het doel van dit project:
 
-
+* is om een ab  de novo  genomische annotatie te maken voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
+* Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2,1. 
+* Tot slot voeren we een vergelijkende proteomische analyse uit van de genen die betrokken zijn bij motorische functies,
+ volgens protocol 2, 2,1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
 
 
 <!-- GETTING STARTED -->
@@ -60,15 +64,15 @@ Data is ordered by protocol </p>
 <p> <strong> 'results'</strong> contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
  webapp source code, proteomic analytics report  </p> 
     
-Tophat  is used for splice aware alignment.
-Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
-GenomeThreader is used to align proteins 
+<p>  <string> Tophat</string>   is used for splice aware alignment.  </p> 
+<p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 are used to build model ab de novo  </p>
+<p> <string> GenomeThreader is used to align proteins </string>  </p>
 
 <h4>  Protocols: </h4>
  
   <p> <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq </p>
   <p> <strong>Protocol2.1  </strong>-includes building model bases on proteins  </p>
- <p>  <strong>Protocol2 </strong> -includes building genome database idenitfied gene strucures </p>
+ <p>  <strong>Protocol2 </strong> -includes building genome database idenitfied gene structures </p>
 
   
   
@@ -96,7 +100,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 
 ### Positiv 
-Positiv control in this experiment is C. elegans. The testing model is developed from proteins.  
+Positiv control in this experiment is C. Elegans. The testing model is developed from proteins.  
  
  
 
@@ -105,7 +109,7 @@ Positiv control in this experiment is C. elegans. The testing model is developed
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
 
-<a href="https://wclumterr.netlify.app/"> C. elegans positiv control</a>
+<a href="https://wclumterr.netlify.app/"> C. Elegans positiv control</a>
 
 
 ### Usage
@@ -134,7 +138,7 @@ python dbscript.py -i inputfile.xml -o dabase.txt
 * <strong> protocol-2.1  </strong>
 *  scripts/protocol2.1/get_uniprot.py
 
-this script will  fetch proteome c elegans, esenia fetida, lumbricus from Uniprot and will create multifasta zip file  
+this script will  fetch proteome c elegans, esenia fetida, lumbricus from Uniprot and will create multifasta GZ file  
 
 usage from bash: 
 python get_uniprot.py
