@@ -43,7 +43,7 @@ en het analyseren van de proteomen van Lumbricus terrestris en Rubellus.
 
 Het doel van dit project is:
 
-* een ab  de novo  genomische annotatie  voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
+* ab  de novo  genomische annotatie  voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
 * Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2.1. 
 * Tot slot voeren we een vergelijkende proteomische analyse uit van de genen die betrokken zijn bij motorische functies,
  volgens protocol 2, 2.1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
@@ -77,7 +77,8 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
   <p> <strong>Protocol2.1  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
  <p>  <strong>Protocol2 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
-  
+<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
+<p> https://genome321.s3.amazonaws.com/bams.zip </p>
   
 
 
@@ -102,7 +103,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 
 
-### Positiv 
+### Controle 
 De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikkeld op basis van eiwitten.  
  
  
