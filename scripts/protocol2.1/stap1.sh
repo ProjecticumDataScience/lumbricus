@@ -1,4 +1,4 @@
-# This script extracts the worm proteome from uniprot ( runtime 3-5 min)
+# This script extracts the  proteomes: c.elegans, eisenia fetida, lumbricus terrestris from uniprot ( runtime 3-5 min)
 # usage: 
 
 python  get_uniprot.py

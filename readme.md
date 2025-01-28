@@ -1,10 +1,6 @@
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="">
-    <img src="">
-  </a>
+
 
 <h3 align="center">ab de novo genome annotation </h3>
 
@@ -70,9 +66,9 @@ GenomeThreader is used to align proteins
 
 <h4>  Protocols: </h4>
  
-  <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq
-  <strong>Protocol2.1  </strong>-includes building model bases on proteins
-  <strong>Protocol2 </strong> -includes building genome database idenitfied gene strucures
+  <p> <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq </p>
+  <p> <strong>Protocol2.1  </strong>-includes building model bases on proteins  </p>
+ <p>  <strong>Protocol2 </strong> -includes building genome database idenitfied gene strucures </p>
 
   
   
