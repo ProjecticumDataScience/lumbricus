@@ -68,9 +68,15 @@ Data is ordered by protocol
 Tophat  is used for splice aware alignment.
 Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
 
-Protocols:
-Protocol1 includes alignment tranasctiptomic data and building model, based on rna-seq
-Protocol2.1 includes building model bases on proteins
-Protocol2 includes building genome database idenitfied gene strucures
+<h4>  Protocols: </h4>
+  <ol>  
+    <li>Protocol1 includes alignment tranasctiptomic data and building model, based on rna-seq</li>
+
+    <li>Protocol2.1 includes building model bases on proteins</li>
+    <li>Protocol2 includes building genome database idenitfied gene strucures</li>
+
+  </ol>
+  
+  
 
 ### Installation
