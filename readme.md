@@ -38,12 +38,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Dit project omvat het  alignment van transcriptoomlezingen, het trainen met het AUGUSTUS-programma 
+Dit project omvat het  alignment van transcriptoomreads, het trainen met het AUGUSTUS-programma 
 en het analyseren van de proteomen van Lumbricus terrestris en Rubellus.
 
-Het doel van dit project:
+Het doel van dit project is:
 
-* is om een ab  de novo  genomische annotatie te maken voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
+*  om een ab  de novo  genomische annotatie te maken voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
 * Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2,1. 
 * Tot slot voeren we een vergelijkende proteomische analyse uit van de genen die betrokken zijn bij motorische functies,
  volgens protocol 2, 2,1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
