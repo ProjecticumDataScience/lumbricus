@@ -1,6 +1,7 @@
 
 # Om het model te bouwen, moet je configureren met pakketten genemark/augustus/braker.
-# Ik verwijs u naar de  documentatie GeneMark-E-S 
+# Ik verwijs u naar de  documentatie GeneMark-E-S:
+#https://github.com/ProjecticumDataScience/lumbricus/blob/master/scripts/protocol1/INSTALL 
 
 
 # installatie
@@ -38,9 +39,11 @@ conda install -c bioconda perl-data-dumper
 #Thread::Queue
 #GeneMark-ETP
 # to download from   http://exon.gatech.edu/GeneMark/license_download.cgi
+# distribition:  GeneMark-ES/ET/EP+ ver 4.72_lic
 
-# after installing GeneMArk ETP run this  command change_path_in_perl_scripts.pl ,  this  command  located inside GeneMark-ES/ET/EP/ETP folder
-# installation instructions GeneMark inside Genemark distribution:  http://exon.gatech.edu/GeneMark/license_download.cgi
+# after installing GeneMArk ETP run this   #  this  command  located inside GeneMark-ES/ET/EP/ETP folder
+
+
 
 perl change_path_in_perl_scripts.pl "/usr/bin/env perl"
 export GENEMARK_PATH=/your_path_to_GeneMark_executables
