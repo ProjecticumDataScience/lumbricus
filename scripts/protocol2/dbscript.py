@@ -1,4 +1,6 @@
 # usage:  python dbscript.py  -i inputfile -o outputfile
+# this script creates database file for genome Lumbricus Terrestris Lumbricus Rubellus
+
 
 import getopt, sys
 import xml.sax

@@ -96,8 +96,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 
 ### Positiv 
-Positiv control
-The positive control in this experiment is C. elegans. The testing model is developed from proteins.  
+Positiv control in this experiment is C. elegans. The testing model is developed from proteins.  
  
  
 
@@ -105,6 +104,9 @@ The positive control in this experiment is C. elegans. The testing model is deve
   <a href="https://wclumterr.netlify.app/">
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
+
+<a href="https://wclumterr.netlify.app/"> C. elegans positiv control</a>
+
 
 ### Usage
 
