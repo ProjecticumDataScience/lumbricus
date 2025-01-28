@@ -153,8 +153,9 @@ python get_uniprot.py
 probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken.
 <p>
 Je ziet het volgende bericht in de console: ERROR in startAlign.pl op regel 673. 
-Het is niet duidelijk wat de oorzaak van deze fout is. Je kunt het probleem verhelpen door 
-de bestandsgrootte te verminderen of de fasta-positie in te stellen. Een alternatieve 
+Uit dit bericht is de reden voor de fout niet duidelijk. De werkelijke oorzaak is dat het FASTA-bestand te groot is.
+ Je kunt het probleem verhelpen door 
+de fastasgrootte te verminderen of de fasta-positie in te stellen. Een alternatieve 
 oplossing is om deze stap in twee delen te doen. </p>
 
  </li>
