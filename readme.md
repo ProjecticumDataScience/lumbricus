@@ -77,4 +77,29 @@ Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
   
   
 
-### Installation
+### Installation Instruction
+
+required soft:
+
+1. GeneMark-ES/ET/EP+ ver 4.72_lic *
+requeires Perl configuration, path and dependenices
+download from: https://exon.gatech.edu/GeneMark/license_download.cgi
+
+2. TopHat, can be installed with conda
+
+3. Bowtie2, can be installed with conda
+
+4. GenomeThreader, can be installed with conda
+
+5. Augustus can be installed with conda
+6. Breaker can be installed with zip
+
+### Installation Instruction
+
+ The positive control used is C. elegans. The test model is created using proteins from it. 
+ 
+ 
+ <div align="center">
+  <a href="">
+    <img src="">
+  </a>
