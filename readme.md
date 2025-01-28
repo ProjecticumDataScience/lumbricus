@@ -100,7 +100,8 @@ Positiv control
 The positive control in this experiment is C. elegans. The testing model is developed from proteins.  
  
  
- <div align="center">
+
+
   <a href="https://wclumterr.netlify.app/">
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
@@ -109,7 +110,7 @@ The positive control in this experiment is C. elegans. The testing model is deve
 
 To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter genome coordiantes in the app:
  
- <div align="center">
+
   <a href="https://wclumterr.netlify.app/">
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/usage.png">
   </a>
