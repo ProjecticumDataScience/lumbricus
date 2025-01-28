@@ -70,14 +70,14 @@ Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
 
 <h4>  Protocols: </h4>
   <ol>  
-    <li>Protocol1  -includes alignment tranasctiptomic data and building model, based on rna-seq</li>
-    <li>Protocol2.1 -includes building model bases on proteins</li>
-    <li>Protocol2 -includes building genome database idenitfied gene strucures</li>
+    <li> <strong>Protocol1 <strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq</li>
+    <li> <strong>Protocol2.1  <strong>-includes building model bases on proteins</li>
+    <li> <strong>Protocol2 <strong> -includes building genome database idenitfied gene strucures</li>
   </ol>
   
   
 
-### Installation Instruction
+## Installation Instruction
 
 required soft:
 
@@ -94,12 +94,23 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 5. Augustus can be installed with conda
 6. Breaker can be installed with zip
 
-### Positiv control
+## Positiv control
 
- The positive control used is C. elegans. The test model is created using proteins from it. 
+The positive control in this experiment is C. elegans. The testing model is developed from proteins.  
  
  
  <div align="center">
-  <a href="">
+  <a href="https://wclumterr.netlify.app/">
     <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
+
+##  Usage
+
+To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter genome coordiantes in the app:
+ 
+ <div align="center">
+  <a href="https://wclumterr.netlify.app/">
+    <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/usage.png">
+  </a>
+
+<a href="https://wclumterr.netlify.app/"> app </a>
