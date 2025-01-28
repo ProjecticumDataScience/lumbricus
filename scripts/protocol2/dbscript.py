@@ -6,7 +6,7 @@ import xml.sax
 
    
 
-file="06.fasta.out.xml"   
+
     
 class ProteinsHandler(xml.sax.ContentHandler):
     def __init__(self,argv):
@@ -108,6 +108,7 @@ class ProteinsHandler(xml.sax.ContentHandler):
          
         elif self.CurrentTag == "PGL_module":
            print("end chromosome")
+           self.outstream.write("**** end chromosome ****\n")
            exit() 
         
             
@@ -165,12 +166,11 @@ class ProteinsHandler(xml.sax.ContentHandler):
         if self.outstreamp:
             self.outstream.close()
 
-if __name__ == "__main__":
-    
-    a = ["out2.xml", "sax"]
-    # create an XMLReader
-    parser = xml.sax.make_parser()
-    # a class that override the default ContextHandler
-    Handler = ProteinsHandler(sys.argv[1:])
-    parser.setContentHandler(Handler)
-    parser.parse(file)            
+if __name__ == '__main__':
+    gthxml_handler = ProteinsHandler(sys.argv[1:])
+                                                                                                                             
+    from xml.sax import make_parser
+
+    genericsax = make_parser()
+    genericsax.setContentHandler(gthxml_handler)
+    genericsax.parse(gthxml_handler.instream)
