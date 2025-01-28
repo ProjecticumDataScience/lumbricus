@@ -94,12 +94,12 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 5. Augustus can be installed with conda
 6. Breaker can be installed with zip
 
-### Installation Instruction
+### Positiv control
 
  The positive control used is C. elegans. The test model is created using proteins from it. 
  
  
  <div align="center">
   <a href="">
-    <img src="">
+    <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
   </a>
