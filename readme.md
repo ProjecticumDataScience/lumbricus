@@ -6,7 +6,7 @@
     <img src="">
   </a>
 
-<h3 align="center">ab de novo genoomannotatie </h3>
+<h3 align="center">ab de novo genome annotation </h3>
 
   <p align="center">
     Workflow for processing of  genoomannotatie ab de novo .
@@ -55,16 +55,15 @@
 File structure:
 
 - 'scripts' contains scripts used to run the workflow.
-    scripts are ordered by order of usage.
-- 'data' contains data files used by the programs in the workflow.
-    Data such as annotations, reference genome and index are here.
+    scripts are ordered by protocol.
+- 'data' contains data files processed  in the workflow.
+    Data such as  alignnment output, model,  uniprot protein mapping  are here.
 - 'data_input' is the folder for raw data files to be analyzed.
-    Loose fastq.gz files are placed here and can be archived once finished.
-- 'results' contains folders with all manipulated data.
-    Programs output their temp files here as well.
+    Fasta's files, ref genome, ref transcriptomic data are here.
+- 'results' contains folders with gene databse, webapp source code, proteomic analytics report
+    
+Tophat  is used for alignem.
+Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
 
-Chopper is used for removing adapter sequences.
-minimap2 is used to align input data to reference genome.
-aligned .sam data is then filtered by FLAG value and converted to .bam files for Bambu.
 
 ### Installation
