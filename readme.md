@@ -58,14 +58,19 @@ File structure:
     scripts are ordered by protocol.
 - 'data' section includes all the files that have been processed during the workflow. 
 This includes things like alignment outputs, models, and UniProt protein collections.
+Data is ordered by protocol
 
 -  The 'data_input ' section includes reference genomic and transctiptomic data. 
 
 - 'results' contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
  webapp source code, proteomic analytics report
     
-Tophat  is used for alignem.
+Tophat  is used for splice aware alignment.
 Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
 
+Protocols:
+Protocol1 includes alignment tranasctiptomic data and building model, based on rna-seq
+Protocol2.1 includes building model bases on proteins
+Protocol2 includes building genome database idenitfied gene strucures
 
 ### Installation
