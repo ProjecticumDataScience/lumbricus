@@ -32,8 +32,8 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#Positiv">Positiv control</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#Scripts">Contact</a></li>
-    <li><a href="#Issues">Acknowledgments</a></li>
+    <li><a href="#Scripts">Scripts</a></li>
+    <li><a href="#Issues">Issues</a></li>
   </ol>
 </details>
 
