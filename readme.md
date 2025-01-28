@@ -54,15 +54,15 @@ and analyzing the proteomes of Lumbricus terrestris and Rubellus.
 
 File structure:
 
-- 'scripts' contains scripts used to run the workflow.
+'scripts' contains scripts used to run the workflow.
     scripts are ordered by protocol.
-- 'data' section includes all the files that have been processed during the workflow. 
+'data' section includes all the files that have been processed during the workflow. 
 This includes things like alignment outputs, models, and UniProt protein collections.
 Data is ordered by protocol
 
--  The 'data_input ' section includes reference genomic and transctiptomic data. 
+The 'data_input ' section includes reference genomic and transctiptomic data. 
 
-- 'results' contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
+'results' contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
  webapp source code, proteomic analytics report
     
 Tophat  is used for splice aware alignment.
@@ -70,9 +70,9 @@ Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
 
 <h4>  Protocols: </h4>
  
-  <strong>Protocol1 <strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq
-  <strong>Protocol2.1  <strong>-includes building model bases on proteins
-  <strong>Protocol2 <strong> -includes building genome database idenitfied gene strucures
+  <strong>Protocol1 </strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq
+  <strong>Protocol2.1  </strong>-includes building model bases on proteins
+  <strong>Protocol2 </strong> -includes building genome database idenitfied gene strucures
 
   
   
@@ -127,16 +127,26 @@ Scripts are ordered by protocol:
 
 ### Issues
 
- -Protocol2,  The 'startAlign.pl' script kill terminate the process if the memory usage goes over a certain limit. 
+<ol>
+  <li> -it is a complex package, where you need a lot of Perl, Linux configuration, including  installing GeneMark ET.</li>
+  <li>  -Protocol2,  The 'startAlign.pl' script kill terminate the process if the memory usage goes over a certain limit. 
  If you run into this problem, try splitting the fasta file into two sections,
- or use the --pos option to limit the position.
-- Protocol1 Bonafide error: "not unique identifiers", you can use scripts/protocol1/get_uniq.py
+ or use the --pos option to limit the position.</li>
+  <li>- Protocol1 Bonafide error: "not unique identifiers", you can use scripts/protocol1/get_uniq.py
 Every python script is runnable from bash, python get_uniq.py,
-you should change the pattern to match the line after LOCUS in bonafide.gb.
+you should change the pattern to match the line after LOCUS in bonafide.gb.</li>
+<li> - Protocol1 Bonafide error: "not unique identifiers", you can use scripts/protocol1/get_uniq.py
+Every python script is runnable from bash, python get_uniq.py,
+you should change the pattern to match the line after LOCUS in bonafide.gb.</li>
 
--Protocol1 randomSplit.pl  assignes 0 genes to the test or trainingset
+<li>-Protocol1 randomSplit.pl  assignes 0 genes to the test or trainingset
 In this case you can use split -n ,
-or debug  the script randomSplit.pl step by step and look for where the results are reset to zero
+or debug  the script randomSplit.pl step by step and look for where the results are reset to zero </li> 
+</ol>
+
+
+
+
 
 ### Contributing
 
