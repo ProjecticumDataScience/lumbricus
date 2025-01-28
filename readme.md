@@ -72,7 +72,7 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
 <h4>  Protocols: </h4>
  
   <p> <strong>Protocol1 </strong>  - omvat alignment  tranasctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
-  <p> <strong>Protocol2.1  </strong>-omvat het bouwen van model  op eiwitten bases  </p>
+  <p> <strong>Protocol2.1  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
  <p>  <strong>Protocol2 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
   
@@ -163,6 +163,8 @@ oplossing is om deze stap in twee delen te doen. </p>
    Bonafide fout: "niet unieke identificaties", je kunt scripts/protocol1/get_uniq.py gebruiken. 
    Elke Python-script kan vanuit bash worden uitgevoerd, python get_uniq.py. 
    Je moet het patroon aanpassen zodat het overeenkomt met de regel na LOCUS in bonafide.gb.
+   De fout komt voort uit het feit dat werken met tekst, in de kern, om tekst draait. 
+   Het kan nodig zijn om tekststrings die een identificatie bevatten, te formatteren voordat de software ze kan verwerken.
   </li>
 
 <li>-Protocol1 randomSplit.pl kent 0 genen toe aan de test- of trainingset. Je kunt in dit geval split -n gebruiken, 
