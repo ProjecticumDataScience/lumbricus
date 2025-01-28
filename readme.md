@@ -43,8 +43,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]() <br>
-<br> [![Product Name Screen Shot][product-screenshot2]]()
+This project involves aligning transcriptome reads, training with the AUGUSTUS program, 
+and analyzing the proteomes of Lumbricus terrestris and Rubellus.
 
 
 
