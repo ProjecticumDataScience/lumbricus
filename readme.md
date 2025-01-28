@@ -58,9 +58,11 @@ File structure:
     scripts are ordered by protocol.
 - 'data' contains data files processed  in the workflow.
     Data such as  alignnment output, model,  uniprot protein mapping  are here.
-- 'data_input' is the folder for raw data files to be analyzed.
-    Fasta's files, ref genome, ref transcriptomic data are here.
-- 'results' contains folders with gene databse, webapp source code, proteomic analytics report
+-  The 'data_input ' section includes all the files that have been processed during the workflow. 
+This includes things like alignment outputs, models, and UniProt protein collections.
+
+- 'results' contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
+ webapp source code, proteomic analytics report
     
 Tophat  is used for alignem.
 Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
