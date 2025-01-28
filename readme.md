@@ -20,14 +20,13 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -52,6 +51,7 @@ and analyzing the proteomes of Lumbricus terrestris and Rubellus.
 
 <!-- GETTING STARTED -->
 ## Getting Started
+
 File structure:
 
 - 'scripts' contains scripts used to run the workflow.
@@ -69,11 +69,11 @@ Tophat  is used for splice aware alignment.
 Augustus &  GeneMark-ES/ET/EP+ ver 4.7 are used to build model ab de novo
 
 <h4>  Protocols: </h4>
-  <ol>  
-    <li> <strong>Protocol1 <strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq</li>
-    <li> <strong>Protocol2.1  <strong>-includes building model bases on proteins</li>
-    <li> <strong>Protocol2 <strong> -includes building genome database idenitfied gene strucures</li>
-  </ol>
+ 
+  <strong>Protocol1 <strong>  -includes alignment tranasctiptomic data and building model, based on rna-seq
+  <strong>Protocol2.1  <strong>-includes building model bases on proteins
+  <strong>Protocol2 <strong> -includes building genome database idenitfied gene strucures
+
   
   
 
@@ -121,7 +121,22 @@ To compare genome Lumbricus Terrestris and Lumbricus Rubellus you can enter geno
 <a href="https://genomewclumterr.netlify.app/"> app </a>
 
 ### Scripts
+
+Scripts are ordered by protocol:
+
+
 ### Issues
+
+ -Protocol2,  The 'startAlign.pl' script kill terminate the process if the memory usage goes over a certain limit. 
+ If you run into this problem, try splitting the fasta file into two sections,
+ or use the --pos option to limit the position.
+- Protocol1 Bonafide error: "not unique identifiers", you can use scripts/protocol1/get_uniq.py
+Every python script is runnable from bash, python get_uniq.py,
+you should change the pattern to match the line after LOCUS in bonafide.gb.
+
+-Protocol1 randomSplit.pl  assignes 0 genes to the test or trainingset
+In this case you can use split -n ,
+or debug  the script randomSplit.pl step by step and look for where the results are reset to zero
 
 ### Contributing
 
