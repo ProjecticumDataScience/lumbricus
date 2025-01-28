@@ -56,10 +56,10 @@ File structure:
 
 - 'scripts' contains scripts used to run the workflow.
     scripts are ordered by protocol.
-- 'data' contains data files processed  in the workflow.
-    Data such as  alignnment output, model,  uniprot protein mapping  are here.
--  The 'data_input ' section includes all the files that have been processed during the workflow. 
+- 'data' section includes all the files that have been processed during the workflow. 
 This includes things like alignment outputs, models, and UniProt protein collections.
+
+-  The 'data_input ' section includes reference genomic and transctiptomic data. 
 
 - 'results' contains folders with gene database for Lumbricus Terrestris Lumbricus Rubellus,
  webapp source code, proteomic analytics report
