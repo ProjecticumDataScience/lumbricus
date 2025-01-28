@@ -150,7 +150,14 @@ python get_uniprot.py
 <ol>
   <li> - Dit pakket is best complex en vereist Perl en Linux-configuratie,inclusief het installeren van GeneMark ET.</li>
 <li> Het 'startAlign.pl' script stopt het proces als het geheugengebruik boven een bepaalde limiet komt. Als je dit probleem tegenkomt, 
-probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken. </li>
+probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken.
+<p>
+Je ziet het volgende bericht in de console: ERROR in startAlign.pl op regel 673. 
+Het is niet duidelijk wat de oorzaak van deze fout is. Je kunt het probleem verhelpen door 
+de bestandsgrootte te verminderen of de fasta-positie in te stellen. Een alternatieve 
+oplossing is om deze stap in twee delen te doen. </p>
+
+ </li>
   <li>-Protocol1 
    Bonafide fout: "niet unieke identificaties", je kunt scripts/protocol1/get_uniq.py gebruiken. 
    Elke Python-script kan vanuit bash worden uitgevoerd, python get_uniq.py. 
