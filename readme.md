@@ -65,8 +65,7 @@ Bestandsstructuur:
 <p> <strong> 'results'</strong>  Inclusief map met genen databases voor Lumbricus Terrestris en Lumbricus Rubellus, 
 de webapp broncode en een analytisch rapport over proteomica. </p> 
     
-<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon : </p>
-<p> https://genome321.s3.amazonaws.com/bams.zip </p>	
+	
 <p>  <string> Tophat</string>   wordt gebruikt voor splice aware   alignment.  </p> 
 <p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 worden gebruikt om model ab de novo te bouwen  </p>
 <p> <string> GenomeThreader wordt gebruikt om eiwitten uit te alignen </string>  </p>
@@ -127,6 +126,15 @@ Om genoom Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoo
 
 <a href="https://genomewclumterr.netlify.app/"> app </a>
 
+
+### Model Usage
+
+Om het model te gebruiken, kopieert u de regenworm map naar uw Augutsus distributie config
+Model:
+https://github.com/ProjecticumDataScience/lumbricus/tree/master/data/protocol2/model/regenworm.zip
+
+1. sudo cp -r regenworm /usr/share/augustus/config/species/
+2.   cp -r regenworm  anaconda3/envs/c/config/species/
 ### Scripts
 
 Scripts zijn geordend volgens het protocol.
