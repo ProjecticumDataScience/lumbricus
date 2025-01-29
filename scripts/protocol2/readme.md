@@ -1,5 +1,6 @@
 deze pipline maakt een model gebaseerd op eiwitten.
-Deze verzameling eiwitten is geschikt als basis voor modelbouw: Lumbricus Terrestris, Lumbricus Rubellus
+Deze verzameling eiwitten is geschikt als basis voor modelbouw: 
+Lumbricus Terrestris, Lumbricus Rubellus
 
 
 
