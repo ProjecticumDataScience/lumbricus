@@ -21,4 +21,3 @@ tophat lumter     sample_1.fastq  sample_2.fastq
  #  file jucntions.bed, This file will be used for next steps
 
 
- # Als alternatief kun je een lus gebruiken, maar  je hebt er een super krachtige processor voor nodig. Het 6 uur duurt om een enkel chromosoom uit te lijnen.
