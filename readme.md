@@ -73,8 +73,8 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
 <h4>  Protocols: </h4>
  
   <p> <strong>Protocol1 </strong>  - omvat alignment  tranasctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
-  <p> <strong>Protocol2.1  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
- <p>  <strong>Protocol2 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
+  <p> <strong>Protocol2  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
+ <p>  <strong>Protocol2.1 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
 <p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
 <p> https://genome321.s3.amazonaws.com/bams.zip </p>
@@ -146,8 +146,7 @@ Scripts zijn geordend volgens het protocol.
  Gebruik in bash: 
 python dbscript.py -i inputfile.xml -o dabase.txt
  
-* <strong> protocol-2  </strong>
-*  
+* <strong> protocol-2  </strong> 
 *  scripts/protocol2/get_uniprot.py
 
  Dit script haalt het proteoom van C. elegans, E. fetida en Lumbricus op van Uniprot en maakt een multifasta GZ-bestand aan.
