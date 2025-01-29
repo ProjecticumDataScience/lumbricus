@@ -159,7 +159,8 @@ python get_uniprot.py
 ### Issues
 
 <ol>
-  <li> - Dit pakket is best complex en vereist Perl en Linux-configuratie,inclusief het installeren van GeneMark ET.</li>
+  <li> - Dit pakket is best complex en vereist Perl en Linux-configuratie,inclusief het installeren van GeneMark ET.
+  Het is een complex pakket dat complexe issues oplevert</li>
 <li> Het 'startAlign.pl' script stopt het proces als het geheugengebruik boven een bepaalde limiet komt. Als je dit probleem tegenkomt, 
 probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken.
 <p>
