@@ -19,4 +19,4 @@ computeFlankingRegion.pl bonafide.gtf
 gff2gbSmallDNA.pl bonafide.gtf genome.fa 450 tmp.gb
 filterGenesIn_mRNAname.pl bonafide.gtf tmp.gb > bonafide.gb
 
-# bonafide.gb : https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/bonafide/bonafide.gb
+# bonafide.gb :data/protocol1/model_development/bonafide/bonafide.gb

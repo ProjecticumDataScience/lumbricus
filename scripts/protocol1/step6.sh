@@ -4,8 +4,8 @@
 
 
 # this script  filterGenemark.pl  in the latest conda distribution gives an error, you have to replace it from the script from other Augutsus distribution 
-#  the working scrpt filterGenemark.pl is hier : https://github.com/ProjecticumDataScience/lumbricus/blob/master/scripts/protocol1/filterGenemark.pl
-
+#  the working scrpt filterGenemark.pl is hier 
+# scripts/protocol1/filterGenemark.pl
 
 
 perl filterGenemark.pl --genemark genemark.gtf  --introns introns.gff
@@ -24,6 +24,6 @@ perl filterGenemark.pl --genemark genemark.gtf  --introns introns.gff
 #One exon gene rate (of good genes): 1.00354430379747
 
 # the output is a file with goedgekeurde   genes  genemark.f.good.gtf:
-# https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/GeneMarkES/genemark.f.good.gtf
+#data/protocol1/model_development/GeneMarkES/genemark.f.good.gtf
 # we have 1975 good genes to build a training set 
  

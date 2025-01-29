@@ -18,4 +18,4 @@
 python get_uniq.py  infile.gb
 
 # this wil produce bonafide.unique.db
-# https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/bonafide/bonafide.unique.gb
+# data/protocol1/model_development/bonafide/bonafide.gb

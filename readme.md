@@ -131,7 +131,7 @@ Om genoom Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoo
 
 Om het model te gebruiken, kopieert u de regenworm map naar uw Augutsus distributie config
 Model:
-https://github.com/ProjecticumDataScience/lumbricus/tree/master/data/protocol2/model/regenworm.zip
+data/protocol2/model
 
 1. sudo cp -r regenworm /usr/share/augustus/config/species/
 2.   cp -r regenworm  anaconda3/envs/c/config/species/

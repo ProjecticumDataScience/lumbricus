@@ -1,7 +1,7 @@
 
 # this scrips produces introns.gff from the tophat results
 # use file junctions.bed  and bed_to_gff.pl   from GeneMark ET distributions
-# bed_to_gff.pl -  https://github.com/ProjecticumDataScience/lumbricus/blob/master/scripts/protocol1/bed_to_gff.pl
+# bed_to_gff.pl -  scripts/protocol1/bed_to_gff.pl
 # use bed_to_gff.pl from the GeneMark ET distribution to convert aligment file to hints
  
  
@@ -10,8 +10,8 @@
  --gff introns.gff  --label TopHat2
    
    
-# junctions.bed : https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/TOPHAT/junctions.bed
-#  introns.gff: https://github.com/ProjecticumDataScience/lumbricus/blob/master/data/protocol1/TOPHAT/introns.gff   
+# junctions.bed : data/protocol1/model_development/TOPHAT/junctions.bed
+#  introns.gff:  data/protocol1/model_development/TOPHAT/introns.gff
 
 
 # the output file introns.gff contains strand information that can be used for ET trainging
