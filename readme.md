@@ -139,16 +139,16 @@ data/protocol2/model
 
 Scripts zijn geordend volgens het protocol.
 
-* <strong> protocol-2 </strong>
-* scripts/protocol2/dbscript.py
+* <strong> protocol-2.1 </strong>
+* scripts/protocol2.1/dbscript.py
 
  Dit script zal een database aanmaken van de geïdentificeerde genen voor Lumbricus Terrestris en Lumbricus Rubellus.
  Gebruik in bash: 
 python dbscript.py -i inputfile.xml -o dabase.txt
  
-* <strong> protocol-2.1  </strong>
-*  scripts/protocol2.1/get_uniprot.py
-
+* <strong> protocol-2  </strong>
+*  
+*  scripts/protocol2/get_uniprot.py
 
  Dit script haalt het proteoom van C. elegans, E. fetida en Lumbricus op van Uniprot en maakt een multifasta GZ-bestand aan.
 
