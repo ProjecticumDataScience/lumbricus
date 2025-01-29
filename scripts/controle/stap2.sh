@@ -1,8 +1,7 @@
-# this step wil produce new species celegans
+# this step wil produce new model  "celegans"
 # test-model:
-#https://github.com/ProjecticumDataScience/lumbricus/tree/master/data/controle/celegans/test-model/celegans
-# visualization of test-model:
-#  https://wclumterr.netlify.app/
+# data/controle/celegans/test-model/celegans
+
 
 # gtf to bonafide
 computeFlankingRegion.pl bonafide.gtf
