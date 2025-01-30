@@ -183,7 +183,7 @@ of het script randomSplit.pl stap voor stap doorlopen om te ontdekken waar de re
 
 <li>-Protocol2. Alle Perl RegEx scripts geven een bash syntaxisfout. 
 Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreven in docs/docs.pdf.
-Als je mijn scripts gebruikt, moet je de chromosoom-id aanpassen</li> 
+Als je mijn scripts met RegEx gebruikt, moet je de chromosoom-id aanpassen</li> 
 
 
 </ol>
