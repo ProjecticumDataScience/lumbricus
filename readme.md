@@ -114,7 +114,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 7. Python3
 
-8.Linux-besturingssysteem
+8. Linux-besturingssysteem
 
 
 
