@@ -80,7 +80,8 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
   
  ![pipilne2](images/product-screenshot/p2.png)
  
- <p>  <strong>Protocol2.1 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
+ <p>  <strong>Protocol2.1 </strong> -Protocol 2.1 omvat tet creëren van een database waarin de genen en hun 
+ structuren voor de soorten Lumbricus Terrestris en Lumbricus Rubellus zijn geïdentificeerd. </p>
 
 <p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
 <p> https://genome321.s3.amazonaws.com/bams.zip </p>
@@ -123,7 +124,7 @@ De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikke
 
 ### Usage
 
-Om genoom Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoomcoördinaten invoeren in de app:
+Om genoom structure  Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoomcoördinaten invoeren in de app:
  
 
   <a href="https://genomewclumterr.netlify.app/">
