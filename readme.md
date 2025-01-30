@@ -72,11 +72,13 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
 
 <h4>  Protocols: </h4>
  
-  <p> <strong>Protocol1 </strong>  - omvat alignment  tranasctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
+  <p> <strong>Protocol1 </strong>  - omvat alignment  transctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
   
   ![pipilne1](images/product-screenshot/p1.png)
   
   <p> <strong>Protocol2  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
+  
+    ![pipilne2](images/product-screenshot/p2.png)
  <p>  <strong>Protocol2.1 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
 <p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
@@ -103,7 +105,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 7. Python3
 
-
+8.Linux-besturingssysteem
 
 ### Controle 
 De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikkeld op basis van eiwitten.  
