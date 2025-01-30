@@ -1,13 +1,13 @@
 #  Dit script vervangt de Perl-commando binnen protocolredundantie (Protocol 6).
-# filterGenesIn.pl nonred.loci.lst bonafide.gb > bonafide.f.gb
-#  welke enkel de laatste locus uit de bonafide.gb haalt. Het doel is om alle unieke loci uit de bonafide.gb te verzamelen.
-#  Dit command haat alleen  laatste.
+# "filterGenesIn.pl nonred.loci.lst bonafide.gb > bonafide.f.gb"
+#  dat  enkel de laatste locus uit de bonafide.gb haalt. Het doel is om alle unieke loci uit de bonafide.gb te verzamelen.
+#  Dit Perl command haalt alleen  laatste.
 # Om alle unieke loci te krijgen, moeten we dit in een loop zetten 
-# bonafideRED.gb, nonred.loci.lst zouden moeten in zelfde map zitten, waar je dit script oproept
+# Fiels "bonafide.gb" , "nonred.loci.lst"  zouden moeten in zelfde map zitten, waar je dit script oproept
 
 
 import re
-origfilename ="bonafideRED.gb"
+origfilename ="bonafide.gb"
 goodfilename ="nonred.loci.lst"
 goodlist = {}
 with open(goodfilename, 'r') as goodfile:
