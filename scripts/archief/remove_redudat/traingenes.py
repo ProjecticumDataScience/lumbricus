@@ -7,10 +7,10 @@ import re
 import subprocess
 # Read from the file 'bonafide.gb'
 with open('bonafide.gb', 'r') as file:
-content = file.read()
+    content = file.read()
 # Find all unique gene names
-gene_names = set(re.findall(r'/gene="(\S+)"', content))
+    gene_names = set(re.findall(r'/gene="(\S+)"', content))
 # Writing unique gene names to a file
-with open('traingenes.lst', 'w') as f:
-for gene in sorted(gene_names):
-f.write(f'"{gene}"\n')
+    with open('traingenes.lst', 'w') as f:
+        for gene in sorted(gene_names):
+            f.write(f'"{gene}"\n')
