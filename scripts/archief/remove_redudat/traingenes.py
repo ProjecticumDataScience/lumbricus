@@ -1,5 +1,7 @@
 
 # Dit script vervangt de Perl-commando's die een bash syntaxisfout veroorzaken binnen protocolredundantie (Protocol 6).
+#Dit script haalt de transcriptnamen
+#van trainingsgenen uit bonafide.gb halen:
 
 import re
 import subprocess
