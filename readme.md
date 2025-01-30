@@ -182,7 +182,8 @@ oplossing is om deze stap in twee delen te doen. </p>
 of het script randomSplit.pl stap voor stap doorlopen om te ontdekken waar de resultaten op nul worden gereset.</li> 
 
 <li>-Protocol2. Alle Perl RegEx scripts geven een bash syntaxisfout. 
-Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreven in docs/docs.pdf</li> 
+Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreven in docs/docs.pdf.
+Als je mijn scripts gebruikt, moet je de chromosoom-id aanpassen</li> 
 
 
 </ol>
