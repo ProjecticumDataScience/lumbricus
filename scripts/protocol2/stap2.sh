@@ -14,4 +14,4 @@ startAlign.pl --genome Lumbricus_terrestris-GCA_949752735.1-softmasked.fa  --pro
 
 ## Alternatief: Je kunt een fasta-bestand splitsen in twee delen met faSplit en vervolgens een alignment voor elk deel uitvoeren
 ## vervolgens 2 text bestanden mergen
-## script startAlign.pl creëert complexe problemen die moeilijk op te lossen zijn 
+## Het voordeel van de chromosoom-voor-chromosoom alignment  aanpak vermijdt dergelijke geheugenfouten
