@@ -65,11 +65,21 @@ Bestandsstructuur:
 <p> <strong> 'results'</strong>  Inclusief map met genen databases voor Lumbricus Terrestris en Lumbricus Rubellus, 
 de webapp broncode en een analytisch rapport over proteomica. </p> 
     
+
+
+* <strong> archiev </strong>
+deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfout geven,
+ binnen protocolredundantie "remove redundancy structure" 
+
 	
 <p>  <string> Tophat</string>   wordt gebruikt voor splice aware   alignment.  </p> 
 <p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 worden gebruikt om model ab de novo te bouwen  </p>
 <p> <string> GenomeThreader wordt gebruikt om eiwitten uit te alignen </string>  </p>
 
+<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
+<p> https://genome321.s3.amazonaws.com/bams.zip </p>
+  
+  
 <h4>  Protocols: </h4>
  
   <p> <strong>Protocol1 </strong>  - omvat alignment  transctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
@@ -107,9 +117,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 8.Linux-besturingssysteem
 
 
-<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
-<p> https://genome321.s3.amazonaws.com/bams.zip </p>
-  
+
   
 ### Controle 
 De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikkeld op basis van eiwitten.  
@@ -163,9 +171,6 @@ python dbscript.py -i inputfile.xml -o dabase.txt
 usage from bash: 
 python get_uniprot.py
  
-
-* archiev 
-deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfout geven, binnen protocolredundantie "remove redundancy structure" 
 
 ### Issues
 
