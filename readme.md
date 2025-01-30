@@ -78,7 +78,8 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
   
   <p> <strong>Protocol2  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
   
-    ![pipilne2](images/product-screenshot/p2.png)
+ ![pipilne2](images/product-screenshot/p2.png)
+ 
  <p>  <strong>Protocol2.1 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
 <p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
