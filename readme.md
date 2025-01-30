@@ -63,7 +63,7 @@ Bestandsstructuur:
 
 <p>  The <strong> 'data_input ' </strong>In dit gedeelte vind je reference genomic and transctiptomic data.  </p>
 
-<p> <strong> 'results'</strong>  Inclusief map met genen databases voor Lumbricus Terrestris en Lumbricus Rubellus, 
+<p> <strong> 'results'</strong>  Inclusief map met genen databases voor *Lumbricus Terrestris*  en *Lumbricus Rubellus*, 
 de webapp broncode en een analytisch rapport over proteomica. </p> 
     
 
@@ -123,7 +123,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
   
 ### Controle 
-De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikkeld op basis van eiwitten.  
+De positieve controle in dit experiment is *C. Elegans*. Het testmodel is ontwikkeld op basis van eiwitten.  
  
  
 
@@ -137,7 +137,7 @@ De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikke
 
 ### Usage
 
-Om genoom structure  Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoomcoördinaten invoeren in de app:
+Om genoom structure  *Lumbricus Terrestris*  en *Lumbricus Rubellus* te vergelijken kun je genoomcoördinaten invoeren in de app:
  
 
   <a href="https://genomewclumterr.netlify.app/">
@@ -162,14 +162,14 @@ Scripts zijn geordend volgens het protocol.
 * <strong> protocol-2.1 </strong>
 * scripts/protocol2.1/dbscript.py
 
- Dit script zal een database aanmaken van de geïdentificeerde genen voor Lumbricus Terrestris en Lumbricus Rubellus.
+ Dit script zal een database aanmaken van de geïdentificeerde genen voor *Lumbricus Terrestris*  en *Lumbricus Rubellus*.
  Gebruik in bash: 
 python dbscript.py -i inputfile.xml -o dabase.txt
  
 * <strong> protocol-2  </strong> 
 *  scripts/protocol2/get_uniprot.py
 
- Dit script haalt het proteoom van C. elegans, E. fetida en Lumbricus op van Uniprot en maakt een multifasta GZ-bestand aan.
+ Dit script haalt het proteoom van *C. elegans*, *E. fetida* en *Lumbricus* op van Uniprot en maakt een multifasta GZ-bestand aan.
 
 usage from bash: 
 python get_uniprot.py
