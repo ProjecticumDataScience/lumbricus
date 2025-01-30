@@ -94,6 +94,8 @@ deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfou
  structuren voor de soorten Lumbricus Terrestris en Lumbricus Rubellus zijn geïdentificeerd. </p>
 
 
+<p> Protocol "Removing Redundant Gene Structures"  is gedaan,
+ maar om de scripts eenvoudig te houden, is dit deel  naar de archiefmap verplaatst. </p>
 
 ### Prerequisites
 
