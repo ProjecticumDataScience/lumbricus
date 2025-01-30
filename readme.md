@@ -67,7 +67,7 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
     
 
 
- <strong> 'archiev'  </strong>
+ <strong> 'archief'  </strong>
 deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfout geven,
  binnen protocolredundantie "remove redundancy structure" 
 

@@ -5,19 +5,27 @@
 # locusnaam.
 # loci.lst bevat nu alle loci in bonafide.gb. 
 #
-# usage: python create_loci_list.py. Je bonafide.gb zouden in zelfde map moeten zitten
+# usage from bash : python create_loci_list.py  bonafide.gb
+
+import sys
 
 
 import re
+
 txInGb3 = {}
 txLocus = ""
-with open("bonafide.gb") as file:
+
+bonafide =sys.argv[1]
+
+
+with open(bonafide) as file:
     for line in file:
         if re.search(r'LOCUS\s+(\S+)\s', line):
             txLocus = re.search(r'LOCUS\s+(\S+)\s', line).group(1)
         elif re.search(r'/gene="(\S+)"', line):
             gene = re.search(r'/gene="(\S+)"', line).group(1)
-    txInGb3[gene] = txLocus
-    with open("loci.lst", "w") as output_file:
-        for key in txInGb3.keys():
-            output_file.write(f"{key}\t{txInGb3[key]}\n")
+            txInGb3[gene] = txLocus
+
+with open("loci.lst", "w") as output_file:
+    for key in txInGb3.keys():
+        output_file.write(f"{key}\t{txInGb3[key]}\n")
