@@ -6,7 +6,7 @@
 # Dit zijn genen die niet aan de normen voldoen, 
 # zoals genen met een in-frame stopcodon, een splice site patroon dat niet gt-ag is, 
 # of genen die syntactisch incorrect zijn (bijvoorbeeld exonen met een negatieve lengte). 
-
+# Je moet de huidige --species  en het chromosoom aanpassen.
 
 
 
