@@ -39,11 +39,11 @@
 ## About The Project
 
 Dit project omvat het  alignment van transcriptoomreads, het trainen met het AUGUSTUS-programma 
-en het analyseren van de proteomen van Lumbricus terrestris en Rubellus.
+en het analyseren van de proteomen van *Lumbricus Terrestris*  en *Rubellus*.
 
 Het doel van dit project is:
 
-* ab  de novo  genomische annotatie  voor Lumbricus Terrestris en Lumbricus Rubellus, volgens protocol 1-2. 
+* ab  de novo  genomische annotatie  voor *Lumbricus Terrestris* en *Lumbricus Rubellus*, volgens protocol 1-2. 
 * Daarnaast willen we een database opzetten met de geïdentificeerde genen van deze twee wormsoorten, volgens protocol 2, 2.1. 
 * Tot slot voeren we een vergelijkende proteomische analyse uit van de genen die betrokken zijn bij motorische functies,
  volgens protocol 2, 2.1, en we hebben de resultaten in een rapport verzamelt(results->proteomische studie).
@@ -56,7 +56,8 @@ Bestandsstructuur:
 
 
  <p> <strong> 'data'  </strong> Deze sectie bevat alle bestanden die tijdens de workflow zijn verwerkt.</p> 
- <p> Dit omvat dingen zoals uitkomsten van rna-seq alignments, GenomeThreader protein Alignments. Modellen(=species) en UniProt-eiwitcollecties.
+ <p> Dit omvat dingen zoals modelontwikkeling, uitkomsten van rna-seq alignments, uitkomsten 
+ van GenomeThreader protein Alignments, Augustus  Modellen (species).
  De gegevens zijn gesorteerd op protocol.</p>
 
 
@@ -94,7 +95,7 @@ deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfou
  structuren voor de soorten Lumbricus Terrestris en Lumbricus Rubellus zijn geïdentificeerd. </p>
 
 
-<p> Protocol "Removing Redundant Gene Structures"  is gedaan,
+<p> Protocol <strong> "Removing Redundant Gene Structures" </strong> is gedaan,
  maar om de scripts eenvoudig te houden, is dit deel  naar de archiefmap verplaatst. </p>
 
 ### Prerequisites
