@@ -73,6 +73,9 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
 <h4>  Protocols: </h4>
  
   <p> <strong>Protocol1 </strong>  - omvat alignment  tranasctiptomische reads  en model building , gebaseerd op rna-seq  alignment</p>
+  
+  ![pipilne1](images/product-screenshot/p1.png)
+  
   <p> <strong>Protocol2  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
  <p>  <strong>Protocol2.1 </strong> -bevat het creëren van een database van genen waarin de structuren van de genen zijn vastgesteld. </p>
 
