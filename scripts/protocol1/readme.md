@@ -13,7 +13,7 @@ een foutmelding. Het script filterGenemark.pl in deze map werkt echter wel.
     lumbricus/scripts/protocol1/filterGenemark.pl 
 	
 	
-pipline1  
+pipline-1  
 
-query fasta-> bam->hints->hmm model-> introns cutout-> training-set genes-> generate model	
+<strong> query fasta-> bam->hints->hmm model-> introns cut-out-> training-set genes-> generate model	 </strong>
 	
