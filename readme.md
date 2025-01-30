@@ -115,7 +115,7 @@ De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikke
 
 
   <a href="https://wclumterr.netlify.app/">
-    <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/pc.png">
+    <img src="images/product-screenshot/pc.png">
   </a>
 
 <a href="https://wclumterr.netlify.app/"> C. Elegans positiv control</a>
@@ -127,7 +127,7 @@ Om genoom Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoo
  
 
   <a href="https://wclumterr.netlify.app/">
-    <img src="https://github.com/ProjecticumDataScience/lumbricus/blob/master/images/product-screenshot/usage.png">
+    <img src="images/product-screenshot/screen.png">
   </a>
 
 <a href="https://genomewclumterr.netlify.app/"> app </a>
