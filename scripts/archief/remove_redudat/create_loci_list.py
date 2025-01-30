@@ -1,6 +1,6 @@
 # Dit script vervangt de Perl-commando's die een bash syntaxisfout veroorzaken binnen protocolredundantie (Protocol 6).# 
 # Dit script maakt een lijst met locionamen in plaats van gennamen.
-# het parsere  overeenkomstige locionamen en gennamen uit bonafide.gb en slaat ze op in een bestand loci.lst.
+# het parseert  overeenkomstige locionamen en gennamen uit bonafide.gb en slaat ze op in een bestand loci.lst.
 # De linker invoer is een gennaam, gevolgd door een tabulator, de rechter invoer is de corresponderende
 # locusnaam.
 # loci.lst bevat nu alle loci in bonafide.gb. 
