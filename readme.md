@@ -63,7 +63,7 @@ Bestandsstructuur:
 
 <p>  The <strong> 'data_input ' </strong>In dit gedeelte vind je reference genomic and transctiptomic data.  </p>
 
-<p> <strong> 'results'</strong>  Inclusief map met genen databases voor *Lumbricus Terrestris*  en *Lumbricus Rubellus*, 
+<p> <strong> 'results'</strong>  Inclusief map met genen databases voor Lumbricus Terrestris  en Lumbricus Rubellus, 
 de webapp broncode en een analytisch rapport over proteomica. </p> 
     
 
