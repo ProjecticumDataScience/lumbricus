@@ -83,9 +83,6 @@ de webapp broncode en een analytisch rapport over proteomica. </p>
  <p>  <strong>Protocol2.1 </strong> -Protocol 2.1 omvat tet creëren van een database waarin de genen en hun 
  structuren voor de soorten Lumbricus Terrestris en Lumbricus Rubellus zijn geïdentificeerd. </p>
 
-<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
-<p> https://genome321.s3.amazonaws.com/bams.zip </p>
-  
 
 
 ### Prerequisites
@@ -109,6 +106,11 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 8.Linux-besturingssysteem
 
+
+<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
+<p> https://genome321.s3.amazonaws.com/bams.zip </p>
+  
+  
 ### Controle 
 De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikkeld op basis van eiwitten.  
  
@@ -161,6 +163,9 @@ python dbscript.py -i inputfile.xml -o dabase.txt
 usage from bash: 
 python get_uniprot.py
  
+
+* archiev 
+deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfout geven, binnen protocolredundantie "remove redundancy structure" 
 
 ### Issues
 
