@@ -126,7 +126,7 @@ De positieve controle in dit experiment is C. Elegans. Het testmodel is ontwikke
 Om genoom Lumbricus Terrestris en Lumbricus Rubellus te vergelijken kun je genoomcoördinaten invoeren in de app:
  
 
-  <a href="https://wclumterr.netlify.app/">
+  <a href="https://genomewclumterr.netlify.app/">
     <img src="images/product-screenshot/screen.png">
   </a>
 
