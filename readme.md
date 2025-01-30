@@ -180,7 +180,13 @@ oplossing is om deze stap in twee delen te doen. </p>
 
 <li>-Protocol1 randomSplit.pl kent 0 genen toe aan de test- of trainingset. Je kunt in dit geval split -n gebruiken, 
 of het script randomSplit.pl stap voor stap doorlopen om te ontdekken waar de resultaten op nul worden gereset.</li> 
+
+<li>-Protocol2. Alle Perl RegEx scripts geven een bash syntaxisfout. 
+Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreven in docs/docs.pdf</li> 
+
+
 </ol>
+
 
 
 
