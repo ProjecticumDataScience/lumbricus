@@ -1,16 +1,13 @@
 deze pipline maakt een model gebaseerd op eiwitten.
 Deze verzameling eiwitten is geschikt als basis voor modelbouw: 
-Lumbricus Terrestris, Lumbricus Rubellus
+Lumbricus Terrestris, Lumbricus Rubellus:
+data/protocol2/uniprot_proteome/proteoms.fa
 
-Protein collectie:
-data/protocol2/uniprot_proteome
 
-pipline2
-
-query proteins->gth.cocnat.aln->bonafide-> remove redudancy->training-set genes-> generate model
+<strong> query proteins->gth.cocnat.aln->bonafide-> remove redudancy->training-set genes-> generate model </strong> 
 
 
 
  Redundantie verwijderen is optioneel, en om de scripts gemakkelijk te reproduceren,
- is deze sectie verplaatst naar  archive docs/docs.pdf.
+ is deze sectie verplaatst naar  archive.
 
