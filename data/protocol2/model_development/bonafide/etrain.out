@@ -1,0 +1,47 @@
+GBProcessor::getGeneList(): Sequence has 0 length. Maybe 'source' Feature missing?
+Encountered error after reading 0 annotations.
+# Read in 371 genbank sequences.
+Quantiles of the GC contents in the training set:
+0%	0.319
+5%	0.368	10%	0.374
+15%	0.38	20%	0.384
+25%	0.387	30%	0.392
+35%	0.395	40%	0.399
+45%	0.403	50%	0.406
+55%	0.409	60%	0.413
+65%	0.417	70%	0.421
+75%	0.424	80%	0.427
+85%	0.433	90%	0.445
+95%	0.454	100%	0.522
+HMM-training the parameters...
+i= 0 bc= (0.237, 0.263, 0.263, 0.237)
+ ** building model for exons *EXON*
+start codon frequencies: ATG(369), CTG(1), TTG(1)
+# admissible start codons and their probabilities: ATG(0.995), CTG(0.0027), TTG(0.0027)
+ number of bases in the reading frames: 180130 180497 180484
+--- frame = 0 ---    minPatSum = 233
+--- frame = 1 ---    minPatSum = 233
+--- frame = 2 ---    minPatSum = 233
+--- initial frame = 0 ---    minPatSum = 233
+--- initial frame = 1 ---    minPatSum = 233
+--- initial frame = 2 ---    minPatSum = 233
+--- internal exon terminal frame = 0 ---    minPatSum = 233
+--- internal exon terminal frame = 1 ---    minPatSum = 233
+--- internal exon terminal frame = 2 ---    minPatSum = 233
+single, initial, internal, terminal mean exon lengths :
+1054	351	178	340
+single exon : 127
+initial exon 0 : 103
+initial exon 1 : 83
+initial exon 2 : 58
+internal exon 0 : 324
+internal exon 1 : 276
+internal exon 2 : 154
+terminal exon : 244
+Frequency of stop codons:
+tag:   90 (0.243)
+taa:  137 (0.369)
+tga:  144 (0.388)
+end *EXON*
+Storing parameters to file...
+Writing exon model parameters [1] to file /home/alena/anaconda3/envs/c/config/species/lumrube/lumrube_exon_probs.pbl.
