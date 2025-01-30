@@ -193,7 +193,7 @@ Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreve
 Als je mijn scripts met RegEx gebruikt, moet je de chromosoom-id aanpassen</li> 
 
 <li> Protocol 6
-filterGenesIn.pl nonred.loci.lst bonafide.gb > bonafide.f.gb
+-"filterGenesIn.pl nonred.loci.lst bonafide.gb > bonafide.f.gb"
  Dit commando slaat enkel de laatste locus van bonafid.gb op. 
  Het doel van deze taak is om alle loci die  niet redudant zijn  in de verzameling te identificeren. 
  Deze taak is vervangen door een loop en is te vinden in de  scripts, archief in sectie remove_redudant.
