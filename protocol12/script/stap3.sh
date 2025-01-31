@@ -5,6 +5,9 @@
 
 conda create --name tophat_env
 
+conda activate tophat_env
+
+
 #maak de index aan met bowtie
 
 bowtie2-build soft.masked.chromosome1.OX457036.1.fasta Lumbricus_terrestris_index
