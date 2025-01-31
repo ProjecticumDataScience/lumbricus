@@ -178,7 +178,7 @@ python get_uniprot.py
 ### Statistics
 
  
- | chromosoom  |  L.Terrestris  | L.Rubellus |
+ | chromosoom  |  *L.Terrestris*  | *L.Rubellus* |
 |:-----|:--------:|------:|
 |     |  |  |
 | chr1   |  4358  |   1665 |
