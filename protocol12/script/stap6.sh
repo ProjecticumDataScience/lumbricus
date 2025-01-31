@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# deze script is voor het uitvoeren van augustus met de gemaakte hints
+
 
 cp augustus/config/extrinsic/extrinsic.M.RM.E.W.P.cfg extrinsic.bug.cfg
 
