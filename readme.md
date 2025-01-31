@@ -177,6 +177,8 @@ python get_uniprot.py
  
 ### Statistics
 
+<p> aantal genen per chromosoom </p>
+
  
  | chromosoom  |  L.Terrestris  | L.Rubellus |
 |:-----|:--------:|------:|
