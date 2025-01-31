@@ -26,10 +26,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#Positiv">Positiv control</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#Control">Control</a></li>
     <li><a href="#Scripts">Scripts</a></li>
     <li><a href="#Issues">Issues</a></li>
+	<li><a href="#Statistics">Statistics</a></li>
+	 <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
 
@@ -122,7 +123,7 @@ download from: https://exon.gatech.edu/GeneMark/license_download.cgi
 
 
   
-### Controle 
+### Control 
 De positieve controle in dit experiment is *C. Elegans*. Het testmodel is ontwikkeld op basis van eiwitten.  
  
  
@@ -174,7 +175,18 @@ python dbscript.py -i inputfile.xml -o dabase.txt
 usage from bash: 
 python get_uniprot.py
  
+### Statistics
 
+ 
+ | chromosoom  |  L.Terrestris  | L.Rubellus |
+|:-----|:--------:|------:|
+|     |  |  |
+| chr1   |  4358  |   1665 |
+| chr2   | 3540 |    3178 |
+| chr3   | 3337 |    3045 |
+| chr4   | 3192 |    3238 |
+| chr5   | 2817 |    2748 |
+| chr6   | 3141 |    3118 |
 ### Issues
 
 <ol>
