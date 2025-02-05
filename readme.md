@@ -150,9 +150,8 @@ Om genoom structure  *Lumbricus Terrestris*  en *Lumbricus Rubellus* te vergelij
 
 ### Model Usage
 
-Om het model te gebruiken, kopieert u de regenworm map naar uw Augutsus distributie config
-Model:
-data/protocol2/model
+Om het model te gebruiken, kopieert u de regenworm map naar uw Augutsus distributie configuratie map.
+<p> Model: data/protocol2/model </p>
 
 1. sudo cp -r regenworm /usr/share/augustus/config/species/
 2.   cp -r regenworm  anaconda3/envs/c/config/species/
@@ -177,7 +176,7 @@ python get_uniprot.py
  
 ### Statistics
 
-<p> aantal genen per chromosoom </p>
+<p> aantal genen per chromosoom* </p>
 
  
  | chromosoom  |  L.Terrestris  | L.Rubellus |
@@ -189,11 +188,13 @@ python get_uniprot.py
 | chr4   | 3192 |    3238 |
 | chr5   | 2817 |    2748 |
 | chr6   | 3141 |    3118 |
+
+* de genentelling wordt gedaan met een machine learning helixer 
 ### Issues
 
 <ol>
   <li> - Dit pakket is best complex en vereist Perl en Linux-configuratie,inclusief het installeren van GeneMark ET.
-  Het is een complex pakket dat complexe issues oplevert</li>
+  </li>
 <li> Het 'startAlign.pl' script stopt het proces als het geheugengebruik boven een bepaalde limiet komt. Als je dit probleem tegenkomt, 
 probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken.
 <p>
