@@ -97,7 +97,7 @@ deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfou
 
 
 <p> Protocol <strong> "Removing Redundant Gene Structures" </strong> is gedaan,
- maar om de scripts eenvoudig te houden, is dit deel  naar de archiefmap verplaatst. </p>
+ maar om de scripts eenvoudig te houden, is dit deel  naar de archiefmap verplaatst ("scripts/archeief/remove_redudant"). </p>
 
 ### Prerequisites
 
