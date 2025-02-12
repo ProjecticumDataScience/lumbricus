@@ -88,7 +88,7 @@ deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfou
   
   <p> <strong>Protocol2  </strong>-omvat ontwikkeling van  model dat steunt op eiwitstructuren. </p>
   
- ![pipilne2](images/product-screenshot/p2.png)
+ ![pipilne2](images/product-screenshot/p2.2.png)
  
  <p>  <strong>Protocol2.1 </strong> -Protocol 2.1 omvat tet creëren van een database waarin de genen en hun 
  structuren voor de soorten Lumbricus Terrestris en Lumbricus Rubellus zijn geïdentificeerd. </p>
