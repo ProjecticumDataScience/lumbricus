@@ -4,11 +4,6 @@
 wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR108/049/ERR10851549/ERR10851549_1.fastq.gz
 wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR108/049/ERR10851549/ERR10851549_2.fastq.gz
 
-#Deze bestanden zijn  inmiddels verwijderd uit de /www.ebi.ac.uk database
-# download van mijn repository hier:
-
-wget  https://genome321.s3.amazonaws.com/1ERR10851549_1.fastq.gz
-wget  https://genome321.s3.amazonaws.com/2ERR10851549_2.fastq.gz
 
 # run tophat, where sample1, sample2  your fastq files
 # fasta  reference file (per chromosome) should be renamed to "lumter.fasta"
