@@ -78,9 +78,7 @@ deze verzameling scripts vervangt alle Perl RegEX scripts die een bash syntaxfou
 <p> <string> Augustus &  GeneMark</string>  -ES/ET/EP+ ver 4.7 worden gebruikt om model ab de novo te bouwen  </p>
 <p> <string> GenomeThreader wordt gebruikt om eiwitten uit te alignen </string>  </p>
 
-<p> Vanwege de grootte van de bestanden zijn de bams bestanden verplaatst naar amazon bucket: </p>
-<p> https://genome321.s3.amazonaws.com/bams.zip </p>
-  
+ 
   
 <h4>  Protocols: </h4>
  
@@ -193,7 +191,7 @@ python get_uniprot.py
 ### Issues
 
 <ol>
-  <li> - Dit pakket is best complex en vereist Perl en Linux-configuratie,inclusief het installeren van GeneMark ET.
+  <li> - Dit pakket is best complex en vereist  Linux-configuratie,inclusief het installeren van GeneMark ET.
   </li>
 <li> Het 'startAlign.pl' script stopt het proces als het geheugengebruik boven een bepaalde limiet komt. Als je dit probleem tegenkomt, 
 probeer dan het fasta-bestand in twee delen te splitsen, of gebruik de --pos optie om de positie te beperken.
@@ -217,7 +215,7 @@ oplossing is om deze stap in twee delen te doen. </p>
 of het script randomSplit.pl stap voor stap doorlopen om te ontdekken waar de resultaten op nul worden gereset.</li> 
 
 <li>-Protocol2. Alle Perl RegEx scripts geven een bash syntaxisfout. 
-Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreven in docs/docs.pdf.
+Alle commando's worden anders herschreven. De oplossing hiervoor staat beschreven in docs/docs.pdf en scripts/archeief/remove_redudant.
 Als je mijn scripts met RegEx gebruikt, moet je de chromosoom-id aanpassen</li> 
 
 <li> Protocol 6
