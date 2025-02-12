@@ -3,8 +3,9 @@
 Deze pipline creëert een model gebaseerd op rna-seq.
 Rna-seq data:
 
-* <a> https://genome321.s3.amazonaws.com/1ERR10851549_1.fastq.gz  </a>
-* <a>   https://genome321.s3.amazonaws.com/2ERR10851549_2.fastq.gz </a>
+
+* wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR108/049/ERR10851549/ERR10851549_1.fastq.gz
+* wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR108/049/ERR10851549/ERR10851549_2.fastq.gz
 
 
 
